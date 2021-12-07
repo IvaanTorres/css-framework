@@ -1,69 +1,69 @@
-@each $d-size,$d-value in $display-sizes {
-    @if #{$d-size} == "" {
-        @each $key in getPaddingKeys() {
-            .g--padding-#{$key}#{$d-size} {
-                padding:getPadding($key);
-            }
+@each $d-size, $d-value in $display-sizes {
+  @if #{$d-size} == "" {
+    @each $key in getPaddingKeys() {
+      .g--padding-#{$key}#{$d-size} {
+        padding: getPadding($key);
+      }
 
-            .g--padding-vertical-#{$key}#{$d-size} {
-                padding-left:getPadding($key);
-                padding-right: getPadding($key);
-            }
+      .g--padding-vertical-#{$key}#{$d-size} {
+        padding-left: getPadding($key);
+        padding-right: getPadding($key);
+      }
 
-            .g--padding-horizontal-#{$key}#{$d-size} {
-                padding-left:getPadding($key);
-                padding-right: getPadding($key);
-            }
-        
-            .g--padding-top-#{$key}#{$d-size} {
-                padding-top: getPadding($key);
-            }
-        
-            .g--padding-bottom-#{$key}#{$d-size} {
-                padding-bottom: getPadding($key);
-            }
-        
-            .g--padding-left-#{$key}#{$d-size} {
-                padding-left: getPadding($key);
-            }
-        
-            .g--padding-right-#{$key}#{$d-size} {
-                padding-right: getPadding($key);
-            }
-        }
-    } @else {
-        @media screen and (max-width: #{$d-value}){
-            @each $key in getPaddingKeys() {
-                .g--padding-#{$key}#{$d-size} {
-                    padding:getPadding($key);
-                }
-    
-                .g--padding-vertical-#{$key}#{$d-size} {
-                    padding-left:getPadding($key);
-                    padding-right: getPadding($key);
-                }
-    
-                .g--padding-horizontal-#{$key}#{$d-size} {
-                    padding-left:getPadding($key);
-                    padding-right: getPadding($key);
-                }
-            
-                .g--padding-top-#{$key}#{$d-size} {
-                    padding-top: getPadding($key);
-                }
-            
-                .g--padding-bottom-#{$key}#{$d-size} {
-                    padding-bottom: getPadding($key);
-                }
-            
-                .g--padding-left-#{$key}#{$d-size} {
-                    padding-left: getPadding($key);
-                }
-            
-                .g--padding-right-#{$key}#{$d-size} {
-                    padding-right: getPadding($key);
-                }
-            }
-        }
+      .g--padding-horizontal-#{$key}#{$d-size} {
+        padding-left: getPadding($key);
+        padding-right: getPadding($key);
+      }
+
+      .g--padding-top-#{$key}#{$d-size} {
+        padding-top: getPadding($key);
+      }
+
+      .g--padding-bottom-#{$key}#{$d-size} {
+        padding-bottom: getPadding($key);
+      }
+
+      .g--padding-left-#{$key}#{$d-size} {
+        padding-left: getPadding($key);
+      }
+
+      .g--padding-right-#{$key}#{$d-size} {
+        padding-right: getPadding($key);
+      }
     }
+  } @else {
+    @media screen and (max-width: #{$d-value}) {
+      @each $key in getPaddingKeys() {
+        .g--padding-#{$key}#{$d-size} {
+          padding: getPadding($key);
+        }
+
+        .g--padding-vertical-#{$key}#{$d-size} {
+          padding-left: getPadding($key);
+          padding-right: getPadding($key);
+        }
+
+        .g--padding-horizontal-#{$key}#{$d-size} {
+          padding-left: getPadding($key);
+          padding-right: getPadding($key);
+        }
+
+        .g--padding-top-#{$key}#{$d-size} {
+          padding-top: getPadding($key);
+        }
+
+        .g--padding-bottom-#{$key}#{$d-size} {
+          padding-bottom: getPadding($key);
+        }
+
+        .g--padding-left-#{$key}#{$d-size} {
+          padding-left: getPadding($key);
+        }
+
+        .g--padding-right-#{$key}#{$d-size} {
+          padding-right: getPadding($key);
+        }
+      }
+    }
+  }
 }

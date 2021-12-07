@@ -1,19 +1,19 @@
-@each $d-size,$d-value in $display-sizes {
-    @if #{$d-size} == "" {
-        @for $index from 1 to length($font-family-values) + 1 {
-            $font-family-value: getFontFamilyValue($index); 
-            .g--font-family-#{$font-family-value} {
-                font-family: $font-family-value;
-            }
-        }
-    } @else {
-        @media screen and (max-width: #{$d-value}){
-            @for $index from 1 to length($font-family-values) + 1 {
-                $font-family-value: getFontFamilyValue($index); 
-                .g--font-family-#{$font-family-value} {
-                    font-family: $font-family-value;
-                }
-            }
-        }
+@each $d-size, $d-value in $display-sizes {
+  @if #{$d-size} == "" {
+    @for $index from 1 to length($font-family-values) + 1 {
+      $font-family-value: getFontFamilyValue($index);
+      .g--font-family-#{$font-family-value} {
+        font-family: $font-family-value;
+      }
     }
+  } @else {
+    @media screen and (max-width: #{$d-value}) {
+      @for $index from 1 to length($font-family-values) + 1 {
+        $font-family-value: getFontFamilyValue($index);
+        .g--font-family-#{$font-family-value} {
+          font-family: $font-family-value;
+        }
+      }
+    }
+  }
 }

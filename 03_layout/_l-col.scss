@@ -1,9 +1,14 @@
-.l-col{
-    display: grid;
+.l-col {
+  display: grid;
 
-    @for $index from 1 to 12 + 1 {
-        &--#{$index}{
-            grid-template-columns: repeat($index, 1fr);
-        }
+  @for $index from 1 through 12 {
+    &--#{$index} {
+      grid-template-columns: repeat($index, 1fr);
     }
+    @for $i from 1 through $index {
+      &__span--#{$i} {
+        grid-column: span $i;
+      }
+    }
+  }
 }

@@ -1,13 +1,13 @@
-.c-header{
-    width: 100%;
-    background-color: rgb(96, 187, 218);
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.c-header {
+  width: 100%;
+  background-color: rgb(96, 187, 218);
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    &__title{
-        color: white;
-        font-size: 60px;
-    }
+  &__title {
+    color: white;
+    font-size: 60px;
+  }
 }

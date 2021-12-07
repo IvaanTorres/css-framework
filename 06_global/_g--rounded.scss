@@ -1,17 +1,17 @@
-@each $d-size,$d-value in $display-sizes {
-    @if #{$d-size} == "" {
-        @each $key in getRoundedKeys() {
-            .g--rounded-#{$key} {
-                border-radius: getRoundedValue($key);
-            }
-        }
-    } @else {
-        @media screen and (max-width: #{$d-value}){
-            @each $key in getRoundedKeys() {
-                .g--rounded-#{$key}#{$d-size} {
-                    border-radius: getRoundedValue($key);
-                }
-            }
-        }
+@each $d-size, $d-value in $display-sizes {
+  @if #{$d-size} == "" {
+    @each $key in getRoundedKeys() {
+      .g--rounded-#{$key} {
+        @include border-radius(getRoundedValue($key));
+      }
     }
+  } @else {
+    @media screen and (max-width: #{$d-value}) {
+      @each $key in getRoundedKeys() {
+        .g--rounded-#{$key}#{$d-size} {
+          @include border-radius(getRoundedValue($key));
+        }
+      }
+    }
+  }
 }

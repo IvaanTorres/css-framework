@@ -1,80 +1,167 @@
 $font-family: sans-serif;
 
 $display-sizes: (
-    "":0px,
-    \@+"mobile": 360px,
-    \@+"tablet": 768px,
-    \@+"desktop": 1024px
+  "": 0px,
+  \@+ "mobile": 360px,
+  \@+ "tablet": 768px,
+  \@+ "desktop": 1024px,
 );
 
 $paddings: (
-    "xxs": 2px,
-    "xs": 5px,
-    "s": 10px,
-    "m": 15px,
-    "l": 30px,
-    "xl": 50px,
-    "xxl": 100px
+  "xxs": 2px,
+  "xs": 5px,
+  "s": 10px,
+  "m": 15px,
+  "l": 30px,
+  "xl": 50px,
+  "xxl": 100px,
 );
 
-$margins:map-merge($paddings, ("auto":"auto"));
+$margins: map-merge(
+  $paddings,
+  (
+    "auto": "auto",
+  )
+);
 
 $gaps: (
-    "xxs": 1px,
-    "xs": 3px,
-    "s": 5px,
-    "m": 10px,
-    "l": 15px,
-    "xl": 20px,
-    "xxl": 25px
+  "xxs": 1px,
+  "xs": 3px,
+  "s": 5px,
+  "m": 10px,
+  "l": 15px,
+  "xl": 20px,
+  "xxl": 25px,
 );
 
 $font-sizes: (
-    "4xs": 12px,
-    "3xs": 12px,
-    "2xs": 14px,
-    "xs": 16px,
-    "s": 18px,
-    "m": 20px,
-    "l": 24px,
-    "xl": 30px,
-    "2xl": 36px,
-    "3xl": 48px,
-    "4xl": 64px
+  "4xs": 12px,
+  "3xs": 12px,
+  "2xs": 14px,
+  "xs": 16px,
+  "s": 18px,
+  "m": 20px,
+  "l": 24px,
+  "xl": 30px,
+  "2xl": 36px,
+  "3xl": 48px,
+  "4xl": 64px,
 );
 
-$colors:(
-    "white": (#FFFFFF,#FCFCFC,#FAFAFA,#F7F7F7,#F5F5F5,#F2F2F2,#F0F0F0,#EDEDED,#EBEBEB),
-    "grey": (#F0F0F0,#D9D9D9,#C2C2C2,#ABABAB,#949494,#7D7D7D,#666666,#4F4F4F,#383838),
-    "black": (#000000), 
-    "red": (#FFF5F5,#FED7D7,#FEB2B2,#FC8181,#F56565,#E53E3E,#C53030,#9B2C2C,#742A2A),
-    "green": (#F0FFF4,#C6F6D5,#9AE6B4,#68D391,#48BB78,#38A169,#2F855A,#276749,#22543D),
-    "blue": (#F0F7FF,#BDDCFF,#8AC0FF,#52A3FF,#1F87FF,#006DEB,#0056B8,#003B80,#00244D),
-    "yellow": (#FFFFF0,#FEFCBF,#FAF089,#F6E05E,#ECC94B,#D69E2E,#B7791F,#975A16,#744210),
-    "default": (#F0F7FF,#BDDCFF,#8AC0FF,#52A3FF,#1F87FF,#006DEB,#0056B8,#003B80,#00244D),
-    "alt": (#FFFAF0,#FEEBC8,#FBD38D,#F6AD55,#ED8936,#DD6B20,#C05621,#9C4221,#7B341E)
+$colors: (
+  "white": (
+    #ffffff,
+    #fcfcfc,
+    #fafafa,
+    #f7f7f7,
+    #f5f5f5,
+    #f2f2f2,
+    #f0f0f0,
+    #ededed,
+    #ebebeb,
+  ),
+  "grey": (
+    #f0f0f0,
+    #d9d9d9,
+    #c2c2c2,
+    #ababab,
+    #949494,
+    #7d7d7d,
+    #666666,
+    #4f4f4f,
+    #383838,
+  ),
+  "black": (
+    #000000,
+  ),
+  "red": (
+    #fff5f5,
+    #fed7d7,
+    #feb2b2,
+    #fc8181,
+    #f56565,
+    #e53e3e,
+    #c53030,
+    #9b2c2c,
+    #742a2a,
+  ),
+  "green": (
+    #f0fff4,
+    #c6f6d5,
+    #9ae6b4,
+    #68d391,
+    #48bb78,
+    #38a169,
+    #2f855a,
+    #276749,
+    #22543d,
+  ),
+  "blue": (
+    #f0f7ff,
+    #bddcff,
+    #8ac0ff,
+    #52a3ff,
+    #1f87ff,
+    #006deb,
+    #0056b8,
+    #003b80,
+    #00244d,
+  ),
+  "yellow": (
+    #fffff0,
+    #fefcbf,
+    #faf089,
+    #f6e05e,
+    #ecc94b,
+    #d69e2e,
+    #b7791f,
+    #975a16,
+    #744210,
+  ),
+  "default": (
+    #f0f7ff,
+    #bddcff,
+    #8ac0ff,
+    #52a3ff,
+    #1f87ff,
+    #006deb,
+    #0056b8,
+    #003b80,
+    #00244d,
+  ),
+  "alt": (
+    #fffaf0,
+    #feebc8,
+    #fbd38d,
+    #f6ad55,
+    #ed8936,
+    #dd6b20,
+    #c05621,
+    #9c4221,
+    #7b341e,
+  ),
 );
 
 $bold-widths: (
-    "1":100,
-    "2":200,
-    "3":300,
-    "4":400,
-    "5":500,
-    "6":600,
-    "7":700,
-    "8":800,
-    "9":900
+  "1": 100,
+  "2": 200,
+  "3": 300,
+  "4": 400,
+  "5": 500,
+  "6": 600,
+  "7": 700,
+  "8": 800,
+  "9": 900,
 );
 
 $line-height-values: (
-    "xxs": 20px,
-    "xs": 22px,
-    "s": 25px,
-    "m": 30px,
-    "l": 35px,
-    "xl": 50px,
-    "xxl": 65px
+  "xxs": 20px,
+  "xs": 22px,
+  "s": 25px,
+  "m": 30px,
+  "l": 35px,
+  "xl": 50px,
+  "xxl": 65px,
 );
 
 $text-align-values: (left, center, right, justify);
@@ -84,20 +171,20 @@ $font-family-values: (arial, sans-serif, serif, monospace, cursive, fantasy);
 $display-values: (block, inline-block, inline, none);
 
 $rounded-values: (
-    "xxs": 2px,
-    "xs": 5px,
-    "s": 10px,
-    "m": 20px,
-    "l": 30px,
-    "xl": 50px,
-    "xxl": 50%
+  "xxs": 2px,
+  "xs": 5px,
+  "s": 10px,
+  "m": 20px,
+  "l": 30px,
+  "xl": 50px,
+  "xxl": 50%,
 );
 
 $box-shadow-blur: 8px;
 $box-shadow-values: (
-    "center": 0px 0px $box-shadow-blur,
-    "top": 0px 15px $box-shadow-blur,
-    "left": -15px 0px $box-shadow-blur,
-    "right": 15px 0px $box-shadow-blur,
-    "bottom": 0px -15px $box-shadow-blur
+  "center": 0px 0px $box-shadow-blur,
+  "top": 0px 15px $box-shadow-blur,
+  "left": -15px 0px $box-shadow-blur,
+  "right": 15px 0px $box-shadow-blur,
+  "bottom": 0px -15px $box-shadow-blur,
 );

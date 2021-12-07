@@ -1,17 +1,17 @@
-@each $d-size,$d-value in $display-sizes {
-    @if #{$d-size} == "" {
-        @each $key in getBoxShadowKeys() {
-            .g--box-shadow-#{$key} {
-                box-shadow: getBoxShadowValue($key);
-            }
-        }
-    } @else {
-        @media screen and (max-width: #{$d-value}){
-            @each $key in getBoxShadowKeys() {
-                .g--box-shadow-#{$key}#{$d-size} {
-                    box-shadow: getBoxShadowValue($key);
-                }
-            }
-        }
+@each $d-size, $d-value in $display-sizes {
+  @if #{$d-size} == "" {
+    @each $key in getBoxShadowKeys() {
+      .g--box-shadow-#{$key} {
+        @include box-shadow(getBoxShadowValue($key));
+      }
     }
+  } @else {
+    @media screen and (max-width: #{$d-value}) {
+      @each $key in getBoxShadowKeys() {
+        .g--box-shadow-#{$key}#{$d-size} {
+          @include box-shadow(getBoxShadowValue($key));
+        }
+      }
+    }
+  }
 }

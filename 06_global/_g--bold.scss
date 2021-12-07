@@ -1,17 +1,17 @@
-@each $d-size,$d-value in $display-sizes {
-    @if #{$d-size} == "" {
-        @each $key in getBoldWidthsKeys() {
-            .g--bold-#{$key}#{$d-size} {
-                font-weight: getBoldWidth($key);
-            }
-        }
-    } @else {
-        @media screen and (max-width: #{$d-value}){
-            @each $key in getBoldWidthsKeys() {
-                .g--bold-#{$key}#{$d-size} {
-                    font-weight: getBoldWidth($key);
-                }
-            }
-        }
+@each $d-size, $d-value in $display-sizes {
+  @if #{$d-size} == "" {
+    @each $key in getBoldWidthsKeys() {
+      .g--bold-#{$key}#{$d-size} {
+        font-weight: getBoldWidth($key);
+      }
     }
+  } @else {
+    @media screen and (max-width: #{$d-value}) {
+      @each $key in getBoldWidthsKeys() {
+        .g--bold-#{$key}#{$d-size} {
+          font-weight: getBoldWidth($key);
+        }
+      }
+    }
+  }
 }

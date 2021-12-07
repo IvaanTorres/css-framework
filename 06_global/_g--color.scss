@@ -1,35 +1,37 @@
-@each $d-size,$d-value in $display-sizes {
-    @if #{$d-size} == "" {
-        @each $key in getColorKeys() { //lista de keys
-            $palette: getPalette($key);
-            @for $index from 1 to length($palette)+ 1 {
-                @if length($palette) != 1 {
-                    .g--color-#{$key}-#{$index}{
-                        color: getColorCode($palette, $index);
-                    }
-                } @else {
-                    .g--color-#{$key}{
-                        color: getColorCode($palette, $index);
-                    }
-                }
-            }
+@each $d-size, $d-value in $display-sizes {
+  @if #{$d-size} == "" {
+    @each $key in getColorKeys() {
+      //lista de keys
+      $palette: getPalette($key);
+      @for $index from 1 to length($palette) + 1 {
+        @if length($palette) != 1 {
+          .g--color-#{$key}-#{$index} {
+            color: getColorCode($palette, $index);
+          }
+        } @else {
+          .g--color-#{$key} {
+            color: getColorCode($palette, $index);
+          }
         }
-    } @else {
-        @media screen and (max-width: #{$d-value}){
-            @each $key in getColorKeys() { //lista de keys
-                $palette: getPalette($key);
-                @for $index from 1 to length($palette)+ 1 {
-                    @if length($palette) != 1 {
-                        .g--color-#{$key}-#{$index}{
-                            color: getColorCode($palette, $index);
-                        }
-                    } @else {
-                        .g--color-#{$key}{
-                            color: getColorCode($palette, $index);
-                        }
-                    }
-                }
-            }
-        }
+      }
     }
+  } @else {
+    @media screen and (max-width: #{$d-value}) {
+      @each $key in getColorKeys() {
+        //lista de keys
+        $palette: getPalette($key);
+        @for $index from 1 to length($palette) + 1 {
+          @if length($palette) != 1 {
+            .g--color-#{$key}-#{$index} {
+              color: getColorCode($palette, $index);
+            }
+          } @else {
+            .g--color-#{$key} {
+              color: getColorCode($palette, $index);
+            }
+          }
+        }
+      }
+    }
+  }
 }

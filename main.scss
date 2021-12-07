@@ -2,43 +2,24 @@
 //* (@for) para arrays. -> Solo es necesario 1 function-global
 //* (@each) para mapas de datos (Arrays asociativos). -> Solo es necesario 2 function-globals
 
-@import
-"./01_utilities/variables.scss",
-"./01_utilities/functions-global.scss",
-"./01_utilities/functions.scss",
-"./01_utilities/mixins.scss";
+@import "./01_utilities/variables.scss", "./01_utilities/functions-global.scss",
+  "./01_utilities/functions.scss", "./01_utilities/mixins.scss";
 
-@import
-"./02_base/override.scss",
-"./02_base/reset.scss";
+@import "./02_base/override.scss", "./02_base/reset.scss";
 
-@import
-"./03_layout/l-page.scss",
-"./03_layout/l-col.scss",
-"./03_layout/l-pancake-stack.scss",
-"./03_layout/l-RAM.scss",
-"./03_layout/l-line-up.scss";
+@import "./03_layout/l-page.scss", "./03_layout/l-col.scss",
+  "./03_layout/l-hamburger.scss", "./03_layout/l-RAM.scss",
+  "./03_layout/l-line-up.scss";
 
-@import
-"./04_components/c-button.scss",
-"./04_components/c-header.scss",
-"./04_components/c-navbar.scss",
-"./04_components/c-panel.scss",
-"./04_components/c-section.scss",
-"./04_components/c-text.scss",
-"./04_components/c-title.scss";
+@import "./04_components/c-button.scss", "./04_components/c-header.scss",
+  "./04_components/c-navbar.scss", "./04_components/c-panel.scss",
+  "./04_components/c-section.scss", "./04_components/c-text.scss",
+  "./04_components/c-title.scss";
 
-@import
-"./06_global/g--bold.scss",
-"./06_global/g--text-align.scss",
-"./06_global/g--display.scss",
-"./06_global/g--gap.scss",
-"./06_global/g--margin.scss",
-"./06_global/g--padding.scss",
-"./06_global/g--font-size.scss",
-"./06_global/g--bg-color.scss",
-"./06_global/g--color.scss",
-"./06_global/g--line-height.scss",
-"./06_global/g--font-family.scss",
-"./06_global/g--rounded.scss",
-"./06_global/g--box-shadow.scss";
+@import "./06_global/g--bold.scss", "./06_global/g--text-align.scss",
+  "./06_global/g--display.scss", "./06_global/g--gap.scss",
+  "./06_global/g--margin.scss", "./06_global/g--padding.scss",
+  "./06_global/g--font-size.scss", "./06_global/g--bg-color.scss",
+  "./06_global/g--color.scss", "./06_global/g--line-height.scss",
+  "./06_global/g--font-family.scss", "./06_global/g--rounded.scss",
+  "./06_global/g--box-shadow.scss";

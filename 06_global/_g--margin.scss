@@ -1,69 +1,69 @@
-@each $d-size,$d-value in $display-sizes {
-    @if #{$d-size} == "" {
-        @each $key in getMarginKeys() {
-            .g--margin-#{$key}#{$d-size} {
-                margin: getMargin($key);
-            }
+@each $d-size, $d-value in $display-sizes {
+  @if #{$d-size} == "" {
+    @each $key in getMarginKeys() {
+      .g--margin-#{$key}#{$d-size} {
+        margin: getMargin($key);
+      }
 
-            .g--margin-vertical-#{$key}#{$d-size} {
-                margin-left: getMargin($key);
-                margin-right: getMargin($key);
-            }
+      .g--margin-vertical-#{$key}#{$d-size} {
+        margin-left: getMargin($key);
+        margin-right: getMargin($key);
+      }
 
-            .g--margin-horizontal-#{$key}#{$d-size} {
-                margin-left: getMargin($key);
-                margin-right: getMargin($key);
-            }
-        
-            .g--margin-top-#{$key}#{$d-size} {
-                margin-top: getMargin($key);
-            }
-        
-            .g--margin-bottom-#{$key}#{$d-size} {
-                margin-bottom: getMargin($key);
-            }
-        
-            .g--margin-left-#{$key}#{$d-size} {
-                margin-left: getMargin($key);
-            }
-        
-            .g--margin-right-#{$key}#{$d-size} {
-                margin-right: getMargin($key);
-            }
-        }
-    } @else {
-        @media screen and (max-width: #{$d-value}){
-            @each $key in getMarginKeys() {
-                .g--margin-#{$key}#{$d-size} {
-                    margin: getMargin($key);
-                }
-    
-                .g--margin-vertical-#{$key}#{$d-size} {
-                    margin-left: getMargin($key);
-                    margin-right: getMargin($key);
-                }
-    
-                .g--margin-horizontal-#{$key}#{$d-size} {
-                    margin-left: getMargin($key);
-                    margin-right: getMargin($key);
-                }
-            
-                .g--margin-top-#{$key}#{$d-size} {
-                    margin-top: getMargin($key);
-                }
-            
-                .g--margin-bottom-#{$key}#{$d-size} {
-                    margin-bottom: getMargin($key);
-                }
-            
-                .g--margin-left-#{$key}#{$d-size} {
-                    margin-left: getMargin($key);
-                }
-            
-                .g--margin-right-#{$key}#{$d-size} {
-                    margin-right: getMargin($key);
-                }
-            }
-        }
+      .g--margin-horizontal-#{$key}#{$d-size} {
+        margin-left: getMargin($key);
+        margin-right: getMargin($key);
+      }
+
+      .g--margin-top-#{$key}#{$d-size} {
+        margin-top: getMargin($key);
+      }
+
+      .g--margin-bottom-#{$key}#{$d-size} {
+        margin-bottom: getMargin($key);
+      }
+
+      .g--margin-left-#{$key}#{$d-size} {
+        margin-left: getMargin($key);
+      }
+
+      .g--margin-right-#{$key}#{$d-size} {
+        margin-right: getMargin($key);
+      }
     }
+  } @else {
+    @media screen and (max-width: #{$d-value}) {
+      @each $key in getMarginKeys() {
+        .g--margin-#{$key}#{$d-size} {
+          margin: getMargin($key);
+        }
+
+        .g--margin-vertical-#{$key}#{$d-size} {
+          margin-left: getMargin($key);
+          margin-right: getMargin($key);
+        }
+
+        .g--margin-horizontal-#{$key}#{$d-size} {
+          margin-left: getMargin($key);
+          margin-right: getMargin($key);
+        }
+
+        .g--margin-top-#{$key}#{$d-size} {
+          margin-top: getMargin($key);
+        }
+
+        .g--margin-bottom-#{$key}#{$d-size} {
+          margin-bottom: getMargin($key);
+        }
+
+        .g--margin-left-#{$key}#{$d-size} {
+          margin-left: getMargin($key);
+        }
+
+        .g--margin-right-#{$key}#{$d-size} {
+          margin-right: getMargin($key);
+        }
+      }
+    }
+  }
 }
