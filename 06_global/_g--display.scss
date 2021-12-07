@@ -1,0 +1,19 @@
+@each $d-size,$d-value in $display-sizes {
+    @if #{$d-size} == "" {
+        @for $index from 1 to length($display-values)+ 1 {
+            $display-value: getDisplayValue($index);
+            .g--display-#{$display-value} {
+                display: $display-value;
+            }
+        }
+    } @else {
+        @media screen and (max-width: #{$d-value}){
+            @for $index from 1 to length($display-values)+ 1 {
+                $display-value: getDisplayValue($index);
+                .g--display-#{$display-value}#{$d-size} {
+                    display: $display-value;
+                }
+            }
+        }
+    }
+}

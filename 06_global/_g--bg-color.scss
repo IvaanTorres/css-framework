@@ -1,0 +1,38 @@
+//* HECHO CON 2 MANERAS DIFERENTES (@FOR Y @EACH). ELEGIR
+
+@each $d-size,$d-value in $display-sizes {
+    @if #{$d-size} == "" {
+        @each $key in getColorKeys() { //lista de keys
+            $palette: getPalette($key);
+            @for $colorIndex from 1 to length($palette)+ 1 {
+                @if length($palette) != 1 {
+                    .g--bg-color-#{$key}-#{$colorIndex}{
+                        background-color: getColorCode($palette, $colorIndex);
+                    }
+                } @else {
+                    .g--bg-color-#{$key}{
+                        background-color: getColorCode($palette, $colorIndex);
+                    }
+                }
+            }
+        }
+    } @else {
+        @media screen and (max-width: #{$d-value}){
+            @each $key in getColorKeys() { //lista de keys
+                $palette: getPalette($key);
+                @each $color in $palette {
+                    $index: index($palette, $color);
+                    @if length($palette) != 1 {
+                        .g--bg-color-#{$key}-#{$index}{
+                            background-color: $color;
+                        }
+                    } @else {
+                        .g--bg-color-#{$key}{
+                            background-color: $color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

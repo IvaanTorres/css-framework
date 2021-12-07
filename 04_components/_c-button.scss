@@ -1,0 +1,12 @@
+.c-button{
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: 0px;
+    cursor: pointer;
+    color: black;
+    transition: all ease 0.5s;
+
+    &:hover{
+        background-color: rgb(98, 201, 235);
+    }
+}

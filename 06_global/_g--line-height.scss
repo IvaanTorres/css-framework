@@ -1,0 +1,17 @@
+@each $d-size,$d-value in $display-sizes {
+    @if #{$d-size} == "" {
+        @each $key in getLineHeightKeys() {
+            .g--line-height-#{$key} {
+                line-height: getLineHeightValue($key);
+            }
+        }
+    } @else {
+        @media screen and (max-width: #{$d-value}){
+            @each $key in getLineHeightKeys() {
+                .g--line-height-#{$key}#{$d-size} {
+                    line-height: getLineHeightValue($key);
+                }
+            }
+        }
+    }
+}
