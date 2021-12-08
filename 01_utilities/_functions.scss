@@ -1,0 +1,4 @@
+@function getColor($palette, $intensity) {
+  $color: nth(map-get($colors, $palette), $intensity);
+  @return $color;
+}
