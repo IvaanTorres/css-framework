@@ -1,13 +1,13 @@
 $font-family: sans-serif;
 
-$display-sizes: (
+$breakpoint-values: (
   '': 0px,
   \@+ 'mobile': 360px,
   \@+ 'tablet': 768px,
   \@+ 'desktop': 1024px,
 );
 
-$paddings: (
+$padding-values: (
   'xxs': 2px,
   'xs': 5px,
   's': 10px,
@@ -17,14 +17,14 @@ $paddings: (
   'xxl': 100px,
 );
 
-$margins: map-merge(
-  $paddings,
+$margin-values: map-merge(
+  $padding-values,
   (
     'auto': auto,
   )
 );
 
-$gaps: (
+$gap-values: (
   'xxs': 1px,
   'xs': 3px,
   's': 5px,
@@ -34,7 +34,7 @@ $gaps: (
   'xxl': 25px,
 );
 
-$font-sizes: (
+$font-size-values: (
   '4xs': 12px,
   '3xs': 12px,
   '2xs': 14px,
@@ -48,7 +48,7 @@ $font-sizes: (
   '4xl': 64px,
 );
 
-$colors: (
+$color-values: (
   'white': (
     #ffffff,
     #fcfcfc,
@@ -142,7 +142,7 @@ $colors: (
   ),
 );
 
-$bold-widths: (
+$bold-width-values: (
   '1': 100,
   '2': 200,
   '3': 300,
@@ -168,7 +168,7 @@ $text-align-values: (left, center, right, justify);
 
 $font-family-values: (arial, sans-serif, serif, monospace, cursive, fantasy);
 
-$display-values: (block, inline-block, inline, none);
+$display-values: (block, inline-block, inline, flex, none);
 
 $rounded-values: (
   'xxs': 2px,

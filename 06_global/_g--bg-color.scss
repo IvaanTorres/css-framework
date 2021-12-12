@@ -1,7 +1,7 @@
 //* HECHO CON 2 MANERAS DIFERENTES (@FOR Y @EACH). ELEGIR
 
-@each $d-size, $d-value in $display-sizes {
-  @if #{$d-size} == "" {
+@each $d-size, $d-value in $breakpoint-values {
+  @if #{$d-size} == '' {
     @each $key in getColorKeys() {
       //lista de keys
       $palette: getPalette($key);

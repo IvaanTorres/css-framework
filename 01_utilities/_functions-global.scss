@@ -1,50 +1,50 @@
 //PADDING
 @function getPaddingKeys() {
-  @return map-keys($paddings);
+  @return map-keys($padding-values);
 }
 @function getPadding($key) {
-  @return map-get($paddings, "" + $key);
+  @return map-get($padding-values, '' + $key);
 }
 
 //MARGIN
 @function getMarginKeys() {
-  @return map-keys($margins);
+  @return map-keys($margin-values);
 }
 @function getMargin($key) {
-  @return map-get($margins, "" + $key);
+  @return map-get($margin-values, '' + $key);
 }
 
 //GAP
 @function getGapKeys() {
-  @return map-keys($gaps);
+  @return map-keys($gap-values);
 }
 @function getGap($key) {
-  @return map-get($gaps, "" + $key);
+  @return map-get($gap-values, '' + $key);
 }
 
 //FONT-SIZE
 @function getFontSizeKeys() {
-  @return map-keys($font-sizes);
+  @return map-keys($font-size-values);
 }
 @function getFontSize($key) {
-  @return map-get($font-sizes, "" + $key);
+  @return map-get($font-size-values, '' + $key);
 }
 
 //BOLD
 @function getBoldWidthsKeys() {
-  @return map-keys($bold-widths);
+  @return map-keys($bold-width-values);
 }
 @function getBoldWidth($key) {
-  @return map-get($bold-widths, "" + $key);
+  @return map-get($bold-width-values, '' + $key);
 }
 
 //BACKGROUND-COLOR / COLOR
 @function getColorKeys() {
-  @return map-keys($colors);
+  @return map-keys($color-values);
 }
 
 @function getPalette($array) {
-  $paleta: map-get($colors, "" + $array);
+  $paleta: map-get($color-values, '' + $array);
   @return $paleta;
 }
 
@@ -57,7 +57,7 @@
   @return map-keys($line-height-values);
 }
 @function getLineHeightValue($key) {
-  @return map-get($line-height-values, "" + $key);
+  @return map-get($line-height-values, '' + $key);
 }
 
 //JUSTIFY TEXT
@@ -80,7 +80,7 @@
   @return map-keys($rounded-values);
 }
 @function getRoundedValue($key) {
-  @return map-get($rounded-values, "" + $key);
+  @return map-get($rounded-values, '' + $key);
 }
 
 //BOX-SHADOW
@@ -88,5 +88,5 @@
   @return map-keys($box-shadow-values);
 }
 @function getBoxShadowValue($key) {
-  @return map-get($box-shadow-values, "" + $key);
+  @return map-get($box-shadow-values, '' + $key);
 }
