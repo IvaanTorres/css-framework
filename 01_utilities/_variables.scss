@@ -183,8 +183,8 @@ $rounded-values: (
 $box-shadow-blur: 8px;
 $box-shadow-values: (
   'center': 0px 0px $box-shadow-blur,
-  'top': 0px 15px $box-shadow-blur,
+  'top': 0px -15px $box-shadow-blur,
   'left': -15px 0px $box-shadow-blur,
   'right': 15px 0px $box-shadow-blur,
-  'bottom': 0px -15px $box-shadow-blur,
+  'bottom': 0px 15px $box-shadow-blur,
 );

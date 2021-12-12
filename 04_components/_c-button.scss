@@ -5,6 +5,9 @@
   cursor: pointer;
   color: black;
   transition: all ease 0.5s;
+  @include box-shadow(getBoxShadowPosition('center'));
+  font-size: getFontSize('m');
+  @include border-radius(getBorderRadiusValue('xs'));
 
   &:hover {
     background-color: rgb(98, 201, 235);

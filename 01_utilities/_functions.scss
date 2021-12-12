@@ -1,4 +1,41 @@
 @function getColor($palette, $intensity) {
-  $color: nth(map-get($colors, $palette), $intensity);
-  @return $color;
+  @return nth(map-get($color-values, $palette), $intensity);
+}
+
+@function getFontWeight($intensity) {
+  @return map-get($font-weight-values, $intensity);
+}
+
+//Get Box-Shadow position in order to pass it as param to the box-shadow mixin
+@function getBoxShadowPosition($position) {
+  @return map-get($box-shadow-values, $position);
+}
+
+//* Display function is not considered useful in these cases
+
+//? ASK IF CHANGING ARRAYS TO MAPS IN ORDER TO ADD, FOR INSTANCE, getTextAlign() OR getFontFamily() MORE READABLE.
+
+@function getFontSize($value) {
+  @return map-get($font-size-values, $value);
+}
+
+@function getGap($value) {
+  @return map-get($gap-values, $value);
+}
+
+@function getLineHeight($value) {
+  @return map-get($line-height-values, $value);
+}
+
+@function getMargin($value) {
+  @return map-get($margin-values, $value);
+}
+
+@function getPadding($value) {
+  @return map-get($padding-values, $value);
+}
+
+//Get Border-Radius value in order to pass it as param to the border-radius mixin
+@function getBorderRadiusValue($value) {
+  @return map-get($rounded-values, $value);
 }
