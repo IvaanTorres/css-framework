@@ -6,7 +6,7 @@
       }
     }
   } @else {
-    @media screen and (max-width: #{$d-value}) {
+    @media screen and (min-width: #{$d-value}) {
       @each $key in getLineHeightKeys() {
         .g--line-height-#{$key}#{$d-size} {
           line-height: getLineHeightValue($key);

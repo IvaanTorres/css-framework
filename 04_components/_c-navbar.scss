@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 360px) {
   //MOBILE
   .c-navbar {
     &__list {
@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   //TABLET
   .c-navbar {
     &__list-wrapper {

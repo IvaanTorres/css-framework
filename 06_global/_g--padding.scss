@@ -32,7 +32,7 @@
       }
     }
   } @else {
-    @media screen and (max-width: #{$d-value}) {
+    @media screen and (min-width: #{$d-value}) {
       @each $key in getPaddingKeys() {
         .g--padding-#{$key}#{$d-size} {
           padding: getPadding($key);

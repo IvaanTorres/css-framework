@@ -32,7 +32,7 @@
       }
     }
   } @else {
-    @media screen and (max-width: #{$d-value}) {
+    @media screen and (min-width: #{$d-value}) {
       @each $key in getMarginKeys() {
         .g--margin-#{$key}#{$d-size} {
           margin: getMargin($key);

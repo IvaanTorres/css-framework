@@ -865,14 +865,14 @@ template {
   width: 35px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 360px) {
   .c-navbar__list {
     display: flex;
     flex-direction: column;
     gap: 0px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .c-navbar__list-wrapper {
     z-index: -10;
     width: 100%;
@@ -956,7 +956,7 @@ template {
   font-weight: 900;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--bold-1\@mobile {
     font-weight: 100;
   }
@@ -993,7 +993,7 @@ template {
     font-weight: 900;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--bold-1\@tablet {
     font-weight: 100;
   }
@@ -1030,7 +1030,7 @@ template {
     font-weight: 900;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--bold-1\@desktop {
     font-weight: 100;
   }
@@ -1083,7 +1083,7 @@ template {
   text-align: justify;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--text-align-left\@mobile {
     text-align: left;
   }
@@ -1100,7 +1100,7 @@ template {
     text-align: justify;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--text-align-left\@tablet {
     text-align: left;
   }
@@ -1117,7 +1117,7 @@ template {
     text-align: justify;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--text-align-left\@desktop {
     text-align: left;
   }
@@ -1154,7 +1154,7 @@ template {
   display: none;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--display-block\@mobile {
     display: block;
   }
@@ -1175,7 +1175,7 @@ template {
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--display-block\@tablet {
     display: block;
   }
@@ -1196,7 +1196,7 @@ template {
     display: none;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--display-block\@desktop {
     display: block;
   }
@@ -1301,7 +1301,7 @@ template {
   column-gap: 25px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--gap-xxs\@mobile {
     gap: 1px;
   }
@@ -1386,7 +1386,7 @@ template {
     column-gap: 25px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--gap-xxs\@tablet {
     gap: 1px;
   }
@@ -1471,7 +1471,7 @@ template {
     column-gap: 25px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--gap-xxs\@desktop {
     gap: 1px;
   }
@@ -1796,7 +1796,7 @@ template {
   margin-right: auto;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--margin-xxs\@mobile {
     margin: 2px;
   }
@@ -2037,7 +2037,7 @@ template {
     margin-right: auto;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--margin-xxs\@tablet {
     margin: 2px;
   }
@@ -2278,7 +2278,7 @@ template {
     margin-right: auto;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--margin-xxs\@desktop {
     margin: 2px;
   }
@@ -2729,7 +2729,7 @@ template {
   padding-right: 100px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--padding-xxs\@mobile {
     padding: 2px;
   }
@@ -2940,7 +2940,7 @@ template {
     padding-right: 100px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--padding-xxs\@tablet {
     padding: 2px;
   }
@@ -3151,7 +3151,7 @@ template {
     padding-right: 100px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--padding-xxs\@desktop {
     padding: 2px;
   }
@@ -3406,7 +3406,7 @@ template {
   font-size: 64px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--font-size-4xs\@mobile {
     font-size: 12px;
   }
@@ -3451,7 +3451,7 @@ template {
     font-size: 64px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--font-size-4xs\@tablet {
     font-size: 12px;
   }
@@ -3496,7 +3496,7 @@ template {
     font-size: 64px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--font-size-4xs\@desktop {
     font-size: 12px;
   }
@@ -3833,7 +3833,7 @@ template {
   background-color: #7b341e;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--bg-color-white-1 {
     background-color: #ffffff;
   }
@@ -4126,7 +4126,7 @@ template {
     background-color: #7b341e;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--bg-color-white-1 {
     background-color: #ffffff;
   }
@@ -4419,7 +4419,7 @@ template {
     background-color: #7b341e;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--bg-color-white-1 {
     background-color: #ffffff;
   }
@@ -5004,7 +5004,7 @@ template {
   color: #7b341e;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--color-white-1 {
     color: #ffffff;
   }
@@ -5297,7 +5297,7 @@ template {
     color: #7b341e;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--color-white-1 {
     color: #ffffff;
   }
@@ -5590,7 +5590,7 @@ template {
     color: #7b341e;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--color-white-1 {
     color: #ffffff;
   }
@@ -5911,7 +5911,7 @@ template {
   line-height: 65px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--line-height-xxs\@mobile {
     line-height: 20px;
   }
@@ -5940,7 +5940,7 @@ template {
     line-height: 65px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--line-height-xxs\@tablet {
     line-height: 20px;
   }
@@ -5969,7 +5969,7 @@ template {
     line-height: 65px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--line-height-xxs\@desktop {
     line-height: 20px;
   }
@@ -6022,7 +6022,7 @@ template {
   font-family: fantasy;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--font-family-arial {
     font-family: arial;
   }
@@ -6047,7 +6047,7 @@ template {
     font-family: fantasy;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--font-family-arial {
     font-family: arial;
   }
@@ -6072,7 +6072,7 @@ template {
     font-family: fantasy;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--font-family-arial {
     font-family: arial;
   }
@@ -6153,7 +6153,7 @@ template {
   -o-border-radius: 50%;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--rounded-xxs\@mobile {
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -6210,7 +6210,7 @@ template {
     -o-border-radius: 50%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--rounded-xxs\@tablet {
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -6267,7 +6267,7 @@ template {
     -o-border-radius: 50%;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--rounded-xxs\@desktop {
     border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -6364,7 +6364,7 @@ template {
   -o-box-shadow: 0px -15px 8px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 640px) {
   .g--box-shadow-center\@mobile {
     box-shadow: 0px 0px 8px;
     -webkit-box-shadow: 0px 0px 8px;
@@ -6405,7 +6405,7 @@ template {
     -o-box-shadow: 0px -15px 8px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .g--box-shadow-center\@tablet {
     box-shadow: 0px 0px 8px;
     -webkit-box-shadow: 0px 0px 8px;
@@ -6446,7 +6446,7 @@ template {
     -o-box-shadow: 0px -15px 8px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .g--box-shadow-center\@desktop {
     box-shadow: 0px 0px 8px;
     -webkit-box-shadow: 0px 0px 8px;

@@ -6,7 +6,7 @@
       }
     }
   } @else {
-    @media screen and (max-width: #{$d-value}) {
+    @media screen and (min-width: #{$d-value}) {
       @each $key in getFontSizeKeys() {
         .g--font-size-#{$key}#{$d-size} {
           font-size: getFontSize($key);
