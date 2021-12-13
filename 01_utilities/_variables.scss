@@ -164,11 +164,30 @@ $line-height-values: (
   'xxl': 65px,
 );
 
-$text-align-values: (left, center, right, justify);
+$text-align-values: (
+  'left': left,
+  'center': center,
+  'right': right,
+  'justify': justify,
+);
 
-$font-family-values: (arial, sans-serif, serif, monospace, cursive, fantasy);
+$font-family-values: (
+  'arial': arial,
+  'sans-serif': sans-serif,
+  'serif': serif,
+  'monospace': monospace,
+  'cursive': cursive,
+  'fantasy': fantasy,
+);
 
-$display-values: (block, inline-block, inline, flex, none);
+$display-values: (
+  'block': block,
+  'inline-block': inline-block,
+  'inline': inline,
+  'flex': flex,
+  'grid': grid,
+  'none': none,
+);
 
 $rounded-values: (
   'xxs': 2px,

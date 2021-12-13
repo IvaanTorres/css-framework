@@ -11,9 +11,17 @@
   @return map-get($box-shadow-values, $position);
 }
 
-//* Display function is not considered useful in these cases
+@function getDisplay($value) {
+  @return map-get($display-values, $position);
+}
 
-//? ASK IF CHANGING ARRAYS TO MAPS IN ORDER TO ADD, FOR INSTANCE, getTextAlign() OR getFontFamily() MORE READABLE.
+@function getTextAlign($value) {
+  @return map-get($text-align-values, $value);
+}
+
+@function getFontFamily($value) {
+  @return map-get($font-family-values, $value);
+}
 
 @function getFontSize($value) {
   @return map-get($font-size-values, $value);

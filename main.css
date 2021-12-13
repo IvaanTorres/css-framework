@@ -1161,6 +1161,10 @@ template {
   display: flex;
 }
 
+.g--display-grid {
+  display: grid;
+}
+
 .g--display-none {
   display: none;
 }
@@ -1180,6 +1184,10 @@ template {
 
   .g--display-flex\@mobile {
     display: flex;
+  }
+
+  .g--display-grid\@mobile {
+    display: grid;
   }
 
   .g--display-none\@mobile {
@@ -1203,6 +1211,10 @@ template {
     display: flex;
   }
 
+  .g--display-grid\@tablet {
+    display: grid;
+  }
+
   .g--display-none\@tablet {
     display: none;
   }
@@ -1222,6 +1234,10 @@ template {
 
   .g--display-flex\@desktop {
     display: flex;
+  }
+
+  .g--display-grid\@desktop {
+    display: grid;
   }
 
   .g--display-none\@desktop {
@@ -6034,77 +6050,77 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--font-family-arial {
+  .g--font-family-arial\@mobile {
     font-family: arial;
   }
 
-  .g--font-family-sans-serif {
+  .g--font-family-sans-serif\@mobile {
     font-family: sans-serif;
   }
 
-  .g--font-family-serif {
+  .g--font-family-serif\@mobile {
     font-family: serif;
   }
 
-  .g--font-family-monospace {
+  .g--font-family-monospace\@mobile {
     font-family: monospace;
   }
 
-  .g--font-family-cursive {
+  .g--font-family-cursive\@mobile {
     font-family: cursive;
   }
 
-  .g--font-family-fantasy {
+  .g--font-family-fantasy\@mobile {
     font-family: fantasy;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--font-family-arial {
+  .g--font-family-arial\@tablet {
     font-family: arial;
   }
 
-  .g--font-family-sans-serif {
+  .g--font-family-sans-serif\@tablet {
     font-family: sans-serif;
   }
 
-  .g--font-family-serif {
+  .g--font-family-serif\@tablet {
     font-family: serif;
   }
 
-  .g--font-family-monospace {
+  .g--font-family-monospace\@tablet {
     font-family: monospace;
   }
 
-  .g--font-family-cursive {
+  .g--font-family-cursive\@tablet {
     font-family: cursive;
   }
 
-  .g--font-family-fantasy {
+  .g--font-family-fantasy\@tablet {
     font-family: fantasy;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--font-family-arial {
+  .g--font-family-arial\@desktop {
     font-family: arial;
   }
 
-  .g--font-family-sans-serif {
+  .g--font-family-sans-serif\@desktop {
     font-family: sans-serif;
   }
 
-  .g--font-family-serif {
+  .g--font-family-serif\@desktop {
     font-family: serif;
   }
 
-  .g--font-family-monospace {
+  .g--font-family-monospace\@desktop {
     font-family: monospace;
   }
 
-  .g--font-family-cursive {
+  .g--font-family-cursive\@desktop {
     font-family: cursive;
   }
 
-  .g--font-family-fantasy {
+  .g--font-family-fantasy\@desktop {
     font-family: fantasy;
   }
 }

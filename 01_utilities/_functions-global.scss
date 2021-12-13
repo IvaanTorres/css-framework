@@ -60,19 +60,28 @@
   @return map-get($line-height-values, '' + $key);
 }
 
-//JUSTIFY TEXT
-@function getAlignTextValue($index) {
-  @return nth($text-align-values, $index);
+//TEXT ALIGN
+@function getTextAlignKeys() {
+  @return map-keys($text-align-values);
+}
+@function getTextAlignValue($key) {
+  @return map-get($text-align-values, '' + $key);
 }
 
 //FONT-FAMILY
-@function getFontFamilyValue($index) {
-  @return nth($font-family-values, $index);
+@function getFontFamilyKeys() {
+  @return map-keys($font-family-values);
+}
+@function getFontFamilyValue($key) {
+  @return map-get($font-family-values, '' + $key);
 }
 
 //DISPLAY
-@function getDisplayValue($index) {
-  @return nth($display-values, $index);
+@function getDisplayKeys() {
+  @return map-keys($display-values);
+}
+@function getDisplayValue($key) {
+  @return map-get($display-values, '' + $key);
 }
 
 //ROUNDED

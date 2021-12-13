@@ -1,17 +1,15 @@
 @each $d-size, $d-value in $breakpoint-values {
   @if #{$d-size} == '' {
-    @for $index from 1 to length($font-family-values) + 1 {
-      $font-family-value: getFontFamilyValue($index);
-      .g--font-family-#{$font-family-value} {
-        font-family: $font-family-value;
+    @each $key in getFontFamilyKeys() {
+      .g--font-family-#{$key} {
+        font-family: (getFontFamilyValue($key));
       }
     }
   } @else {
     @media screen and (min-width: #{$d-value}) {
-      @for $index from 1 to length($font-family-values) + 1 {
-        $font-family-value: getFontFamilyValue($index);
-        .g--font-family-#{$font-family-value} {
-          font-family: $font-family-value;
+      @each $key in getFontFamilyKeys() {
+        .g--font-family-#{$key}#{$d-size} {
+          font-family: (getFontFamilyValue($key));
         }
       }
     }

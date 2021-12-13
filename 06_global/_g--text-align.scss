@@ -1,17 +1,15 @@
 @each $d-size, $d-value in $breakpoint-values {
   @if #{$d-size} == '' {
-    @for $index from 1 to length($text-align-values) + 1 {
-      $align-text-value: getAlignTextValue($index);
-      .g--text-align-#{$align-text-value} {
-        text-align: $align-text-value;
+    @each $key in getTextAlignKeys() {
+      .g--text-align-#{$key} {
+        text-align: (getTextAlignValue($key));
       }
     }
   } @else {
     @media screen and (min-width: #{$d-value}) {
-      @for $index from 1 to length($text-align-values) + 1 {
-        $align-text-value: getAlignTextValue($index);
-        .g--text-align-#{$align-text-value}#{$d-size} {
-          text-align: $align-text-value;
+      @each $key in getTextAlignKeys() {
+        .g--text-align-#{$key}#{$d-size} {
+          text-align: (getTextAlignValue($key));
         }
       }
     }
