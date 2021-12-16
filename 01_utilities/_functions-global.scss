@@ -31,11 +31,11 @@
 }
 
 //BOLD
-@function getBoldWidthsKeys() {
-  @return map-keys($bold-width-values);
+@function getFontWeightKeys() {
+  @return map-keys($font-weight-values);
 }
-@function getBoldWidth($key) {
-  @return map-get($bold-width-values, '' + $key);
+@function getFontWeight($key) {
+  @return map-get($font-weight-values, '' + $key);
 }
 
 //BACKGROUND-COLOR / COLOR

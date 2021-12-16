@@ -817,6 +817,24 @@ template {
 .c-button:hover {
   background-color: #62c9eb;
 }
+.c-button--big {
+  background-color: red;
+}
+@media screen and (min-width: 640px) {
+  .c-button--big\@mobile {
+    background-color: red;
+  }
+}
+@media screen and (min-width: 768px) {
+  .c-button--big\@tablet {
+    background-color: red;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .c-button--big\@desktop {
+    background-color: red;
+  }
+}
 
 .c-header {
   width: 100%;

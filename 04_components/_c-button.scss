@@ -12,4 +12,18 @@
   &:hover {
     background-color: rgb(98, 201, 235);
   }
+
+  @each $d-size, $d-value in $breakpoint-values {
+    @if #{$d-size} == '' {
+      &--big {
+        background-color: red;
+      }
+    } @else {
+      @media screen and (min-width: #{$d-value}) {
+        &--big#{$d-size} {
+          background-color: red;
+        }
+      }
+    }
+  }
 }

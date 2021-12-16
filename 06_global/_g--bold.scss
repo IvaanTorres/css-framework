@@ -1,15 +1,15 @@
 @each $d-size, $d-value in $breakpoint-values {
   @if #{$d-size} == '' {
-    @each $key in getBoldWidthsKeys() {
+    @each $key in getFontWeightKeys() {
       .g--bold-#{$key}#{$d-size} {
-        font-weight: getBoldWidth($key);
+        font-weight: getFontWeight($key);
       }
     }
   } @else {
     @media screen and (min-width: #{$d-value}) {
-      @each $key in getBoldWidthsKeys() {
+      @each $key in getFontWeightKeys() {
         .g--bold-#{$key}#{$d-size} {
-          font-weight: getBoldWidth($key);
+          font-weight: getFontWeight($key);
         }
       }
     }
