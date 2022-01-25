@@ -7,13 +7,13 @@
 
 @import './02_base/override', './02_base/reset', './02_base/normalize';
 
-@import './03_layout/l-page', './03_layout/l-col', './03_layout/l-hamburger',
-  './03_layout/l-RAM', './03_layout/l-line-up';
+@import './03_layout/l-flex.scss', './03_layout/l-page', './03_layout/l-col',
+  './03_layout/l-hamburger', './03_layout/l-RAM', './03_layout/l-line-up';
 
-@import './04_components/c-button', './04_components/c-header',
-  './04_components/c-navbar', './04_components/c-panel',
-  './04_components/c-section', './04_components/c-text',
-  './04_components/c-title';
+@import './04_components/c-body', './04_components/c-button',
+  './04_components/c-header', './04_components/c-navbar',
+  './04_components/c-panel', './04_components/c-section',
+  './04_components/c-text', './04_components/c-title';
 
 @import './06_global/g--bold', './06_global/g--text-align',
   './06_global/g--display', './06_global/g--gap', './06_global/g--margin',

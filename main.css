@@ -482,6 +482,55 @@ template {
   display: none;
 }
 
+.l-flex {
+  display: flex;
+}
+.l-flex--justify-start {
+  justify-content: start;
+}
+.l-flex--justify-center {
+  justify-content: center;
+}
+.l-flex--justify-end {
+  justify-content: end;
+}
+.l-flex--justify-between {
+  justify-content: space-between;
+}
+.l-flex--justify-around {
+  justify-content: space-around;
+}
+.l-flex--justify-evently {
+  justify-content: space-evenly;
+}
+.l-flex--items-start {
+  align-items: flex-start;
+}
+.l-flex--items-center {
+  align-items: center;
+}
+.l-flex--items-end {
+  align-items: flex-end;
+}
+.l-flex--items-stretch {
+  align-items: stretch;
+}
+.l-flex--dir-col {
+  flex-direction: column;
+}
+.l-flex--dir-col-reverse {
+  flex-direction: column-reverse;
+}
+.l-flex--dir-row {
+  flex-direction: row;
+}
+.l-flex--dir-row-reverse {
+  flex-direction: row-reverse;
+}
+.l-flex--wrap {
+  flex-wrap: wrap;
+}
+
 .l-page {
   display: grid;
   grid-template-areas: "navbar" "header" "main" "aside" "footer";
@@ -792,6 +841,10 @@ template {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.c-body {
+  background-color: getColor("gray", 5);
 }
 
 .c-button {
