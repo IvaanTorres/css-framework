@@ -8,7 +8,7 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getFontSizeKeys() {
-        .g--font-size-#{$key}#{$d-size} {
+        .g--font-size-#{$key}#{$breakpoint-separator}#{$d-size} {
           font-size: getFontSize($key);
         }
       }

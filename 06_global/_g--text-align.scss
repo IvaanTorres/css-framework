@@ -8,7 +8,7 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getTextAlignKeys() {
-        .g--text-align-#{$key}#{$d-size} {
+        .g--text-align-#{$key}#{$breakpoint-separator}#{$d-size} {
           text-align: (getTextAlignValue($key));
         }
       }

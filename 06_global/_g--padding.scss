@@ -34,33 +34,33 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getPaddingKeys() {
-        .g--padding-#{$key}#{$d-size} {
+        .g--padding-#{$key}#{$breakpoint-separator}#{$d-size} {
           padding: getPadding($key);
         }
 
-        .g--padding-vertical-#{$key}#{$d-size} {
+        .g--padding-vertical-#{$key}#{$breakpoint-separator}#{$d-size} {
           padding-top: getPadding($key);
           padding-bottom: getPadding($key);
         }
 
-        .g--padding-horizontal-#{$key}#{$d-size} {
+        .g--padding-horizontal-#{$key}#{$breakpoint-separator}#{$d-size} {
           padding-left: getPadding($key);
           padding-right: getPadding($key);
         }
 
-        .g--padding-top-#{$key}#{$d-size} {
+        .g--padding-top-#{$key}#{$breakpoint-separator}#{$d-size} {
           padding-top: getPadding($key);
         }
 
-        .g--padding-bottom-#{$key}#{$d-size} {
+        .g--padding-bottom-#{$key}#{$breakpoint-separator}#{$d-size} {
           padding-bottom: getPadding($key);
         }
 
-        .g--padding-left-#{$key}#{$d-size} {
+        .g--padding-left-#{$key}#{$breakpoint-separator}#{$d-size} {
           padding-left: getPadding($key);
         }
 
-        .g--padding-right-#{$key}#{$d-size} {
+        .g--padding-right-#{$key}#{$breakpoint-separator}#{$d-size} {
           padding-right: getPadding($key);
         }
       }

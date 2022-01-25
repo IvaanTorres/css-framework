@@ -22,11 +22,11 @@
         $palette: getPalette($key);
         @for $index from 1 to length($palette) + 1 {
           @if length($palette) != 1 {
-            .g--color-#{$key}-#{$index} {
+            .g--color-#{$key}-#{$index}-#{$breakpoint-separator}#{$d-size} {
               color: getColorCode($palette, $index);
             }
           } @else {
-            .g--color-#{$key} {
+            .g--color-#{$key}-#{$breakpoint-separator}#{$d-size} {
               color: getColorCode($palette, $index);
             }
           }

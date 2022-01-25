@@ -8,7 +8,7 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getRoundedKeys() {
-        .g--rounded-#{$key}#{$d-size} {
+        .g--rounded-#{$key}#{$breakpoint-separator}#{$d-size} {
           @include border-radius(getRoundedValue($key));
         }
       }

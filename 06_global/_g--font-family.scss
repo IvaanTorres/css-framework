@@ -8,7 +8,7 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getFontFamilyKeys() {
-        .g--font-family-#{$key}#{$d-size} {
+        .g--font-family-#{$key}#{$breakpoint-separator}#{$d-size} {
           font-family: (getFontFamilyValue($key));
         }
       }

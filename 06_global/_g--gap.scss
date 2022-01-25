@@ -16,15 +16,15 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getGapKeys() {
-        .g--gap-#{$key}#{$d-size} {
+        .g--gap-#{$key}#{$breakpoint-separator}#{$d-size} {
           gap: getGap($key);
         }
 
-        .g--gap-horizontal-#{$key}#{$d-size} {
+        .g--gap-horizontal-#{$key}#{$breakpoint-separator}#{$d-size} {
           row-gap: getGap($key);
         }
 
-        .g--gap-vertical-#{$key}#{$d-size} {
+        .g--gap-vertical-#{$key}#{$breakpoint-separator}#{$d-size} {
           column-gap: getGap($key);
         }
       }

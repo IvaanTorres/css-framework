@@ -34,33 +34,33 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getMarginKeys() {
-        .g--margin-#{$key}#{$d-size} {
+        .g--margin-#{$key}#{$breakpoint-separator}#{$d-size} {
           margin: getMargin($key);
         }
 
-        .g--margin-vertical-#{$key}#{$d-size} {
+        .g--margin-vertical-#{$key}#{$breakpoint-separator}#{$d-size} {
           margin-top: getMargin($key);
           margin-bottom: getMargin($key);
         }
 
-        .g--margin-horizontal-#{$key}#{$d-size} {
+        .g--margin-horizontal-#{$key}#{$breakpoint-separator}#{$d-size} {
           margin-left: getMargin($key);
           margin-right: getMargin($key);
         }
 
-        .g--margin-top-#{$key}#{$d-size} {
+        .g--margin-top-#{$key}#{$breakpoint-separator}#{$d-size} {
           margin-top: getMargin($key);
         }
 
-        .g--margin-bottom-#{$key}#{$d-size} {
+        .g--margin-bottom-#{$key}#{$breakpoint-separator}#{$d-size} {
           margin-bottom: getMargin($key);
         }
 
-        .g--margin-left-#{$key}#{$d-size} {
+        .g--margin-left-#{$key}#{$breakpoint-separator}#{$d-size} {
           margin-left: getMargin($key);
         }
 
-        .g--margin-right-#{$key}#{$d-size} {
+        .g--margin-right-#{$key}#{$breakpoint-separator}#{$d-size} {
           margin-right: getMargin($key);
         }
       }
