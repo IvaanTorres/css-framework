@@ -1658,8 +1658,8 @@ template {
 }
 
 .g--margin-vertical-xxs {
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .g--margin-horizontal-xxs {
@@ -1688,8 +1688,8 @@ template {
 }
 
 .g--margin-vertical-xs {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .g--margin-horizontal-xs {
@@ -1718,8 +1718,8 @@ template {
 }
 
 .g--margin-vertical-s {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .g--margin-horizontal-s {
@@ -1748,8 +1748,8 @@ template {
 }
 
 .g--margin-vertical-m {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .g--margin-horizontal-m {
@@ -1778,8 +1778,8 @@ template {
 }
 
 .g--margin-vertical-l {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .g--margin-horizontal-l {
@@ -1808,8 +1808,8 @@ template {
 }
 
 .g--margin-vertical-xl {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .g--margin-horizontal-xl {
@@ -1838,8 +1838,8 @@ template {
 }
 
 .g--margin-vertical-xxl {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .g--margin-horizontal-xxl {
@@ -1868,8 +1868,8 @@ template {
 }
 
 .g--margin-vertical-auto {
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .g--margin-horizontal-auto {
@@ -1899,8 +1899,8 @@ template {
   }
 
   .g--margin-vertical-xxs\@mobile {
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
   }
 
   .g--margin-horizontal-xxs\@mobile {
@@ -1929,8 +1929,8 @@ template {
   }
 
   .g--margin-vertical-xs\@mobile {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .g--margin-horizontal-xs\@mobile {
@@ -1959,8 +1959,8 @@ template {
   }
 
   .g--margin-vertical-s\@mobile {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .g--margin-horizontal-s\@mobile {
@@ -1989,8 +1989,8 @@ template {
   }
 
   .g--margin-vertical-m\@mobile {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .g--margin-horizontal-m\@mobile {
@@ -2019,8 +2019,8 @@ template {
   }
 
   .g--margin-vertical-l\@mobile {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .g--margin-horizontal-l\@mobile {
@@ -2049,8 +2049,8 @@ template {
   }
 
   .g--margin-vertical-xl\@mobile {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .g--margin-horizontal-xl\@mobile {
@@ -2079,8 +2079,8 @@ template {
   }
 
   .g--margin-vertical-xxl\@mobile {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .g--margin-horizontal-xxl\@mobile {
@@ -2109,8 +2109,8 @@ template {
   }
 
   .g--margin-vertical-auto\@mobile {
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .g--margin-horizontal-auto\@mobile {
@@ -2140,8 +2140,8 @@ template {
   }
 
   .g--margin-vertical-xxs\@tablet {
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
   }
 
   .g--margin-horizontal-xxs\@tablet {
@@ -2170,8 +2170,8 @@ template {
   }
 
   .g--margin-vertical-xs\@tablet {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .g--margin-horizontal-xs\@tablet {
@@ -2200,8 +2200,8 @@ template {
   }
 
   .g--margin-vertical-s\@tablet {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .g--margin-horizontal-s\@tablet {
@@ -2230,8 +2230,8 @@ template {
   }
 
   .g--margin-vertical-m\@tablet {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .g--margin-horizontal-m\@tablet {
@@ -2260,8 +2260,8 @@ template {
   }
 
   .g--margin-vertical-l\@tablet {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .g--margin-horizontal-l\@tablet {
@@ -2290,8 +2290,8 @@ template {
   }
 
   .g--margin-vertical-xl\@tablet {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .g--margin-horizontal-xl\@tablet {
@@ -2320,8 +2320,8 @@ template {
   }
 
   .g--margin-vertical-xxl\@tablet {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .g--margin-horizontal-xxl\@tablet {
@@ -2350,8 +2350,8 @@ template {
   }
 
   .g--margin-vertical-auto\@tablet {
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .g--margin-horizontal-auto\@tablet {
@@ -2381,8 +2381,8 @@ template {
   }
 
   .g--margin-vertical-xxs\@desktop {
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
   }
 
   .g--margin-horizontal-xxs\@desktop {
@@ -2411,8 +2411,8 @@ template {
   }
 
   .g--margin-vertical-xs\@desktop {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .g--margin-horizontal-xs\@desktop {
@@ -2441,8 +2441,8 @@ template {
   }
 
   .g--margin-vertical-s\@desktop {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .g--margin-horizontal-s\@desktop {
@@ -2471,8 +2471,8 @@ template {
   }
 
   .g--margin-vertical-m\@desktop {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .g--margin-horizontal-m\@desktop {
@@ -2501,8 +2501,8 @@ template {
   }
 
   .g--margin-vertical-l\@desktop {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .g--margin-horizontal-l\@desktop {
@@ -2531,8 +2531,8 @@ template {
   }
 
   .g--margin-vertical-xl\@desktop {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .g--margin-horizontal-xl\@desktop {
@@ -2561,8 +2561,8 @@ template {
   }
 
   .g--margin-vertical-xxl\@desktop {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .g--margin-horizontal-xxl\@desktop {
@@ -2591,8 +2591,8 @@ template {
   }
 
   .g--margin-vertical-auto\@desktop {
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .g--margin-horizontal-auto\@desktop {
@@ -2621,8 +2621,8 @@ template {
 }
 
 .g--padding-vertical-xxs {
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .g--padding-horizontal-xxs {
@@ -2651,8 +2651,8 @@ template {
 }
 
 .g--padding-vertical-xs {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .g--padding-horizontal-xs {
@@ -2681,8 +2681,8 @@ template {
 }
 
 .g--padding-vertical-s {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .g--padding-horizontal-s {
@@ -2711,8 +2711,8 @@ template {
 }
 
 .g--padding-vertical-m {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .g--padding-horizontal-m {
@@ -2741,8 +2741,8 @@ template {
 }
 
 .g--padding-vertical-l {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .g--padding-horizontal-l {
@@ -2771,8 +2771,8 @@ template {
 }
 
 .g--padding-vertical-xl {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .g--padding-horizontal-xl {
@@ -2801,8 +2801,8 @@ template {
 }
 
 .g--padding-vertical-xxl {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .g--padding-horizontal-xxl {
@@ -2832,8 +2832,8 @@ template {
   }
 
   .g--padding-vertical-xxs\@mobile {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
 
   .g--padding-horizontal-xxs\@mobile {
@@ -2862,8 +2862,8 @@ template {
   }
 
   .g--padding-vertical-xs\@mobile {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .g--padding-horizontal-xs\@mobile {
@@ -2892,8 +2892,8 @@ template {
   }
 
   .g--padding-vertical-s\@mobile {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .g--padding-horizontal-s\@mobile {
@@ -2922,8 +2922,8 @@ template {
   }
 
   .g--padding-vertical-m\@mobile {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .g--padding-horizontal-m\@mobile {
@@ -2952,8 +2952,8 @@ template {
   }
 
   .g--padding-vertical-l\@mobile {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .g--padding-horizontal-l\@mobile {
@@ -2982,8 +2982,8 @@ template {
   }
 
   .g--padding-vertical-xl\@mobile {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .g--padding-horizontal-xl\@mobile {
@@ -3012,8 +3012,8 @@ template {
   }
 
   .g--padding-vertical-xxl\@mobile {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .g--padding-horizontal-xxl\@mobile {
@@ -3043,8 +3043,8 @@ template {
   }
 
   .g--padding-vertical-xxs\@tablet {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
 
   .g--padding-horizontal-xxs\@tablet {
@@ -3073,8 +3073,8 @@ template {
   }
 
   .g--padding-vertical-xs\@tablet {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .g--padding-horizontal-xs\@tablet {
@@ -3103,8 +3103,8 @@ template {
   }
 
   .g--padding-vertical-s\@tablet {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .g--padding-horizontal-s\@tablet {
@@ -3133,8 +3133,8 @@ template {
   }
 
   .g--padding-vertical-m\@tablet {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .g--padding-horizontal-m\@tablet {
@@ -3163,8 +3163,8 @@ template {
   }
 
   .g--padding-vertical-l\@tablet {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .g--padding-horizontal-l\@tablet {
@@ -3193,8 +3193,8 @@ template {
   }
 
   .g--padding-vertical-xl\@tablet {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .g--padding-horizontal-xl\@tablet {
@@ -3223,8 +3223,8 @@ template {
   }
 
   .g--padding-vertical-xxl\@tablet {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .g--padding-horizontal-xxl\@tablet {
@@ -3254,8 +3254,8 @@ template {
   }
 
   .g--padding-vertical-xxs\@desktop {
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
 
   .g--padding-horizontal-xxs\@desktop {
@@ -3284,8 +3284,8 @@ template {
   }
 
   .g--padding-vertical-xs\@desktop {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .g--padding-horizontal-xs\@desktop {
@@ -3314,8 +3314,8 @@ template {
   }
 
   .g--padding-vertical-s\@desktop {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .g--padding-horizontal-s\@desktop {
@@ -3344,8 +3344,8 @@ template {
   }
 
   .g--padding-vertical-m\@desktop {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .g--padding-horizontal-m\@desktop {
@@ -3374,8 +3374,8 @@ template {
   }
 
   .g--padding-vertical-l\@desktop {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .g--padding-horizontal-l\@desktop {
@@ -3404,8 +3404,8 @@ template {
   }
 
   .g--padding-vertical-xl\@desktop {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .g--padding-horizontal-xl\@desktop {
@@ -3434,8 +3434,8 @@ template {
   }
 
   .g--padding-vertical-xxl\@desktop {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .g--padding-horizontal-xxl\@desktop {

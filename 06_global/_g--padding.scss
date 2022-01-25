@@ -6,8 +6,8 @@
       }
 
       .g--padding-vertical-#{$key}#{$d-size} {
-        padding-left: getPadding($key);
-        padding-right: getPadding($key);
+        padding-top: getPadding($key);
+        padding-bottom: getPadding($key);
       }
 
       .g--padding-horizontal-#{$key}#{$d-size} {
@@ -39,8 +39,8 @@
         }
 
         .g--padding-vertical-#{$key}#{$d-size} {
-          padding-left: getPadding($key);
-          padding-right: getPadding($key);
+          padding-top: getPadding($key);
+          padding-bottom: getPadding($key);
         }
 
         .g--padding-horizontal-#{$key}#{$d-size} {

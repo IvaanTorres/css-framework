@@ -6,8 +6,8 @@
       }
 
       .g--margin-vertical-#{$key}#{$d-size} {
-        margin-left: getMargin($key);
-        margin-right: getMargin($key);
+        margin-top: getMargin($key);
+        margin-bottom: getMargin($key);
       }
 
       .g--margin-horizontal-#{$key}#{$d-size} {
@@ -39,8 +39,8 @@
         }
 
         .g--margin-vertical-#{$key}#{$d-size} {
-          margin-left: getMargin($key);
-          margin-right: getMargin($key);
+          margin-top: getMargin($key);
+          margin-bottom: getMargin($key);
         }
 
         .g--margin-horizontal-#{$key}#{$d-size} {
