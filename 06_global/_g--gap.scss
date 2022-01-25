@@ -5,11 +5,11 @@
         gap: getGap($key);
       }
 
-      .g--gap-row-#{$key}#{$d-size} {
+      .g--gap-horizontal-#{$key}#{$d-size} {
         row-gap: getGap($key);
       }
 
-      .g--gap-col-#{$key}#{$d-size} {
+      .g--gap-vertical-#{$key}#{$d-size} {
         column-gap: getGap($key);
       }
     }
@@ -20,11 +20,11 @@
           gap: getGap($key);
         }
 
-        .g--gap-row-#{$key}#{$d-size} {
+        .g--gap-horizontal-#{$key}#{$d-size} {
           row-gap: getGap($key);
         }
 
-        .g--gap-col-#{$key}#{$d-size} {
+        .g--gap-vertical-#{$key}#{$d-size} {
           column-gap: getGap($key);
         }
       }

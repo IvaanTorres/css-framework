@@ -9,6 +9,7 @@ $breakpoint-values: (
 );
 
 $padding-values: (
+  'none': 0px,
   'xxs': 2px,
   'xs': 5px,
   's': 10px,
@@ -26,6 +27,7 @@ $margin-values: map-merge(
 );
 
 $gap-values: (
+  'none': 0px,
   'xxs': 1px,
   'xs': 3px,
   's': 5px,
@@ -156,6 +158,7 @@ $font-weight-values: (
 );
 
 $line-height-values: (
+  'none': 0px,
   'xxs': 20px,
   'xs': 22px,
   's': 25px,
@@ -186,11 +189,13 @@ $display-values: (
   'inline-block': inline-block,
   'inline': inline,
   'flex': flex,
+  'inline-flex': inline-flex,
   'grid': grid,
   'none': none,
 );
 
 $rounded-values: (
+  'none': 0px,
   'xxs': 2px,
   'xs': 5px,
   's': 10px,
@@ -202,6 +207,7 @@ $rounded-values: (
 
 $box-shadow-blur: 8px;
 $box-shadow-values: (
+  'none': 0px 0px 0px,
   'center': 0px 0px $box-shadow-blur,
   'top': 0px -15px $box-shadow-blur,
   'left': -15px 0px $box-shadow-blur,
