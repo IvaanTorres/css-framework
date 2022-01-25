@@ -3,7 +3,7 @@
 //* (@each) para mapas de datos (Arrays asociativos). -> Solo es necesario 2 function-globals
 
 @import './01_utilities/variables', './01_utilities/functions-global',
-  './01_utilities/functions', './01_utilities/mixins';
+  './01_utilities/functions-getters', './01_utilities/mixins';
 
 @import './02_base/override', './02_base/reset', './02_base/normalize';
 

@@ -844,7 +844,7 @@ template {
 }
 
 .c-body {
-  background-color: getColor("gray", 5);
+  background-color: #ebebeb;
 }
 
 .c-button {
@@ -995,6 +995,15 @@ template {
 
 .c-section {
   border-bottom: 1px solid black;
+}
+
+.c-text {
+  background-color: #f56565;
+}
+@media screen and (min-width: 640px) {
+  .c-text {
+    background-color: #742a2a;
+  }
 }
 
 .c-title {

@@ -1,3 +1,7 @@
+@function getBreakpoint($value) {
+  @return map-get($breakpoint-values, $value);
+}
+
 @function getColor($palette, $intensity) {
   @return nth(map-get($color-values, $palette), $intensity);
 }

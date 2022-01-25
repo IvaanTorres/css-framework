@@ -1,0 +1,7 @@
+.c-text {
+  background-color: getColor('red', 5);
+
+  @media screen and (min-width: getBreakpoint('mobile')) {
+    background-color: getColor('red', 9);
+  }
+}
