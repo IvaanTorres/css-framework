@@ -1,3 +1,19 @@
+//WIDTH
+@function getWidthKeys() {
+  @return map-keys($width-values);
+}
+@function getWidth($key) {
+  @return map-get($width-values, '' + $key);
+}
+
+//HEIGHT
+@function getHeightKeys() {
+  @return map-keys($height-values);
+}
+@function getHeight($key) {
+  @return map-get($height-values, '' + $key);
+}
+
 //PADDING
 @function getPaddingKeys() {
   @return map-keys($padding-values);

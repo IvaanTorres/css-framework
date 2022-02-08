@@ -2,6 +2,14 @@
   @return map-get($breakpoint-values, $value);
 }
 
+@function getWidth($value) {
+  @return map-get($width-values, $value);
+}
+
+@function getHeight($value) {
+  @return map-get($height-values, $value);
+}
+
 @function getColor($palette, $intensity) {
   @return nth(map-get($color-values, $palette), $intensity);
 }

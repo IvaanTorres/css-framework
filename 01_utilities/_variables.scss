@@ -9,6 +9,29 @@ $breakpoint-values: (
   'desktop': 1024px,
 );
 
+$width-values: (
+  'none': 0px,
+  '3xs': 8px,
+  '2xs': 16px,
+  'xs': 32px,
+  's': 64px,
+  'm': 128px,
+  'l': 256px,
+  'xl': 512px,
+  '2xl': 1024px,
+  '3xl': 2048px,
+  'mid': 50%,
+  'full': 100%,
+  'screen': 100vw,
+);
+
+$height-values: map-merge(
+  $width-values,
+  (
+    'screen': 100vh,
+  )
+);
+
 $padding-values: (
   'none': 0px,
   'xxs': 2px,
