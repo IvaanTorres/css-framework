@@ -34,13 +34,15 @@ $height-values: map-merge(
 
 $padding-values: (
   'none': 0px,
-  'xxs': 2px,
-  'xs': 5px,
-  's': 10px,
-  'm': 15px,
-  'l': 30px,
-  'xl': 50px,
-  'xxl': 100px,
+  '3xs': 3px,
+  '2xs': 8px,
+  'xs': 16px,
+  's': 32px,
+  'm': 64px,
+  'l': 128px,
+  'xl': 256px,
+  '2xl': 512px,
+  '3xl': 1024px,
 );
 
 $margin-values: map-merge(
