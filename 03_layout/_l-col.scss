@@ -1,13 +1,34 @@
-.l-col {
-  display: grid;
+@each $d-size, $d-value in $breakpoint-values {
+  @if #{$d-size} == '' {
+    .l-col {
+      display: grid;
 
-  @for $index from 1 through 12 {
-    &--#{$index} {
-      grid-template-columns: repeat($index, 1fr);
+      @for $index from 1 through 12 {
+        &--#{$index} {
+          grid-template-columns: repeat($index, 1fr);
+        }
+        @for $i from 1 through $index {
+          &__span--#{$i} {
+            grid-column: span $i;
+          }
+        }
+      }
     }
-    @for $i from 1 through $index {
-      &__span--#{$i} {
-        grid-column: span $i;
+  } @else {
+    @media screen and (min-width: #{$d-value}) {
+      .l-col {
+        display: grid;
+
+        @for $index from 1 through 12 {
+          &--#{$index} {
+            grid-template-columns: repeat($index, 1fr);
+          }
+          @for $i from 1 through $index {
+            &__span--#{$i} {
+              grid-column: span $i;
+            }
+          }
+        }
       }
     }
   }

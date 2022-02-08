@@ -1,5 +1,17 @@
-.l-line-up {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+@each $d-size, $d-value in $breakpoint-values {
+  @if #{$d-size} == '' {
+    .l-line-up {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  } @else {
+    @media screen and (min-width: #{$d-value}) {
+      .l-line-up#{$breakpoint-separator}#{$d-size} {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
 }

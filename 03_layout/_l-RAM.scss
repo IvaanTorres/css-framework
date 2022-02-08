@@ -1,5 +1,17 @@
-.l-RAM {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+@each $d-size, $d-value in $breakpoint-values {
+  @if #{$d-size} == '' {
+    .l-RAM {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  } @else {
+    @media screen and (min-width: #{$d-value}) {
+      .l-RAM#{$breakpoint-separator}#{$d-size} {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      }
+    }
+  }
 }

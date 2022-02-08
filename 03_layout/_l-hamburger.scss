@@ -1,5 +1,17 @@
-.l-pancake-stack {
-  display: grid;
-  height: 100%;
-  grid-template-rows: auto 1fr auto;
+@each $d-size, $d-value in $breakpoint-values {
+  @if #{$d-size} == '' {
+    .l-hamburguer {
+      display: grid;
+      height: 100%;
+      grid-template-rows: auto 1fr auto;
+    }
+  } @else {
+    @media screen and (min-width: #{$d-value}) {
+      .l-hamburguer#{$breakpoint-separator}#{$d-size} {
+        display: grid;
+        height: 100%;
+        grid-template-rows: auto 1fr auto;
+      }
+    }
+  }
 }
