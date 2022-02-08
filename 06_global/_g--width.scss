@@ -8,7 +8,7 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getWidthKeys() {
-        .g--width-#{$key}#{$breakpoint-separator}#{$d-size} {
+        .#{$d-size}#{$breakpoint-separator}g--width-#{$key} {
           width: (getWidth($key));
         }
       }

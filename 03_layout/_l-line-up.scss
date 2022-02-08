@@ -7,7 +7,7 @@
     }
   } @else {
     @media screen and (min-width: #{$d-value}) {
-      .l-line-up#{$breakpoint-separator}#{$d-size} {
+      .#{$d-size}#{$breakpoint-separator}l-line-up {
         display: flex;
         flex-direction: column;
         justify-content: space-between;

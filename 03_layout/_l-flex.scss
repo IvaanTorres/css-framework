@@ -60,7 +60,7 @@
     }
   } @else {
     @media screen and (min-width: #{$d-value}) {
-      .l-flex {
+      .#{$d-size}#{$breakpoint-separator}l-flex {
         display: flex;
 
         &--justify {

@@ -8,7 +8,7 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getBoxShadowKeys() {
-        .g--box-shadow-#{$key}#{$breakpoint-separator}#{$d-size} {
+        .#{$d-size}#{$breakpoint-separator}g--box-shadow-#{$key} {
           @include box-shadow(getBoxShadowValue($key));
         }
       }

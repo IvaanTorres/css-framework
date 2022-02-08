@@ -25,11 +25,11 @@
         @each $color in $palette {
           $index: index($palette, $color);
           @if length($palette) != 1 {
-            .g--bg-color-#{$key}-#{$index}-#{$breakpoint-separator}#{$d-size} {
+            .#{$d-size}#{$breakpoint-separator}g--bg-color-#{$key}-#{$index} {
               background-color: $color;
             }
           } @else {
-            .g--bg-color-#{$key}-#{$breakpoint-separator}#{$d-size} {
+            .#{$d-size}#{$breakpoint-separator}g--bg-color-#{$key} {
               background-color: $color;
             }
           }

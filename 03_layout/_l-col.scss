@@ -16,7 +16,7 @@
     }
   } @else {
     @media screen and (min-width: #{$d-value}) {
-      .l-col {
+      .#{$d-size}#{$breakpoint-separator}l-col {
         display: grid;
 
         @for $index from 1 through 12 {

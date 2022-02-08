@@ -532,152 +532,152 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .l-flex {
+  .mobile\@l-flex {
     display: flex;
   }
-  .l-flex--justify-start {
+  .mobile\@l-flex--justify-start {
     justify-content: start;
   }
-  .l-flex--justify-center {
+  .mobile\@l-flex--justify-center {
     justify-content: center;
   }
-  .l-flex--justify-end {
+  .mobile\@l-flex--justify-end {
     justify-content: end;
   }
-  .l-flex--justify-between {
+  .mobile\@l-flex--justify-between {
     justify-content: space-between;
   }
-  .l-flex--justify-around {
+  .mobile\@l-flex--justify-around {
     justify-content: space-around;
   }
-  .l-flex--justify-evently {
+  .mobile\@l-flex--justify-evently {
     justify-content: space-evenly;
   }
-  .l-flex--items-start {
+  .mobile\@l-flex--items-start {
     align-items: flex-start;
   }
-  .l-flex--items-center {
+  .mobile\@l-flex--items-center {
     align-items: center;
   }
-  .l-flex--items-end {
+  .mobile\@l-flex--items-end {
     align-items: flex-end;
   }
-  .l-flex--items-stretch {
+  .mobile\@l-flex--items-stretch {
     align-items: stretch;
   }
-  .l-flex--dir-col {
+  .mobile\@l-flex--dir-col {
     flex-direction: column;
   }
-  .l-flex--dir-col-reverse {
+  .mobile\@l-flex--dir-col-reverse {
     flex-direction: column-reverse;
   }
-  .l-flex--dir-row {
+  .mobile\@l-flex--dir-row {
     flex-direction: row;
   }
-  .l-flex--dir-row-reverse {
+  .mobile\@l-flex--dir-row-reverse {
     flex-direction: row-reverse;
   }
-  .l-flex--wrap {
+  .mobile\@l-flex--wrap {
     flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 768px) {
-  .l-flex {
+  .tablet\@l-flex {
     display: flex;
   }
-  .l-flex--justify-start {
+  .tablet\@l-flex--justify-start {
     justify-content: start;
   }
-  .l-flex--justify-center {
+  .tablet\@l-flex--justify-center {
     justify-content: center;
   }
-  .l-flex--justify-end {
+  .tablet\@l-flex--justify-end {
     justify-content: end;
   }
-  .l-flex--justify-between {
+  .tablet\@l-flex--justify-between {
     justify-content: space-between;
   }
-  .l-flex--justify-around {
+  .tablet\@l-flex--justify-around {
     justify-content: space-around;
   }
-  .l-flex--justify-evently {
+  .tablet\@l-flex--justify-evently {
     justify-content: space-evenly;
   }
-  .l-flex--items-start {
+  .tablet\@l-flex--items-start {
     align-items: flex-start;
   }
-  .l-flex--items-center {
+  .tablet\@l-flex--items-center {
     align-items: center;
   }
-  .l-flex--items-end {
+  .tablet\@l-flex--items-end {
     align-items: flex-end;
   }
-  .l-flex--items-stretch {
+  .tablet\@l-flex--items-stretch {
     align-items: stretch;
   }
-  .l-flex--dir-col {
+  .tablet\@l-flex--dir-col {
     flex-direction: column;
   }
-  .l-flex--dir-col-reverse {
+  .tablet\@l-flex--dir-col-reverse {
     flex-direction: column-reverse;
   }
-  .l-flex--dir-row {
+  .tablet\@l-flex--dir-row {
     flex-direction: row;
   }
-  .l-flex--dir-row-reverse {
+  .tablet\@l-flex--dir-row-reverse {
     flex-direction: row-reverse;
   }
-  .l-flex--wrap {
+  .tablet\@l-flex--wrap {
     flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 1024px) {
-  .l-flex {
+  .desktop\@l-flex {
     display: flex;
   }
-  .l-flex--justify-start {
+  .desktop\@l-flex--justify-start {
     justify-content: start;
   }
-  .l-flex--justify-center {
+  .desktop\@l-flex--justify-center {
     justify-content: center;
   }
-  .l-flex--justify-end {
+  .desktop\@l-flex--justify-end {
     justify-content: end;
   }
-  .l-flex--justify-between {
+  .desktop\@l-flex--justify-between {
     justify-content: space-between;
   }
-  .l-flex--justify-around {
+  .desktop\@l-flex--justify-around {
     justify-content: space-around;
   }
-  .l-flex--justify-evently {
+  .desktop\@l-flex--justify-evently {
     justify-content: space-evenly;
   }
-  .l-flex--items-start {
+  .desktop\@l-flex--items-start {
     align-items: flex-start;
   }
-  .l-flex--items-center {
+  .desktop\@l-flex--items-center {
     align-items: center;
   }
-  .l-flex--items-end {
+  .desktop\@l-flex--items-end {
     align-items: flex-end;
   }
-  .l-flex--items-stretch {
+  .desktop\@l-flex--items-stretch {
     align-items: stretch;
   }
-  .l-flex--dir-col {
+  .desktop\@l-flex--dir-col {
     flex-direction: column;
   }
-  .l-flex--dir-col-reverse {
+  .desktop\@l-flex--dir-col-reverse {
     flex-direction: column-reverse;
   }
-  .l-flex--dir-row {
+  .desktop\@l-flex--dir-row {
     flex-direction: row;
   }
-  .l-flex--dir-row-reverse {
+  .desktop\@l-flex--dir-row-reverse {
     flex-direction: row-reverse;
   }
-  .l-flex--wrap {
+  .desktop\@l-flex--wrap {
     flex-wrap: wrap;
   }
 }
@@ -976,852 +976,852 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .l-col {
+  .mobile\@l-col {
     display: grid;
   }
-  .l-col--1 {
+  .mobile\@l-col--1 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col--2 {
+  .mobile\@l-col--2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col--3 {
+  .mobile\@l-col--3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col--4 {
+  .mobile\@l-col--4 {
     grid-template-columns: repeat(4, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .mobile\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col--5 {
+  .mobile\@l-col--5 {
     grid-template-columns: repeat(5, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .mobile\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .mobile\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col--6 {
+  .mobile\@l-col--6 {
     grid-template-columns: repeat(6, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .mobile\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .mobile\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .mobile\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col--7 {
+  .mobile\@l-col--7 {
     grid-template-columns: repeat(7, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .mobile\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .mobile\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .mobile\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .mobile\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col--8 {
+  .mobile\@l-col--8 {
     grid-template-columns: repeat(8, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .mobile\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .mobile\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .mobile\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .mobile\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .mobile\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col--9 {
+  .mobile\@l-col--9 {
     grid-template-columns: repeat(9, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .mobile\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .mobile\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .mobile\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .mobile\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .mobile\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .mobile\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col--10 {
+  .mobile\@l-col--10 {
     grid-template-columns: repeat(10, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .mobile\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .mobile\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .mobile\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .mobile\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .mobile\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .mobile\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col__span--10 {
+  .mobile\@l-col__span--10 {
     grid-column: span 10;
   }
-  .l-col--11 {
+  .mobile\@l-col--11 {
     grid-template-columns: repeat(11, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .mobile\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .mobile\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .mobile\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .mobile\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .mobile\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .mobile\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col__span--10 {
+  .mobile\@l-col__span--10 {
     grid-column: span 10;
   }
-  .l-col__span--11 {
+  .mobile\@l-col__span--11 {
     grid-column: span 11;
   }
-  .l-col--12 {
+  .mobile\@l-col--12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  .l-col__span--1 {
+  .mobile\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .mobile\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .mobile\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .mobile\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .mobile\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .mobile\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .mobile\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .mobile\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .mobile\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col__span--10 {
+  .mobile\@l-col__span--10 {
     grid-column: span 10;
   }
-  .l-col__span--11 {
+  .mobile\@l-col__span--11 {
     grid-column: span 11;
   }
-  .l-col__span--12 {
+  .mobile\@l-col__span--12 {
     grid-column: span 12;
   }
 }
 @media screen and (min-width: 768px) {
-  .l-col {
+  .tablet\@l-col {
     display: grid;
   }
-  .l-col--1 {
+  .tablet\@l-col--1 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col--2 {
+  .tablet\@l-col--2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col--3 {
+  .tablet\@l-col--3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col--4 {
+  .tablet\@l-col--4 {
     grid-template-columns: repeat(4, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .tablet\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col--5 {
+  .tablet\@l-col--5 {
     grid-template-columns: repeat(5, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .tablet\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .tablet\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col--6 {
+  .tablet\@l-col--6 {
     grid-template-columns: repeat(6, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .tablet\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .tablet\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .tablet\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col--7 {
+  .tablet\@l-col--7 {
     grid-template-columns: repeat(7, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .tablet\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .tablet\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .tablet\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .tablet\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col--8 {
+  .tablet\@l-col--8 {
     grid-template-columns: repeat(8, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .tablet\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .tablet\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .tablet\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .tablet\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .tablet\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col--9 {
+  .tablet\@l-col--9 {
     grid-template-columns: repeat(9, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .tablet\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .tablet\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .tablet\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .tablet\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .tablet\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .tablet\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col--10 {
+  .tablet\@l-col--10 {
     grid-template-columns: repeat(10, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .tablet\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .tablet\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .tablet\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .tablet\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .tablet\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .tablet\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col__span--10 {
+  .tablet\@l-col__span--10 {
     grid-column: span 10;
   }
-  .l-col--11 {
+  .tablet\@l-col--11 {
     grid-template-columns: repeat(11, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .tablet\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .tablet\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .tablet\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .tablet\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .tablet\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .tablet\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col__span--10 {
+  .tablet\@l-col__span--10 {
     grid-column: span 10;
   }
-  .l-col__span--11 {
+  .tablet\@l-col__span--11 {
     grid-column: span 11;
   }
-  .l-col--12 {
+  .tablet\@l-col--12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  .l-col__span--1 {
+  .tablet\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .tablet\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .tablet\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .tablet\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .tablet\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .tablet\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .tablet\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .tablet\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .tablet\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col__span--10 {
+  .tablet\@l-col__span--10 {
     grid-column: span 10;
   }
-  .l-col__span--11 {
+  .tablet\@l-col__span--11 {
     grid-column: span 11;
   }
-  .l-col__span--12 {
+  .tablet\@l-col__span--12 {
     grid-column: span 12;
   }
 }
 @media screen and (min-width: 1024px) {
-  .l-col {
+  .desktop\@l-col {
     display: grid;
   }
-  .l-col--1 {
+  .desktop\@l-col--1 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col--2 {
+  .desktop\@l-col--2 {
     grid-template-columns: repeat(2, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col--3 {
+  .desktop\@l-col--3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col--4 {
+  .desktop\@l-col--4 {
     grid-template-columns: repeat(4, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .desktop\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col--5 {
+  .desktop\@l-col--5 {
     grid-template-columns: repeat(5, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .desktop\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .desktop\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col--6 {
+  .desktop\@l-col--6 {
     grid-template-columns: repeat(6, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .desktop\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .desktop\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .desktop\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col--7 {
+  .desktop\@l-col--7 {
     grid-template-columns: repeat(7, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .desktop\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .desktop\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .desktop\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .desktop\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col--8 {
+  .desktop\@l-col--8 {
     grid-template-columns: repeat(8, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .desktop\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .desktop\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .desktop\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .desktop\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .desktop\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col--9 {
+  .desktop\@l-col--9 {
     grid-template-columns: repeat(9, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .desktop\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .desktop\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .desktop\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .desktop\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .desktop\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .desktop\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col--10 {
+  .desktop\@l-col--10 {
     grid-template-columns: repeat(10, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .desktop\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .desktop\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .desktop\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .desktop\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .desktop\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .desktop\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col__span--10 {
+  .desktop\@l-col__span--10 {
     grid-column: span 10;
   }
-  .l-col--11 {
+  .desktop\@l-col--11 {
     grid-template-columns: repeat(11, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .desktop\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .desktop\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .desktop\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .desktop\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .desktop\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .desktop\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col__span--10 {
+  .desktop\@l-col__span--10 {
     grid-column: span 10;
   }
-  .l-col__span--11 {
+  .desktop\@l-col__span--11 {
     grid-column: span 11;
   }
-  .l-col--12 {
+  .desktop\@l-col--12 {
     grid-template-columns: repeat(12, 1fr);
   }
-  .l-col__span--1 {
+  .desktop\@l-col__span--1 {
     grid-column: span 1;
   }
-  .l-col__span--2 {
+  .desktop\@l-col__span--2 {
     grid-column: span 2;
   }
-  .l-col__span--3 {
+  .desktop\@l-col__span--3 {
     grid-column: span 3;
   }
-  .l-col__span--4 {
+  .desktop\@l-col__span--4 {
     grid-column: span 4;
   }
-  .l-col__span--5 {
+  .desktop\@l-col__span--5 {
     grid-column: span 5;
   }
-  .l-col__span--6 {
+  .desktop\@l-col__span--6 {
     grid-column: span 6;
   }
-  .l-col__span--7 {
+  .desktop\@l-col__span--7 {
     grid-column: span 7;
   }
-  .l-col__span--8 {
+  .desktop\@l-col__span--8 {
     grid-column: span 8;
   }
-  .l-col__span--9 {
+  .desktop\@l-col__span--9 {
     grid-column: span 9;
   }
-  .l-col__span--10 {
+  .desktop\@l-col__span--10 {
     grid-column: span 10;
   }
-  .l-col__span--11 {
+  .desktop\@l-col__span--11 {
     grid-column: span 11;
   }
-  .l-col__span--12 {
+  .desktop\@l-col__span--12 {
     grid-column: span 12;
   }
 }
-.l-hamburguer {
+.l-hamburger {
   display: grid;
   height: 100%;
   grid-template-rows: auto 1fr auto;
 }
 
 @media screen and (min-width: 640px) {
-  .l-hamburguer\@mobile {
+  .mobile\@l-hamburger {
     display: grid;
     height: 100%;
     grid-template-rows: auto 1fr auto;
   }
 }
 @media screen and (min-width: 768px) {
-  .l-hamburguer\@tablet {
+  .tablet\@l-hamburger {
     display: grid;
     height: 100%;
     grid-template-rows: auto 1fr auto;
   }
 }
 @media screen and (min-width: 1024px) {
-  .l-hamburguer\@desktop {
+  .desktop\@l-hamburger {
     display: grid;
     height: 100%;
     grid-template-rows: auto 1fr auto;
@@ -1834,21 +1834,21 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .l-RAM\@mobile {
+  .mobile\@l-RAM {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
 @media screen and (min-width: 768px) {
-  .l-RAM\@tablet {
+  .tablet\@l-RAM {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
 @media screen and (min-width: 1024px) {
-  .l-RAM\@desktop {
+  .desktop\@l-RAM {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -1861,21 +1861,21 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .l-line-up\@mobile {
+  .mobile\@l-line-up {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 768px) {
-  .l-line-up\@tablet {
+  .tablet\@l-line-up {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 1024px) {
-  .l-line-up\@desktop {
+  .desktop\@l-line-up {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -2085,113 +2085,113 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--bold-1\@mobile {
+  .mobile\@g--bold-1 {
     font-weight: 100;
   }
 
-  .g--bold-2\@mobile {
+  .mobile\@g--bold-2 {
     font-weight: 200;
   }
 
-  .g--bold-3\@mobile {
+  .mobile\@g--bold-3 {
     font-weight: 300;
   }
 
-  .g--bold-4\@mobile {
+  .mobile\@g--bold-4 {
     font-weight: 400;
   }
 
-  .g--bold-5\@mobile {
+  .mobile\@g--bold-5 {
     font-weight: 500;
   }
 
-  .g--bold-6\@mobile {
+  .mobile\@g--bold-6 {
     font-weight: 600;
   }
 
-  .g--bold-7\@mobile {
+  .mobile\@g--bold-7 {
     font-weight: 700;
   }
 
-  .g--bold-8\@mobile {
+  .mobile\@g--bold-8 {
     font-weight: 800;
   }
 
-  .g--bold-9\@mobile {
+  .mobile\@g--bold-9 {
     font-weight: 900;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--bold-1\@tablet {
+  .tablet\@g--bold-1 {
     font-weight: 100;
   }
 
-  .g--bold-2\@tablet {
+  .tablet\@g--bold-2 {
     font-weight: 200;
   }
 
-  .g--bold-3\@tablet {
+  .tablet\@g--bold-3 {
     font-weight: 300;
   }
 
-  .g--bold-4\@tablet {
+  .tablet\@g--bold-4 {
     font-weight: 400;
   }
 
-  .g--bold-5\@tablet {
+  .tablet\@g--bold-5 {
     font-weight: 500;
   }
 
-  .g--bold-6\@tablet {
+  .tablet\@g--bold-6 {
     font-weight: 600;
   }
 
-  .g--bold-7\@tablet {
+  .tablet\@g--bold-7 {
     font-weight: 700;
   }
 
-  .g--bold-8\@tablet {
+  .tablet\@g--bold-8 {
     font-weight: 800;
   }
 
-  .g--bold-9\@tablet {
+  .tablet\@g--bold-9 {
     font-weight: 900;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--bold-1\@desktop {
+  .desktop\@g--bold-1 {
     font-weight: 100;
   }
 
-  .g--bold-2\@desktop {
+  .desktop\@g--bold-2 {
     font-weight: 200;
   }
 
-  .g--bold-3\@desktop {
+  .desktop\@g--bold-3 {
     font-weight: 300;
   }
 
-  .g--bold-4\@desktop {
+  .desktop\@g--bold-4 {
     font-weight: 400;
   }
 
-  .g--bold-5\@desktop {
+  .desktop\@g--bold-5 {
     font-weight: 500;
   }
 
-  .g--bold-6\@desktop {
+  .desktop\@g--bold-6 {
     font-weight: 600;
   }
 
-  .g--bold-7\@desktop {
+  .desktop\@g--bold-7 {
     font-weight: 700;
   }
 
-  .g--bold-8\@desktop {
+  .desktop\@g--bold-8 {
     font-weight: 800;
   }
 
-  .g--bold-9\@desktop {
+  .desktop\@g--bold-9 {
     font-weight: 900;
   }
 }
@@ -2212,53 +2212,53 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--text-align-left\@mobile {
+  .mobile\@g--text-align-left {
     text-align: left;
   }
 
-  .g--text-align-center\@mobile {
+  .mobile\@g--text-align-center {
     text-align: center;
   }
 
-  .g--text-align-right\@mobile {
+  .mobile\@g--text-align-right {
     text-align: right;
   }
 
-  .g--text-align-justify\@mobile {
+  .mobile\@g--text-align-justify {
     text-align: justify;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--text-align-left\@tablet {
+  .tablet\@g--text-align-left {
     text-align: left;
   }
 
-  .g--text-align-center\@tablet {
+  .tablet\@g--text-align-center {
     text-align: center;
   }
 
-  .g--text-align-right\@tablet {
+  .tablet\@g--text-align-right {
     text-align: right;
   }
 
-  .g--text-align-justify\@tablet {
+  .tablet\@g--text-align-justify {
     text-align: justify;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--text-align-left\@desktop {
+  .desktop\@g--text-align-left {
     text-align: left;
   }
 
-  .g--text-align-center\@desktop {
+  .desktop\@g--text-align-center {
     text-align: center;
   }
 
-  .g--text-align-right\@desktop {
+  .desktop\@g--text-align-right {
     text-align: right;
   }
 
-  .g--text-align-justify\@desktop {
+  .desktop\@g--text-align-justify {
     text-align: justify;
   }
 }
@@ -2291,89 +2291,89 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--display-block\@mobile {
+  .mobile\@g--display-block {
     display: block;
   }
 
-  .g--display-inline-block\@mobile {
+  .mobile\@g--display-inline-block {
     display: inline-block;
   }
 
-  .g--display-inline\@mobile {
+  .mobile\@g--display-inline {
     display: inline;
   }
 
-  .g--display-flex\@mobile {
+  .mobile\@g--display-flex {
     display: flex;
   }
 
-  .g--display-inline-flex\@mobile {
+  .mobile\@g--display-inline-flex {
     display: inline-flex;
   }
 
-  .g--display-grid\@mobile {
+  .mobile\@g--display-grid {
     display: grid;
   }
 
-  .g--display-none\@mobile {
+  .mobile\@g--display-none {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--display-block\@tablet {
+  .tablet\@g--display-block {
     display: block;
   }
 
-  .g--display-inline-block\@tablet {
+  .tablet\@g--display-inline-block {
     display: inline-block;
   }
 
-  .g--display-inline\@tablet {
+  .tablet\@g--display-inline {
     display: inline;
   }
 
-  .g--display-flex\@tablet {
+  .tablet\@g--display-flex {
     display: flex;
   }
 
-  .g--display-inline-flex\@tablet {
+  .tablet\@g--display-inline-flex {
     display: inline-flex;
   }
 
-  .g--display-grid\@tablet {
+  .tablet\@g--display-grid {
     display: grid;
   }
 
-  .g--display-none\@tablet {
+  .tablet\@g--display-none {
     display: none;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--display-block\@desktop {
+  .desktop\@g--display-block {
     display: block;
   }
 
-  .g--display-inline-block\@desktop {
+  .desktop\@g--display-inline-block {
     display: inline-block;
   }
 
-  .g--display-inline\@desktop {
+  .desktop\@g--display-inline {
     display: inline;
   }
 
-  .g--display-flex\@desktop {
+  .desktop\@g--display-flex {
     display: flex;
   }
 
-  .g--display-inline-flex\@desktop {
+  .desktop\@g--display-inline-flex {
     display: inline-flex;
   }
 
-  .g--display-grid\@desktop {
+  .desktop\@g--display-grid {
     display: grid;
   }
 
-  .g--display-none\@desktop {
+  .desktop\@g--display-none {
     display: none;
   }
 }
@@ -2474,293 +2474,293 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--gap-none\@mobile {
+  .mobile\@g--gap-none {
     gap: 0px;
   }
 
-  .g--gap-horizontal-none\@mobile {
+  .mobile\@g--gap-horizontal-none {
     row-gap: 0px;
   }
 
-  .g--gap-vertical-none\@mobile {
+  .mobile\@g--gap-vertical-none {
     column-gap: 0px;
   }
 
-  .g--gap-xxs\@mobile {
+  .mobile\@g--gap-xxs {
     gap: 1px;
   }
 
-  .g--gap-horizontal-xxs\@mobile {
+  .mobile\@g--gap-horizontal-xxs {
     row-gap: 1px;
   }
 
-  .g--gap-vertical-xxs\@mobile {
+  .mobile\@g--gap-vertical-xxs {
     column-gap: 1px;
   }
 
-  .g--gap-xs\@mobile {
+  .mobile\@g--gap-xs {
     gap: 3px;
   }
 
-  .g--gap-horizontal-xs\@mobile {
+  .mobile\@g--gap-horizontal-xs {
     row-gap: 3px;
   }
 
-  .g--gap-vertical-xs\@mobile {
+  .mobile\@g--gap-vertical-xs {
     column-gap: 3px;
   }
 
-  .g--gap-s\@mobile {
+  .mobile\@g--gap-s {
     gap: 5px;
   }
 
-  .g--gap-horizontal-s\@mobile {
+  .mobile\@g--gap-horizontal-s {
     row-gap: 5px;
   }
 
-  .g--gap-vertical-s\@mobile {
+  .mobile\@g--gap-vertical-s {
     column-gap: 5px;
   }
 
-  .g--gap-m\@mobile {
+  .mobile\@g--gap-m {
     gap: 10px;
   }
 
-  .g--gap-horizontal-m\@mobile {
+  .mobile\@g--gap-horizontal-m {
     row-gap: 10px;
   }
 
-  .g--gap-vertical-m\@mobile {
+  .mobile\@g--gap-vertical-m {
     column-gap: 10px;
   }
 
-  .g--gap-l\@mobile {
+  .mobile\@g--gap-l {
     gap: 15px;
   }
 
-  .g--gap-horizontal-l\@mobile {
+  .mobile\@g--gap-horizontal-l {
     row-gap: 15px;
   }
 
-  .g--gap-vertical-l\@mobile {
+  .mobile\@g--gap-vertical-l {
     column-gap: 15px;
   }
 
-  .g--gap-xl\@mobile {
+  .mobile\@g--gap-xl {
     gap: 20px;
   }
 
-  .g--gap-horizontal-xl\@mobile {
+  .mobile\@g--gap-horizontal-xl {
     row-gap: 20px;
   }
 
-  .g--gap-vertical-xl\@mobile {
+  .mobile\@g--gap-vertical-xl {
     column-gap: 20px;
   }
 
-  .g--gap-xxl\@mobile {
+  .mobile\@g--gap-xxl {
     gap: 25px;
   }
 
-  .g--gap-horizontal-xxl\@mobile {
+  .mobile\@g--gap-horizontal-xxl {
     row-gap: 25px;
   }
 
-  .g--gap-vertical-xxl\@mobile {
+  .mobile\@g--gap-vertical-xxl {
     column-gap: 25px;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--gap-none\@tablet {
+  .tablet\@g--gap-none {
     gap: 0px;
   }
 
-  .g--gap-horizontal-none\@tablet {
+  .tablet\@g--gap-horizontal-none {
     row-gap: 0px;
   }
 
-  .g--gap-vertical-none\@tablet {
+  .tablet\@g--gap-vertical-none {
     column-gap: 0px;
   }
 
-  .g--gap-xxs\@tablet {
+  .tablet\@g--gap-xxs {
     gap: 1px;
   }
 
-  .g--gap-horizontal-xxs\@tablet {
+  .tablet\@g--gap-horizontal-xxs {
     row-gap: 1px;
   }
 
-  .g--gap-vertical-xxs\@tablet {
+  .tablet\@g--gap-vertical-xxs {
     column-gap: 1px;
   }
 
-  .g--gap-xs\@tablet {
+  .tablet\@g--gap-xs {
     gap: 3px;
   }
 
-  .g--gap-horizontal-xs\@tablet {
+  .tablet\@g--gap-horizontal-xs {
     row-gap: 3px;
   }
 
-  .g--gap-vertical-xs\@tablet {
+  .tablet\@g--gap-vertical-xs {
     column-gap: 3px;
   }
 
-  .g--gap-s\@tablet {
+  .tablet\@g--gap-s {
     gap: 5px;
   }
 
-  .g--gap-horizontal-s\@tablet {
+  .tablet\@g--gap-horizontal-s {
     row-gap: 5px;
   }
 
-  .g--gap-vertical-s\@tablet {
+  .tablet\@g--gap-vertical-s {
     column-gap: 5px;
   }
 
-  .g--gap-m\@tablet {
+  .tablet\@g--gap-m {
     gap: 10px;
   }
 
-  .g--gap-horizontal-m\@tablet {
+  .tablet\@g--gap-horizontal-m {
     row-gap: 10px;
   }
 
-  .g--gap-vertical-m\@tablet {
+  .tablet\@g--gap-vertical-m {
     column-gap: 10px;
   }
 
-  .g--gap-l\@tablet {
+  .tablet\@g--gap-l {
     gap: 15px;
   }
 
-  .g--gap-horizontal-l\@tablet {
+  .tablet\@g--gap-horizontal-l {
     row-gap: 15px;
   }
 
-  .g--gap-vertical-l\@tablet {
+  .tablet\@g--gap-vertical-l {
     column-gap: 15px;
   }
 
-  .g--gap-xl\@tablet {
+  .tablet\@g--gap-xl {
     gap: 20px;
   }
 
-  .g--gap-horizontal-xl\@tablet {
+  .tablet\@g--gap-horizontal-xl {
     row-gap: 20px;
   }
 
-  .g--gap-vertical-xl\@tablet {
+  .tablet\@g--gap-vertical-xl {
     column-gap: 20px;
   }
 
-  .g--gap-xxl\@tablet {
+  .tablet\@g--gap-xxl {
     gap: 25px;
   }
 
-  .g--gap-horizontal-xxl\@tablet {
+  .tablet\@g--gap-horizontal-xxl {
     row-gap: 25px;
   }
 
-  .g--gap-vertical-xxl\@tablet {
+  .tablet\@g--gap-vertical-xxl {
     column-gap: 25px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--gap-none\@desktop {
+  .desktop\@g--gap-none {
     gap: 0px;
   }
 
-  .g--gap-horizontal-none\@desktop {
+  .desktop\@g--gap-horizontal-none {
     row-gap: 0px;
   }
 
-  .g--gap-vertical-none\@desktop {
+  .desktop\@g--gap-vertical-none {
     column-gap: 0px;
   }
 
-  .g--gap-xxs\@desktop {
+  .desktop\@g--gap-xxs {
     gap: 1px;
   }
 
-  .g--gap-horizontal-xxs\@desktop {
+  .desktop\@g--gap-horizontal-xxs {
     row-gap: 1px;
   }
 
-  .g--gap-vertical-xxs\@desktop {
+  .desktop\@g--gap-vertical-xxs {
     column-gap: 1px;
   }
 
-  .g--gap-xs\@desktop {
+  .desktop\@g--gap-xs {
     gap: 3px;
   }
 
-  .g--gap-horizontal-xs\@desktop {
+  .desktop\@g--gap-horizontal-xs {
     row-gap: 3px;
   }
 
-  .g--gap-vertical-xs\@desktop {
+  .desktop\@g--gap-vertical-xs {
     column-gap: 3px;
   }
 
-  .g--gap-s\@desktop {
+  .desktop\@g--gap-s {
     gap: 5px;
   }
 
-  .g--gap-horizontal-s\@desktop {
+  .desktop\@g--gap-horizontal-s {
     row-gap: 5px;
   }
 
-  .g--gap-vertical-s\@desktop {
+  .desktop\@g--gap-vertical-s {
     column-gap: 5px;
   }
 
-  .g--gap-m\@desktop {
+  .desktop\@g--gap-m {
     gap: 10px;
   }
 
-  .g--gap-horizontal-m\@desktop {
+  .desktop\@g--gap-horizontal-m {
     row-gap: 10px;
   }
 
-  .g--gap-vertical-m\@desktop {
+  .desktop\@g--gap-vertical-m {
     column-gap: 10px;
   }
 
-  .g--gap-l\@desktop {
+  .desktop\@g--gap-l {
     gap: 15px;
   }
 
-  .g--gap-horizontal-l\@desktop {
+  .desktop\@g--gap-horizontal-l {
     row-gap: 15px;
   }
 
-  .g--gap-vertical-l\@desktop {
+  .desktop\@g--gap-vertical-l {
     column-gap: 15px;
   }
 
-  .g--gap-xl\@desktop {
+  .desktop\@g--gap-xl {
     gap: 20px;
   }
 
-  .g--gap-horizontal-xl\@desktop {
+  .desktop\@g--gap-horizontal-xl {
     row-gap: 20px;
   }
 
-  .g--gap-vertical-xl\@desktop {
+  .desktop\@g--gap-vertical-xl {
     column-gap: 20px;
   }
 
-  .g--gap-xxl\@desktop {
+  .desktop\@g--gap-xxl {
     gap: 25px;
   }
 
-  .g--gap-horizontal-xxl\@desktop {
+  .desktop\@g--gap-horizontal-xxl {
     row-gap: 25px;
   }
 
-  .g--gap-vertical-xxl\@desktop {
+  .desktop\@g--gap-vertical-xxl {
     column-gap: 25px;
   }
 }
@@ -3095,995 +3095,995 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--margin-none\@mobile {
+  .mobile\@g--margin-none {
     margin: 0px;
   }
 
-  .g--margin-vertical-none\@mobile {
+  .mobile\@g--margin-vertical-none {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  .g--margin-horizontal-none\@mobile {
+  .mobile\@g--margin-horizontal-none {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .g--margin-top-none\@mobile {
+  .mobile\@g--margin-top-none {
     margin-top: 0px;
   }
 
-  .g--margin-bottom-none\@mobile {
+  .mobile\@g--margin-bottom-none {
     margin-bottom: 0px;
   }
 
-  .g--margin-left-none\@mobile {
+  .mobile\@g--margin-left-none {
     margin-left: 0px;
   }
 
-  .g--margin-right-none\@mobile {
+  .mobile\@g--margin-right-none {
     margin-right: 0px;
   }
 
-  .g--margin-3xs\@mobile {
+  .mobile\@g--margin-3xs {
     margin: 3px;
   }
 
-  .g--margin-vertical-3xs\@mobile {
+  .mobile\@g--margin-vertical-3xs {
     margin-top: 3px;
     margin-bottom: 3px;
   }
 
-  .g--margin-horizontal-3xs\@mobile {
+  .mobile\@g--margin-horizontal-3xs {
     margin-left: 3px;
     margin-right: 3px;
   }
 
-  .g--margin-top-3xs\@mobile {
+  .mobile\@g--margin-top-3xs {
     margin-top: 3px;
   }
 
-  .g--margin-bottom-3xs\@mobile {
+  .mobile\@g--margin-bottom-3xs {
     margin-bottom: 3px;
   }
 
-  .g--margin-left-3xs\@mobile {
+  .mobile\@g--margin-left-3xs {
     margin-left: 3px;
   }
 
-  .g--margin-right-3xs\@mobile {
+  .mobile\@g--margin-right-3xs {
     margin-right: 3px;
   }
 
-  .g--margin-2xs\@mobile {
+  .mobile\@g--margin-2xs {
     margin: 8px;
   }
 
-  .g--margin-vertical-2xs\@mobile {
+  .mobile\@g--margin-vertical-2xs {
     margin-top: 8px;
     margin-bottom: 8px;
   }
 
-  .g--margin-horizontal-2xs\@mobile {
+  .mobile\@g--margin-horizontal-2xs {
     margin-left: 8px;
     margin-right: 8px;
   }
 
-  .g--margin-top-2xs\@mobile {
+  .mobile\@g--margin-top-2xs {
     margin-top: 8px;
   }
 
-  .g--margin-bottom-2xs\@mobile {
+  .mobile\@g--margin-bottom-2xs {
     margin-bottom: 8px;
   }
 
-  .g--margin-left-2xs\@mobile {
+  .mobile\@g--margin-left-2xs {
     margin-left: 8px;
   }
 
-  .g--margin-right-2xs\@mobile {
+  .mobile\@g--margin-right-2xs {
     margin-right: 8px;
   }
 
-  .g--margin-xs\@mobile {
+  .mobile\@g--margin-xs {
     margin: 16px;
   }
 
-  .g--margin-vertical-xs\@mobile {
+  .mobile\@g--margin-vertical-xs {
     margin-top: 16px;
     margin-bottom: 16px;
   }
 
-  .g--margin-horizontal-xs\@mobile {
+  .mobile\@g--margin-horizontal-xs {
     margin-left: 16px;
     margin-right: 16px;
   }
 
-  .g--margin-top-xs\@mobile {
+  .mobile\@g--margin-top-xs {
     margin-top: 16px;
   }
 
-  .g--margin-bottom-xs\@mobile {
+  .mobile\@g--margin-bottom-xs {
     margin-bottom: 16px;
   }
 
-  .g--margin-left-xs\@mobile {
+  .mobile\@g--margin-left-xs {
     margin-left: 16px;
   }
 
-  .g--margin-right-xs\@mobile {
+  .mobile\@g--margin-right-xs {
     margin-right: 16px;
   }
 
-  .g--margin-s\@mobile {
+  .mobile\@g--margin-s {
     margin: 32px;
   }
 
-  .g--margin-vertical-s\@mobile {
+  .mobile\@g--margin-vertical-s {
     margin-top: 32px;
     margin-bottom: 32px;
   }
 
-  .g--margin-horizontal-s\@mobile {
+  .mobile\@g--margin-horizontal-s {
     margin-left: 32px;
     margin-right: 32px;
   }
 
-  .g--margin-top-s\@mobile {
+  .mobile\@g--margin-top-s {
     margin-top: 32px;
   }
 
-  .g--margin-bottom-s\@mobile {
+  .mobile\@g--margin-bottom-s {
     margin-bottom: 32px;
   }
 
-  .g--margin-left-s\@mobile {
+  .mobile\@g--margin-left-s {
     margin-left: 32px;
   }
 
-  .g--margin-right-s\@mobile {
+  .mobile\@g--margin-right-s {
     margin-right: 32px;
   }
 
-  .g--margin-m\@mobile {
+  .mobile\@g--margin-m {
     margin: 64px;
   }
 
-  .g--margin-vertical-m\@mobile {
+  .mobile\@g--margin-vertical-m {
     margin-top: 64px;
     margin-bottom: 64px;
   }
 
-  .g--margin-horizontal-m\@mobile {
+  .mobile\@g--margin-horizontal-m {
     margin-left: 64px;
     margin-right: 64px;
   }
 
-  .g--margin-top-m\@mobile {
+  .mobile\@g--margin-top-m {
     margin-top: 64px;
   }
 
-  .g--margin-bottom-m\@mobile {
+  .mobile\@g--margin-bottom-m {
     margin-bottom: 64px;
   }
 
-  .g--margin-left-m\@mobile {
+  .mobile\@g--margin-left-m {
     margin-left: 64px;
   }
 
-  .g--margin-right-m\@mobile {
+  .mobile\@g--margin-right-m {
     margin-right: 64px;
   }
 
-  .g--margin-l\@mobile {
+  .mobile\@g--margin-l {
     margin: 128px;
   }
 
-  .g--margin-vertical-l\@mobile {
+  .mobile\@g--margin-vertical-l {
     margin-top: 128px;
     margin-bottom: 128px;
   }
 
-  .g--margin-horizontal-l\@mobile {
+  .mobile\@g--margin-horizontal-l {
     margin-left: 128px;
     margin-right: 128px;
   }
 
-  .g--margin-top-l\@mobile {
+  .mobile\@g--margin-top-l {
     margin-top: 128px;
   }
 
-  .g--margin-bottom-l\@mobile {
+  .mobile\@g--margin-bottom-l {
     margin-bottom: 128px;
   }
 
-  .g--margin-left-l\@mobile {
+  .mobile\@g--margin-left-l {
     margin-left: 128px;
   }
 
-  .g--margin-right-l\@mobile {
+  .mobile\@g--margin-right-l {
     margin-right: 128px;
   }
 
-  .g--margin-xl\@mobile {
+  .mobile\@g--margin-xl {
     margin: 256px;
   }
 
-  .g--margin-vertical-xl\@mobile {
+  .mobile\@g--margin-vertical-xl {
     margin-top: 256px;
     margin-bottom: 256px;
   }
 
-  .g--margin-horizontal-xl\@mobile {
+  .mobile\@g--margin-horizontal-xl {
     margin-left: 256px;
     margin-right: 256px;
   }
 
-  .g--margin-top-xl\@mobile {
+  .mobile\@g--margin-top-xl {
     margin-top: 256px;
   }
 
-  .g--margin-bottom-xl\@mobile {
+  .mobile\@g--margin-bottom-xl {
     margin-bottom: 256px;
   }
 
-  .g--margin-left-xl\@mobile {
+  .mobile\@g--margin-left-xl {
     margin-left: 256px;
   }
 
-  .g--margin-right-xl\@mobile {
+  .mobile\@g--margin-right-xl {
     margin-right: 256px;
   }
 
-  .g--margin-2xl\@mobile {
+  .mobile\@g--margin-2xl {
     margin: 512px;
   }
 
-  .g--margin-vertical-2xl\@mobile {
+  .mobile\@g--margin-vertical-2xl {
     margin-top: 512px;
     margin-bottom: 512px;
   }
 
-  .g--margin-horizontal-2xl\@mobile {
+  .mobile\@g--margin-horizontal-2xl {
     margin-left: 512px;
     margin-right: 512px;
   }
 
-  .g--margin-top-2xl\@mobile {
+  .mobile\@g--margin-top-2xl {
     margin-top: 512px;
   }
 
-  .g--margin-bottom-2xl\@mobile {
+  .mobile\@g--margin-bottom-2xl {
     margin-bottom: 512px;
   }
 
-  .g--margin-left-2xl\@mobile {
+  .mobile\@g--margin-left-2xl {
     margin-left: 512px;
   }
 
-  .g--margin-right-2xl\@mobile {
+  .mobile\@g--margin-right-2xl {
     margin-right: 512px;
   }
 
-  .g--margin-3xl\@mobile {
+  .mobile\@g--margin-3xl {
     margin: 1024px;
   }
 
-  .g--margin-vertical-3xl\@mobile {
+  .mobile\@g--margin-vertical-3xl {
     margin-top: 1024px;
     margin-bottom: 1024px;
   }
 
-  .g--margin-horizontal-3xl\@mobile {
+  .mobile\@g--margin-horizontal-3xl {
     margin-left: 1024px;
     margin-right: 1024px;
   }
 
-  .g--margin-top-3xl\@mobile {
+  .mobile\@g--margin-top-3xl {
     margin-top: 1024px;
   }
 
-  .g--margin-bottom-3xl\@mobile {
+  .mobile\@g--margin-bottom-3xl {
     margin-bottom: 1024px;
   }
 
-  .g--margin-left-3xl\@mobile {
+  .mobile\@g--margin-left-3xl {
     margin-left: 1024px;
   }
 
-  .g--margin-right-3xl\@mobile {
+  .mobile\@g--margin-right-3xl {
     margin-right: 1024px;
   }
 
-  .g--margin-auto\@mobile {
+  .mobile\@g--margin-auto {
     margin: auto;
   }
 
-  .g--margin-vertical-auto\@mobile {
+  .mobile\@g--margin-vertical-auto {
     margin-top: auto;
     margin-bottom: auto;
   }
 
-  .g--margin-horizontal-auto\@mobile {
+  .mobile\@g--margin-horizontal-auto {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .g--margin-top-auto\@mobile {
+  .mobile\@g--margin-top-auto {
     margin-top: auto;
   }
 
-  .g--margin-bottom-auto\@mobile {
+  .mobile\@g--margin-bottom-auto {
     margin-bottom: auto;
   }
 
-  .g--margin-left-auto\@mobile {
+  .mobile\@g--margin-left-auto {
     margin-left: auto;
   }
 
-  .g--margin-right-auto\@mobile {
+  .mobile\@g--margin-right-auto {
     margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--margin-none\@tablet {
+  .tablet\@g--margin-none {
     margin: 0px;
   }
 
-  .g--margin-vertical-none\@tablet {
+  .tablet\@g--margin-vertical-none {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  .g--margin-horizontal-none\@tablet {
+  .tablet\@g--margin-horizontal-none {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .g--margin-top-none\@tablet {
+  .tablet\@g--margin-top-none {
     margin-top: 0px;
   }
 
-  .g--margin-bottom-none\@tablet {
+  .tablet\@g--margin-bottom-none {
     margin-bottom: 0px;
   }
 
-  .g--margin-left-none\@tablet {
+  .tablet\@g--margin-left-none {
     margin-left: 0px;
   }
 
-  .g--margin-right-none\@tablet {
+  .tablet\@g--margin-right-none {
     margin-right: 0px;
   }
 
-  .g--margin-3xs\@tablet {
+  .tablet\@g--margin-3xs {
     margin: 3px;
   }
 
-  .g--margin-vertical-3xs\@tablet {
+  .tablet\@g--margin-vertical-3xs {
     margin-top: 3px;
     margin-bottom: 3px;
   }
 
-  .g--margin-horizontal-3xs\@tablet {
+  .tablet\@g--margin-horizontal-3xs {
     margin-left: 3px;
     margin-right: 3px;
   }
 
-  .g--margin-top-3xs\@tablet {
+  .tablet\@g--margin-top-3xs {
     margin-top: 3px;
   }
 
-  .g--margin-bottom-3xs\@tablet {
+  .tablet\@g--margin-bottom-3xs {
     margin-bottom: 3px;
   }
 
-  .g--margin-left-3xs\@tablet {
+  .tablet\@g--margin-left-3xs {
     margin-left: 3px;
   }
 
-  .g--margin-right-3xs\@tablet {
+  .tablet\@g--margin-right-3xs {
     margin-right: 3px;
   }
 
-  .g--margin-2xs\@tablet {
+  .tablet\@g--margin-2xs {
     margin: 8px;
   }
 
-  .g--margin-vertical-2xs\@tablet {
+  .tablet\@g--margin-vertical-2xs {
     margin-top: 8px;
     margin-bottom: 8px;
   }
 
-  .g--margin-horizontal-2xs\@tablet {
+  .tablet\@g--margin-horizontal-2xs {
     margin-left: 8px;
     margin-right: 8px;
   }
 
-  .g--margin-top-2xs\@tablet {
+  .tablet\@g--margin-top-2xs {
     margin-top: 8px;
   }
 
-  .g--margin-bottom-2xs\@tablet {
+  .tablet\@g--margin-bottom-2xs {
     margin-bottom: 8px;
   }
 
-  .g--margin-left-2xs\@tablet {
+  .tablet\@g--margin-left-2xs {
     margin-left: 8px;
   }
 
-  .g--margin-right-2xs\@tablet {
+  .tablet\@g--margin-right-2xs {
     margin-right: 8px;
   }
 
-  .g--margin-xs\@tablet {
+  .tablet\@g--margin-xs {
     margin: 16px;
   }
 
-  .g--margin-vertical-xs\@tablet {
+  .tablet\@g--margin-vertical-xs {
     margin-top: 16px;
     margin-bottom: 16px;
   }
 
-  .g--margin-horizontal-xs\@tablet {
+  .tablet\@g--margin-horizontal-xs {
     margin-left: 16px;
     margin-right: 16px;
   }
 
-  .g--margin-top-xs\@tablet {
+  .tablet\@g--margin-top-xs {
     margin-top: 16px;
   }
 
-  .g--margin-bottom-xs\@tablet {
+  .tablet\@g--margin-bottom-xs {
     margin-bottom: 16px;
   }
 
-  .g--margin-left-xs\@tablet {
+  .tablet\@g--margin-left-xs {
     margin-left: 16px;
   }
 
-  .g--margin-right-xs\@tablet {
+  .tablet\@g--margin-right-xs {
     margin-right: 16px;
   }
 
-  .g--margin-s\@tablet {
+  .tablet\@g--margin-s {
     margin: 32px;
   }
 
-  .g--margin-vertical-s\@tablet {
+  .tablet\@g--margin-vertical-s {
     margin-top: 32px;
     margin-bottom: 32px;
   }
 
-  .g--margin-horizontal-s\@tablet {
+  .tablet\@g--margin-horizontal-s {
     margin-left: 32px;
     margin-right: 32px;
   }
 
-  .g--margin-top-s\@tablet {
+  .tablet\@g--margin-top-s {
     margin-top: 32px;
   }
 
-  .g--margin-bottom-s\@tablet {
+  .tablet\@g--margin-bottom-s {
     margin-bottom: 32px;
   }
 
-  .g--margin-left-s\@tablet {
+  .tablet\@g--margin-left-s {
     margin-left: 32px;
   }
 
-  .g--margin-right-s\@tablet {
+  .tablet\@g--margin-right-s {
     margin-right: 32px;
   }
 
-  .g--margin-m\@tablet {
+  .tablet\@g--margin-m {
     margin: 64px;
   }
 
-  .g--margin-vertical-m\@tablet {
+  .tablet\@g--margin-vertical-m {
     margin-top: 64px;
     margin-bottom: 64px;
   }
 
-  .g--margin-horizontal-m\@tablet {
+  .tablet\@g--margin-horizontal-m {
     margin-left: 64px;
     margin-right: 64px;
   }
 
-  .g--margin-top-m\@tablet {
+  .tablet\@g--margin-top-m {
     margin-top: 64px;
   }
 
-  .g--margin-bottom-m\@tablet {
+  .tablet\@g--margin-bottom-m {
     margin-bottom: 64px;
   }
 
-  .g--margin-left-m\@tablet {
+  .tablet\@g--margin-left-m {
     margin-left: 64px;
   }
 
-  .g--margin-right-m\@tablet {
+  .tablet\@g--margin-right-m {
     margin-right: 64px;
   }
 
-  .g--margin-l\@tablet {
+  .tablet\@g--margin-l {
     margin: 128px;
   }
 
-  .g--margin-vertical-l\@tablet {
+  .tablet\@g--margin-vertical-l {
     margin-top: 128px;
     margin-bottom: 128px;
   }
 
-  .g--margin-horizontal-l\@tablet {
+  .tablet\@g--margin-horizontal-l {
     margin-left: 128px;
     margin-right: 128px;
   }
 
-  .g--margin-top-l\@tablet {
+  .tablet\@g--margin-top-l {
     margin-top: 128px;
   }
 
-  .g--margin-bottom-l\@tablet {
+  .tablet\@g--margin-bottom-l {
     margin-bottom: 128px;
   }
 
-  .g--margin-left-l\@tablet {
+  .tablet\@g--margin-left-l {
     margin-left: 128px;
   }
 
-  .g--margin-right-l\@tablet {
+  .tablet\@g--margin-right-l {
     margin-right: 128px;
   }
 
-  .g--margin-xl\@tablet {
+  .tablet\@g--margin-xl {
     margin: 256px;
   }
 
-  .g--margin-vertical-xl\@tablet {
+  .tablet\@g--margin-vertical-xl {
     margin-top: 256px;
     margin-bottom: 256px;
   }
 
-  .g--margin-horizontal-xl\@tablet {
+  .tablet\@g--margin-horizontal-xl {
     margin-left: 256px;
     margin-right: 256px;
   }
 
-  .g--margin-top-xl\@tablet {
+  .tablet\@g--margin-top-xl {
     margin-top: 256px;
   }
 
-  .g--margin-bottom-xl\@tablet {
+  .tablet\@g--margin-bottom-xl {
     margin-bottom: 256px;
   }
 
-  .g--margin-left-xl\@tablet {
+  .tablet\@g--margin-left-xl {
     margin-left: 256px;
   }
 
-  .g--margin-right-xl\@tablet {
+  .tablet\@g--margin-right-xl {
     margin-right: 256px;
   }
 
-  .g--margin-2xl\@tablet {
+  .tablet\@g--margin-2xl {
     margin: 512px;
   }
 
-  .g--margin-vertical-2xl\@tablet {
+  .tablet\@g--margin-vertical-2xl {
     margin-top: 512px;
     margin-bottom: 512px;
   }
 
-  .g--margin-horizontal-2xl\@tablet {
+  .tablet\@g--margin-horizontal-2xl {
     margin-left: 512px;
     margin-right: 512px;
   }
 
-  .g--margin-top-2xl\@tablet {
+  .tablet\@g--margin-top-2xl {
     margin-top: 512px;
   }
 
-  .g--margin-bottom-2xl\@tablet {
+  .tablet\@g--margin-bottom-2xl {
     margin-bottom: 512px;
   }
 
-  .g--margin-left-2xl\@tablet {
+  .tablet\@g--margin-left-2xl {
     margin-left: 512px;
   }
 
-  .g--margin-right-2xl\@tablet {
+  .tablet\@g--margin-right-2xl {
     margin-right: 512px;
   }
 
-  .g--margin-3xl\@tablet {
+  .tablet\@g--margin-3xl {
     margin: 1024px;
   }
 
-  .g--margin-vertical-3xl\@tablet {
+  .tablet\@g--margin-vertical-3xl {
     margin-top: 1024px;
     margin-bottom: 1024px;
   }
 
-  .g--margin-horizontal-3xl\@tablet {
+  .tablet\@g--margin-horizontal-3xl {
     margin-left: 1024px;
     margin-right: 1024px;
   }
 
-  .g--margin-top-3xl\@tablet {
+  .tablet\@g--margin-top-3xl {
     margin-top: 1024px;
   }
 
-  .g--margin-bottom-3xl\@tablet {
+  .tablet\@g--margin-bottom-3xl {
     margin-bottom: 1024px;
   }
 
-  .g--margin-left-3xl\@tablet {
+  .tablet\@g--margin-left-3xl {
     margin-left: 1024px;
   }
 
-  .g--margin-right-3xl\@tablet {
+  .tablet\@g--margin-right-3xl {
     margin-right: 1024px;
   }
 
-  .g--margin-auto\@tablet {
+  .tablet\@g--margin-auto {
     margin: auto;
   }
 
-  .g--margin-vertical-auto\@tablet {
+  .tablet\@g--margin-vertical-auto {
     margin-top: auto;
     margin-bottom: auto;
   }
 
-  .g--margin-horizontal-auto\@tablet {
+  .tablet\@g--margin-horizontal-auto {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .g--margin-top-auto\@tablet {
+  .tablet\@g--margin-top-auto {
     margin-top: auto;
   }
 
-  .g--margin-bottom-auto\@tablet {
+  .tablet\@g--margin-bottom-auto {
     margin-bottom: auto;
   }
 
-  .g--margin-left-auto\@tablet {
+  .tablet\@g--margin-left-auto {
     margin-left: auto;
   }
 
-  .g--margin-right-auto\@tablet {
+  .tablet\@g--margin-right-auto {
     margin-right: auto;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--margin-none\@desktop {
+  .desktop\@g--margin-none {
     margin: 0px;
   }
 
-  .g--margin-vertical-none\@desktop {
+  .desktop\@g--margin-vertical-none {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  .g--margin-horizontal-none\@desktop {
+  .desktop\@g--margin-horizontal-none {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .g--margin-top-none\@desktop {
+  .desktop\@g--margin-top-none {
     margin-top: 0px;
   }
 
-  .g--margin-bottom-none\@desktop {
+  .desktop\@g--margin-bottom-none {
     margin-bottom: 0px;
   }
 
-  .g--margin-left-none\@desktop {
+  .desktop\@g--margin-left-none {
     margin-left: 0px;
   }
 
-  .g--margin-right-none\@desktop {
+  .desktop\@g--margin-right-none {
     margin-right: 0px;
   }
 
-  .g--margin-3xs\@desktop {
+  .desktop\@g--margin-3xs {
     margin: 3px;
   }
 
-  .g--margin-vertical-3xs\@desktop {
+  .desktop\@g--margin-vertical-3xs {
     margin-top: 3px;
     margin-bottom: 3px;
   }
 
-  .g--margin-horizontal-3xs\@desktop {
+  .desktop\@g--margin-horizontal-3xs {
     margin-left: 3px;
     margin-right: 3px;
   }
 
-  .g--margin-top-3xs\@desktop {
+  .desktop\@g--margin-top-3xs {
     margin-top: 3px;
   }
 
-  .g--margin-bottom-3xs\@desktop {
+  .desktop\@g--margin-bottom-3xs {
     margin-bottom: 3px;
   }
 
-  .g--margin-left-3xs\@desktop {
+  .desktop\@g--margin-left-3xs {
     margin-left: 3px;
   }
 
-  .g--margin-right-3xs\@desktop {
+  .desktop\@g--margin-right-3xs {
     margin-right: 3px;
   }
 
-  .g--margin-2xs\@desktop {
+  .desktop\@g--margin-2xs {
     margin: 8px;
   }
 
-  .g--margin-vertical-2xs\@desktop {
+  .desktop\@g--margin-vertical-2xs {
     margin-top: 8px;
     margin-bottom: 8px;
   }
 
-  .g--margin-horizontal-2xs\@desktop {
+  .desktop\@g--margin-horizontal-2xs {
     margin-left: 8px;
     margin-right: 8px;
   }
 
-  .g--margin-top-2xs\@desktop {
+  .desktop\@g--margin-top-2xs {
     margin-top: 8px;
   }
 
-  .g--margin-bottom-2xs\@desktop {
+  .desktop\@g--margin-bottom-2xs {
     margin-bottom: 8px;
   }
 
-  .g--margin-left-2xs\@desktop {
+  .desktop\@g--margin-left-2xs {
     margin-left: 8px;
   }
 
-  .g--margin-right-2xs\@desktop {
+  .desktop\@g--margin-right-2xs {
     margin-right: 8px;
   }
 
-  .g--margin-xs\@desktop {
+  .desktop\@g--margin-xs {
     margin: 16px;
   }
 
-  .g--margin-vertical-xs\@desktop {
+  .desktop\@g--margin-vertical-xs {
     margin-top: 16px;
     margin-bottom: 16px;
   }
 
-  .g--margin-horizontal-xs\@desktop {
+  .desktop\@g--margin-horizontal-xs {
     margin-left: 16px;
     margin-right: 16px;
   }
 
-  .g--margin-top-xs\@desktop {
+  .desktop\@g--margin-top-xs {
     margin-top: 16px;
   }
 
-  .g--margin-bottom-xs\@desktop {
+  .desktop\@g--margin-bottom-xs {
     margin-bottom: 16px;
   }
 
-  .g--margin-left-xs\@desktop {
+  .desktop\@g--margin-left-xs {
     margin-left: 16px;
   }
 
-  .g--margin-right-xs\@desktop {
+  .desktop\@g--margin-right-xs {
     margin-right: 16px;
   }
 
-  .g--margin-s\@desktop {
+  .desktop\@g--margin-s {
     margin: 32px;
   }
 
-  .g--margin-vertical-s\@desktop {
+  .desktop\@g--margin-vertical-s {
     margin-top: 32px;
     margin-bottom: 32px;
   }
 
-  .g--margin-horizontal-s\@desktop {
+  .desktop\@g--margin-horizontal-s {
     margin-left: 32px;
     margin-right: 32px;
   }
 
-  .g--margin-top-s\@desktop {
+  .desktop\@g--margin-top-s {
     margin-top: 32px;
   }
 
-  .g--margin-bottom-s\@desktop {
+  .desktop\@g--margin-bottom-s {
     margin-bottom: 32px;
   }
 
-  .g--margin-left-s\@desktop {
+  .desktop\@g--margin-left-s {
     margin-left: 32px;
   }
 
-  .g--margin-right-s\@desktop {
+  .desktop\@g--margin-right-s {
     margin-right: 32px;
   }
 
-  .g--margin-m\@desktop {
+  .desktop\@g--margin-m {
     margin: 64px;
   }
 
-  .g--margin-vertical-m\@desktop {
+  .desktop\@g--margin-vertical-m {
     margin-top: 64px;
     margin-bottom: 64px;
   }
 
-  .g--margin-horizontal-m\@desktop {
+  .desktop\@g--margin-horizontal-m {
     margin-left: 64px;
     margin-right: 64px;
   }
 
-  .g--margin-top-m\@desktop {
+  .desktop\@g--margin-top-m {
     margin-top: 64px;
   }
 
-  .g--margin-bottom-m\@desktop {
+  .desktop\@g--margin-bottom-m {
     margin-bottom: 64px;
   }
 
-  .g--margin-left-m\@desktop {
+  .desktop\@g--margin-left-m {
     margin-left: 64px;
   }
 
-  .g--margin-right-m\@desktop {
+  .desktop\@g--margin-right-m {
     margin-right: 64px;
   }
 
-  .g--margin-l\@desktop {
+  .desktop\@g--margin-l {
     margin: 128px;
   }
 
-  .g--margin-vertical-l\@desktop {
+  .desktop\@g--margin-vertical-l {
     margin-top: 128px;
     margin-bottom: 128px;
   }
 
-  .g--margin-horizontal-l\@desktop {
+  .desktop\@g--margin-horizontal-l {
     margin-left: 128px;
     margin-right: 128px;
   }
 
-  .g--margin-top-l\@desktop {
+  .desktop\@g--margin-top-l {
     margin-top: 128px;
   }
 
-  .g--margin-bottom-l\@desktop {
+  .desktop\@g--margin-bottom-l {
     margin-bottom: 128px;
   }
 
-  .g--margin-left-l\@desktop {
+  .desktop\@g--margin-left-l {
     margin-left: 128px;
   }
 
-  .g--margin-right-l\@desktop {
+  .desktop\@g--margin-right-l {
     margin-right: 128px;
   }
 
-  .g--margin-xl\@desktop {
+  .desktop\@g--margin-xl {
     margin: 256px;
   }
 
-  .g--margin-vertical-xl\@desktop {
+  .desktop\@g--margin-vertical-xl {
     margin-top: 256px;
     margin-bottom: 256px;
   }
 
-  .g--margin-horizontal-xl\@desktop {
+  .desktop\@g--margin-horizontal-xl {
     margin-left: 256px;
     margin-right: 256px;
   }
 
-  .g--margin-top-xl\@desktop {
+  .desktop\@g--margin-top-xl {
     margin-top: 256px;
   }
 
-  .g--margin-bottom-xl\@desktop {
+  .desktop\@g--margin-bottom-xl {
     margin-bottom: 256px;
   }
 
-  .g--margin-left-xl\@desktop {
+  .desktop\@g--margin-left-xl {
     margin-left: 256px;
   }
 
-  .g--margin-right-xl\@desktop {
+  .desktop\@g--margin-right-xl {
     margin-right: 256px;
   }
 
-  .g--margin-2xl\@desktop {
+  .desktop\@g--margin-2xl {
     margin: 512px;
   }
 
-  .g--margin-vertical-2xl\@desktop {
+  .desktop\@g--margin-vertical-2xl {
     margin-top: 512px;
     margin-bottom: 512px;
   }
 
-  .g--margin-horizontal-2xl\@desktop {
+  .desktop\@g--margin-horizontal-2xl {
     margin-left: 512px;
     margin-right: 512px;
   }
 
-  .g--margin-top-2xl\@desktop {
+  .desktop\@g--margin-top-2xl {
     margin-top: 512px;
   }
 
-  .g--margin-bottom-2xl\@desktop {
+  .desktop\@g--margin-bottom-2xl {
     margin-bottom: 512px;
   }
 
-  .g--margin-left-2xl\@desktop {
+  .desktop\@g--margin-left-2xl {
     margin-left: 512px;
   }
 
-  .g--margin-right-2xl\@desktop {
+  .desktop\@g--margin-right-2xl {
     margin-right: 512px;
   }
 
-  .g--margin-3xl\@desktop {
+  .desktop\@g--margin-3xl {
     margin: 1024px;
   }
 
-  .g--margin-vertical-3xl\@desktop {
+  .desktop\@g--margin-vertical-3xl {
     margin-top: 1024px;
     margin-bottom: 1024px;
   }
 
-  .g--margin-horizontal-3xl\@desktop {
+  .desktop\@g--margin-horizontal-3xl {
     margin-left: 1024px;
     margin-right: 1024px;
   }
 
-  .g--margin-top-3xl\@desktop {
+  .desktop\@g--margin-top-3xl {
     margin-top: 1024px;
   }
 
-  .g--margin-bottom-3xl\@desktop {
+  .desktop\@g--margin-bottom-3xl {
     margin-bottom: 1024px;
   }
 
-  .g--margin-left-3xl\@desktop {
+  .desktop\@g--margin-left-3xl {
     margin-left: 1024px;
   }
 
-  .g--margin-right-3xl\@desktop {
+  .desktop\@g--margin-right-3xl {
     margin-right: 1024px;
   }
 
-  .g--margin-auto\@desktop {
+  .desktop\@g--margin-auto {
     margin: auto;
   }
 
-  .g--margin-vertical-auto\@desktop {
+  .desktop\@g--margin-vertical-auto {
     margin-top: auto;
     margin-bottom: auto;
   }
 
-  .g--margin-horizontal-auto\@desktop {
+  .desktop\@g--margin-horizontal-auto {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .g--margin-top-auto\@desktop {
+  .desktop\@g--margin-top-auto {
     margin-top: auto;
   }
 
-  .g--margin-bottom-auto\@desktop {
+  .desktop\@g--margin-bottom-auto {
     margin-bottom: auto;
   }
 
-  .g--margin-left-auto\@desktop {
+  .desktop\@g--margin-left-auto {
     margin-left: auto;
   }
 
-  .g--margin-right-auto\@desktop {
+  .desktop\@g--margin-right-auto {
     margin-right: auto;
   }
 }
@@ -4388,905 +4388,905 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--padding-none\@mobile {
+  .mobile\@g--padding-none {
     padding: 0px;
   }
 
-  .g--padding-vertical-none\@mobile {
+  .mobile\@g--padding-vertical-none {
     padding-top: 0px;
     padding-bottom: 0px;
   }
 
-  .g--padding-horizontal-none\@mobile {
+  .mobile\@g--padding-horizontal-none {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  .g--padding-top-none\@mobile {
+  .mobile\@g--padding-top-none {
     padding-top: 0px;
   }
 
-  .g--padding-bottom-none\@mobile {
+  .mobile\@g--padding-bottom-none {
     padding-bottom: 0px;
   }
 
-  .g--padding-left-none\@mobile {
+  .mobile\@g--padding-left-none {
     padding-left: 0px;
   }
 
-  .g--padding-right-none\@mobile {
+  .mobile\@g--padding-right-none {
     padding-right: 0px;
   }
 
-  .g--padding-3xs\@mobile {
+  .mobile\@g--padding-3xs {
     padding: 3px;
   }
 
-  .g--padding-vertical-3xs\@mobile {
+  .mobile\@g--padding-vertical-3xs {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 
-  .g--padding-horizontal-3xs\@mobile {
+  .mobile\@g--padding-horizontal-3xs {
     padding-left: 3px;
     padding-right: 3px;
   }
 
-  .g--padding-top-3xs\@mobile {
+  .mobile\@g--padding-top-3xs {
     padding-top: 3px;
   }
 
-  .g--padding-bottom-3xs\@mobile {
+  .mobile\@g--padding-bottom-3xs {
     padding-bottom: 3px;
   }
 
-  .g--padding-left-3xs\@mobile {
+  .mobile\@g--padding-left-3xs {
     padding-left: 3px;
   }
 
-  .g--padding-right-3xs\@mobile {
+  .mobile\@g--padding-right-3xs {
     padding-right: 3px;
   }
 
-  .g--padding-2xs\@mobile {
+  .mobile\@g--padding-2xs {
     padding: 8px;
   }
 
-  .g--padding-vertical-2xs\@mobile {
+  .mobile\@g--padding-vertical-2xs {
     padding-top: 8px;
     padding-bottom: 8px;
   }
 
-  .g--padding-horizontal-2xs\@mobile {
+  .mobile\@g--padding-horizontal-2xs {
     padding-left: 8px;
     padding-right: 8px;
   }
 
-  .g--padding-top-2xs\@mobile {
+  .mobile\@g--padding-top-2xs {
     padding-top: 8px;
   }
 
-  .g--padding-bottom-2xs\@mobile {
+  .mobile\@g--padding-bottom-2xs {
     padding-bottom: 8px;
   }
 
-  .g--padding-left-2xs\@mobile {
+  .mobile\@g--padding-left-2xs {
     padding-left: 8px;
   }
 
-  .g--padding-right-2xs\@mobile {
+  .mobile\@g--padding-right-2xs {
     padding-right: 8px;
   }
 
-  .g--padding-xs\@mobile {
+  .mobile\@g--padding-xs {
     padding: 16px;
   }
 
-  .g--padding-vertical-xs\@mobile {
+  .mobile\@g--padding-vertical-xs {
     padding-top: 16px;
     padding-bottom: 16px;
   }
 
-  .g--padding-horizontal-xs\@mobile {
+  .mobile\@g--padding-horizontal-xs {
     padding-left: 16px;
     padding-right: 16px;
   }
 
-  .g--padding-top-xs\@mobile {
+  .mobile\@g--padding-top-xs {
     padding-top: 16px;
   }
 
-  .g--padding-bottom-xs\@mobile {
+  .mobile\@g--padding-bottom-xs {
     padding-bottom: 16px;
   }
 
-  .g--padding-left-xs\@mobile {
+  .mobile\@g--padding-left-xs {
     padding-left: 16px;
   }
 
-  .g--padding-right-xs\@mobile {
+  .mobile\@g--padding-right-xs {
     padding-right: 16px;
   }
 
-  .g--padding-s\@mobile {
+  .mobile\@g--padding-s {
     padding: 32px;
   }
 
-  .g--padding-vertical-s\@mobile {
+  .mobile\@g--padding-vertical-s {
     padding-top: 32px;
     padding-bottom: 32px;
   }
 
-  .g--padding-horizontal-s\@mobile {
+  .mobile\@g--padding-horizontal-s {
     padding-left: 32px;
     padding-right: 32px;
   }
 
-  .g--padding-top-s\@mobile {
+  .mobile\@g--padding-top-s {
     padding-top: 32px;
   }
 
-  .g--padding-bottom-s\@mobile {
+  .mobile\@g--padding-bottom-s {
     padding-bottom: 32px;
   }
 
-  .g--padding-left-s\@mobile {
+  .mobile\@g--padding-left-s {
     padding-left: 32px;
   }
 
-  .g--padding-right-s\@mobile {
+  .mobile\@g--padding-right-s {
     padding-right: 32px;
   }
 
-  .g--padding-m\@mobile {
+  .mobile\@g--padding-m {
     padding: 64px;
   }
 
-  .g--padding-vertical-m\@mobile {
+  .mobile\@g--padding-vertical-m {
     padding-top: 64px;
     padding-bottom: 64px;
   }
 
-  .g--padding-horizontal-m\@mobile {
+  .mobile\@g--padding-horizontal-m {
     padding-left: 64px;
     padding-right: 64px;
   }
 
-  .g--padding-top-m\@mobile {
+  .mobile\@g--padding-top-m {
     padding-top: 64px;
   }
 
-  .g--padding-bottom-m\@mobile {
+  .mobile\@g--padding-bottom-m {
     padding-bottom: 64px;
   }
 
-  .g--padding-left-m\@mobile {
+  .mobile\@g--padding-left-m {
     padding-left: 64px;
   }
 
-  .g--padding-right-m\@mobile {
+  .mobile\@g--padding-right-m {
     padding-right: 64px;
   }
 
-  .g--padding-l\@mobile {
+  .mobile\@g--padding-l {
     padding: 128px;
   }
 
-  .g--padding-vertical-l\@mobile {
+  .mobile\@g--padding-vertical-l {
     padding-top: 128px;
     padding-bottom: 128px;
   }
 
-  .g--padding-horizontal-l\@mobile {
+  .mobile\@g--padding-horizontal-l {
     padding-left: 128px;
     padding-right: 128px;
   }
 
-  .g--padding-top-l\@mobile {
+  .mobile\@g--padding-top-l {
     padding-top: 128px;
   }
 
-  .g--padding-bottom-l\@mobile {
+  .mobile\@g--padding-bottom-l {
     padding-bottom: 128px;
   }
 
-  .g--padding-left-l\@mobile {
+  .mobile\@g--padding-left-l {
     padding-left: 128px;
   }
 
-  .g--padding-right-l\@mobile {
+  .mobile\@g--padding-right-l {
     padding-right: 128px;
   }
 
-  .g--padding-xl\@mobile {
+  .mobile\@g--padding-xl {
     padding: 256px;
   }
 
-  .g--padding-vertical-xl\@mobile {
+  .mobile\@g--padding-vertical-xl {
     padding-top: 256px;
     padding-bottom: 256px;
   }
 
-  .g--padding-horizontal-xl\@mobile {
+  .mobile\@g--padding-horizontal-xl {
     padding-left: 256px;
     padding-right: 256px;
   }
 
-  .g--padding-top-xl\@mobile {
+  .mobile\@g--padding-top-xl {
     padding-top: 256px;
   }
 
-  .g--padding-bottom-xl\@mobile {
+  .mobile\@g--padding-bottom-xl {
     padding-bottom: 256px;
   }
 
-  .g--padding-left-xl\@mobile {
+  .mobile\@g--padding-left-xl {
     padding-left: 256px;
   }
 
-  .g--padding-right-xl\@mobile {
+  .mobile\@g--padding-right-xl {
     padding-right: 256px;
   }
 
-  .g--padding-2xl\@mobile {
+  .mobile\@g--padding-2xl {
     padding: 512px;
   }
 
-  .g--padding-vertical-2xl\@mobile {
+  .mobile\@g--padding-vertical-2xl {
     padding-top: 512px;
     padding-bottom: 512px;
   }
 
-  .g--padding-horizontal-2xl\@mobile {
+  .mobile\@g--padding-horizontal-2xl {
     padding-left: 512px;
     padding-right: 512px;
   }
 
-  .g--padding-top-2xl\@mobile {
+  .mobile\@g--padding-top-2xl {
     padding-top: 512px;
   }
 
-  .g--padding-bottom-2xl\@mobile {
+  .mobile\@g--padding-bottom-2xl {
     padding-bottom: 512px;
   }
 
-  .g--padding-left-2xl\@mobile {
+  .mobile\@g--padding-left-2xl {
     padding-left: 512px;
   }
 
-  .g--padding-right-2xl\@mobile {
+  .mobile\@g--padding-right-2xl {
     padding-right: 512px;
   }
 
-  .g--padding-3xl\@mobile {
+  .mobile\@g--padding-3xl {
     padding: 1024px;
   }
 
-  .g--padding-vertical-3xl\@mobile {
+  .mobile\@g--padding-vertical-3xl {
     padding-top: 1024px;
     padding-bottom: 1024px;
   }
 
-  .g--padding-horizontal-3xl\@mobile {
+  .mobile\@g--padding-horizontal-3xl {
     padding-left: 1024px;
     padding-right: 1024px;
   }
 
-  .g--padding-top-3xl\@mobile {
+  .mobile\@g--padding-top-3xl {
     padding-top: 1024px;
   }
 
-  .g--padding-bottom-3xl\@mobile {
+  .mobile\@g--padding-bottom-3xl {
     padding-bottom: 1024px;
   }
 
-  .g--padding-left-3xl\@mobile {
+  .mobile\@g--padding-left-3xl {
     padding-left: 1024px;
   }
 
-  .g--padding-right-3xl\@mobile {
+  .mobile\@g--padding-right-3xl {
     padding-right: 1024px;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--padding-none\@tablet {
+  .tablet\@g--padding-none {
     padding: 0px;
   }
 
-  .g--padding-vertical-none\@tablet {
+  .tablet\@g--padding-vertical-none {
     padding-top: 0px;
     padding-bottom: 0px;
   }
 
-  .g--padding-horizontal-none\@tablet {
+  .tablet\@g--padding-horizontal-none {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  .g--padding-top-none\@tablet {
+  .tablet\@g--padding-top-none {
     padding-top: 0px;
   }
 
-  .g--padding-bottom-none\@tablet {
+  .tablet\@g--padding-bottom-none {
     padding-bottom: 0px;
   }
 
-  .g--padding-left-none\@tablet {
+  .tablet\@g--padding-left-none {
     padding-left: 0px;
   }
 
-  .g--padding-right-none\@tablet {
+  .tablet\@g--padding-right-none {
     padding-right: 0px;
   }
 
-  .g--padding-3xs\@tablet {
+  .tablet\@g--padding-3xs {
     padding: 3px;
   }
 
-  .g--padding-vertical-3xs\@tablet {
+  .tablet\@g--padding-vertical-3xs {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 
-  .g--padding-horizontal-3xs\@tablet {
+  .tablet\@g--padding-horizontal-3xs {
     padding-left: 3px;
     padding-right: 3px;
   }
 
-  .g--padding-top-3xs\@tablet {
+  .tablet\@g--padding-top-3xs {
     padding-top: 3px;
   }
 
-  .g--padding-bottom-3xs\@tablet {
+  .tablet\@g--padding-bottom-3xs {
     padding-bottom: 3px;
   }
 
-  .g--padding-left-3xs\@tablet {
+  .tablet\@g--padding-left-3xs {
     padding-left: 3px;
   }
 
-  .g--padding-right-3xs\@tablet {
+  .tablet\@g--padding-right-3xs {
     padding-right: 3px;
   }
 
-  .g--padding-2xs\@tablet {
+  .tablet\@g--padding-2xs {
     padding: 8px;
   }
 
-  .g--padding-vertical-2xs\@tablet {
+  .tablet\@g--padding-vertical-2xs {
     padding-top: 8px;
     padding-bottom: 8px;
   }
 
-  .g--padding-horizontal-2xs\@tablet {
+  .tablet\@g--padding-horizontal-2xs {
     padding-left: 8px;
     padding-right: 8px;
   }
 
-  .g--padding-top-2xs\@tablet {
+  .tablet\@g--padding-top-2xs {
     padding-top: 8px;
   }
 
-  .g--padding-bottom-2xs\@tablet {
+  .tablet\@g--padding-bottom-2xs {
     padding-bottom: 8px;
   }
 
-  .g--padding-left-2xs\@tablet {
+  .tablet\@g--padding-left-2xs {
     padding-left: 8px;
   }
 
-  .g--padding-right-2xs\@tablet {
+  .tablet\@g--padding-right-2xs {
     padding-right: 8px;
   }
 
-  .g--padding-xs\@tablet {
+  .tablet\@g--padding-xs {
     padding: 16px;
   }
 
-  .g--padding-vertical-xs\@tablet {
+  .tablet\@g--padding-vertical-xs {
     padding-top: 16px;
     padding-bottom: 16px;
   }
 
-  .g--padding-horizontal-xs\@tablet {
+  .tablet\@g--padding-horizontal-xs {
     padding-left: 16px;
     padding-right: 16px;
   }
 
-  .g--padding-top-xs\@tablet {
+  .tablet\@g--padding-top-xs {
     padding-top: 16px;
   }
 
-  .g--padding-bottom-xs\@tablet {
+  .tablet\@g--padding-bottom-xs {
     padding-bottom: 16px;
   }
 
-  .g--padding-left-xs\@tablet {
+  .tablet\@g--padding-left-xs {
     padding-left: 16px;
   }
 
-  .g--padding-right-xs\@tablet {
+  .tablet\@g--padding-right-xs {
     padding-right: 16px;
   }
 
-  .g--padding-s\@tablet {
+  .tablet\@g--padding-s {
     padding: 32px;
   }
 
-  .g--padding-vertical-s\@tablet {
+  .tablet\@g--padding-vertical-s {
     padding-top: 32px;
     padding-bottom: 32px;
   }
 
-  .g--padding-horizontal-s\@tablet {
+  .tablet\@g--padding-horizontal-s {
     padding-left: 32px;
     padding-right: 32px;
   }
 
-  .g--padding-top-s\@tablet {
+  .tablet\@g--padding-top-s {
     padding-top: 32px;
   }
 
-  .g--padding-bottom-s\@tablet {
+  .tablet\@g--padding-bottom-s {
     padding-bottom: 32px;
   }
 
-  .g--padding-left-s\@tablet {
+  .tablet\@g--padding-left-s {
     padding-left: 32px;
   }
 
-  .g--padding-right-s\@tablet {
+  .tablet\@g--padding-right-s {
     padding-right: 32px;
   }
 
-  .g--padding-m\@tablet {
+  .tablet\@g--padding-m {
     padding: 64px;
   }
 
-  .g--padding-vertical-m\@tablet {
+  .tablet\@g--padding-vertical-m {
     padding-top: 64px;
     padding-bottom: 64px;
   }
 
-  .g--padding-horizontal-m\@tablet {
+  .tablet\@g--padding-horizontal-m {
     padding-left: 64px;
     padding-right: 64px;
   }
 
-  .g--padding-top-m\@tablet {
+  .tablet\@g--padding-top-m {
     padding-top: 64px;
   }
 
-  .g--padding-bottom-m\@tablet {
+  .tablet\@g--padding-bottom-m {
     padding-bottom: 64px;
   }
 
-  .g--padding-left-m\@tablet {
+  .tablet\@g--padding-left-m {
     padding-left: 64px;
   }
 
-  .g--padding-right-m\@tablet {
+  .tablet\@g--padding-right-m {
     padding-right: 64px;
   }
 
-  .g--padding-l\@tablet {
+  .tablet\@g--padding-l {
     padding: 128px;
   }
 
-  .g--padding-vertical-l\@tablet {
+  .tablet\@g--padding-vertical-l {
     padding-top: 128px;
     padding-bottom: 128px;
   }
 
-  .g--padding-horizontal-l\@tablet {
+  .tablet\@g--padding-horizontal-l {
     padding-left: 128px;
     padding-right: 128px;
   }
 
-  .g--padding-top-l\@tablet {
+  .tablet\@g--padding-top-l {
     padding-top: 128px;
   }
 
-  .g--padding-bottom-l\@tablet {
+  .tablet\@g--padding-bottom-l {
     padding-bottom: 128px;
   }
 
-  .g--padding-left-l\@tablet {
+  .tablet\@g--padding-left-l {
     padding-left: 128px;
   }
 
-  .g--padding-right-l\@tablet {
+  .tablet\@g--padding-right-l {
     padding-right: 128px;
   }
 
-  .g--padding-xl\@tablet {
+  .tablet\@g--padding-xl {
     padding: 256px;
   }
 
-  .g--padding-vertical-xl\@tablet {
+  .tablet\@g--padding-vertical-xl {
     padding-top: 256px;
     padding-bottom: 256px;
   }
 
-  .g--padding-horizontal-xl\@tablet {
+  .tablet\@g--padding-horizontal-xl {
     padding-left: 256px;
     padding-right: 256px;
   }
 
-  .g--padding-top-xl\@tablet {
+  .tablet\@g--padding-top-xl {
     padding-top: 256px;
   }
 
-  .g--padding-bottom-xl\@tablet {
+  .tablet\@g--padding-bottom-xl {
     padding-bottom: 256px;
   }
 
-  .g--padding-left-xl\@tablet {
+  .tablet\@g--padding-left-xl {
     padding-left: 256px;
   }
 
-  .g--padding-right-xl\@tablet {
+  .tablet\@g--padding-right-xl {
     padding-right: 256px;
   }
 
-  .g--padding-2xl\@tablet {
+  .tablet\@g--padding-2xl {
     padding: 512px;
   }
 
-  .g--padding-vertical-2xl\@tablet {
+  .tablet\@g--padding-vertical-2xl {
     padding-top: 512px;
     padding-bottom: 512px;
   }
 
-  .g--padding-horizontal-2xl\@tablet {
+  .tablet\@g--padding-horizontal-2xl {
     padding-left: 512px;
     padding-right: 512px;
   }
 
-  .g--padding-top-2xl\@tablet {
+  .tablet\@g--padding-top-2xl {
     padding-top: 512px;
   }
 
-  .g--padding-bottom-2xl\@tablet {
+  .tablet\@g--padding-bottom-2xl {
     padding-bottom: 512px;
   }
 
-  .g--padding-left-2xl\@tablet {
+  .tablet\@g--padding-left-2xl {
     padding-left: 512px;
   }
 
-  .g--padding-right-2xl\@tablet {
+  .tablet\@g--padding-right-2xl {
     padding-right: 512px;
   }
 
-  .g--padding-3xl\@tablet {
+  .tablet\@g--padding-3xl {
     padding: 1024px;
   }
 
-  .g--padding-vertical-3xl\@tablet {
+  .tablet\@g--padding-vertical-3xl {
     padding-top: 1024px;
     padding-bottom: 1024px;
   }
 
-  .g--padding-horizontal-3xl\@tablet {
+  .tablet\@g--padding-horizontal-3xl {
     padding-left: 1024px;
     padding-right: 1024px;
   }
 
-  .g--padding-top-3xl\@tablet {
+  .tablet\@g--padding-top-3xl {
     padding-top: 1024px;
   }
 
-  .g--padding-bottom-3xl\@tablet {
+  .tablet\@g--padding-bottom-3xl {
     padding-bottom: 1024px;
   }
 
-  .g--padding-left-3xl\@tablet {
+  .tablet\@g--padding-left-3xl {
     padding-left: 1024px;
   }
 
-  .g--padding-right-3xl\@tablet {
+  .tablet\@g--padding-right-3xl {
     padding-right: 1024px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--padding-none\@desktop {
+  .desktop\@g--padding-none {
     padding: 0px;
   }
 
-  .g--padding-vertical-none\@desktop {
+  .desktop\@g--padding-vertical-none {
     padding-top: 0px;
     padding-bottom: 0px;
   }
 
-  .g--padding-horizontal-none\@desktop {
+  .desktop\@g--padding-horizontal-none {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  .g--padding-top-none\@desktop {
+  .desktop\@g--padding-top-none {
     padding-top: 0px;
   }
 
-  .g--padding-bottom-none\@desktop {
+  .desktop\@g--padding-bottom-none {
     padding-bottom: 0px;
   }
 
-  .g--padding-left-none\@desktop {
+  .desktop\@g--padding-left-none {
     padding-left: 0px;
   }
 
-  .g--padding-right-none\@desktop {
+  .desktop\@g--padding-right-none {
     padding-right: 0px;
   }
 
-  .g--padding-3xs\@desktop {
+  .desktop\@g--padding-3xs {
     padding: 3px;
   }
 
-  .g--padding-vertical-3xs\@desktop {
+  .desktop\@g--padding-vertical-3xs {
     padding-top: 3px;
     padding-bottom: 3px;
   }
 
-  .g--padding-horizontal-3xs\@desktop {
+  .desktop\@g--padding-horizontal-3xs {
     padding-left: 3px;
     padding-right: 3px;
   }
 
-  .g--padding-top-3xs\@desktop {
+  .desktop\@g--padding-top-3xs {
     padding-top: 3px;
   }
 
-  .g--padding-bottom-3xs\@desktop {
+  .desktop\@g--padding-bottom-3xs {
     padding-bottom: 3px;
   }
 
-  .g--padding-left-3xs\@desktop {
+  .desktop\@g--padding-left-3xs {
     padding-left: 3px;
   }
 
-  .g--padding-right-3xs\@desktop {
+  .desktop\@g--padding-right-3xs {
     padding-right: 3px;
   }
 
-  .g--padding-2xs\@desktop {
+  .desktop\@g--padding-2xs {
     padding: 8px;
   }
 
-  .g--padding-vertical-2xs\@desktop {
+  .desktop\@g--padding-vertical-2xs {
     padding-top: 8px;
     padding-bottom: 8px;
   }
 
-  .g--padding-horizontal-2xs\@desktop {
+  .desktop\@g--padding-horizontal-2xs {
     padding-left: 8px;
     padding-right: 8px;
   }
 
-  .g--padding-top-2xs\@desktop {
+  .desktop\@g--padding-top-2xs {
     padding-top: 8px;
   }
 
-  .g--padding-bottom-2xs\@desktop {
+  .desktop\@g--padding-bottom-2xs {
     padding-bottom: 8px;
   }
 
-  .g--padding-left-2xs\@desktop {
+  .desktop\@g--padding-left-2xs {
     padding-left: 8px;
   }
 
-  .g--padding-right-2xs\@desktop {
+  .desktop\@g--padding-right-2xs {
     padding-right: 8px;
   }
 
-  .g--padding-xs\@desktop {
+  .desktop\@g--padding-xs {
     padding: 16px;
   }
 
-  .g--padding-vertical-xs\@desktop {
+  .desktop\@g--padding-vertical-xs {
     padding-top: 16px;
     padding-bottom: 16px;
   }
 
-  .g--padding-horizontal-xs\@desktop {
+  .desktop\@g--padding-horizontal-xs {
     padding-left: 16px;
     padding-right: 16px;
   }
 
-  .g--padding-top-xs\@desktop {
+  .desktop\@g--padding-top-xs {
     padding-top: 16px;
   }
 
-  .g--padding-bottom-xs\@desktop {
+  .desktop\@g--padding-bottom-xs {
     padding-bottom: 16px;
   }
 
-  .g--padding-left-xs\@desktop {
+  .desktop\@g--padding-left-xs {
     padding-left: 16px;
   }
 
-  .g--padding-right-xs\@desktop {
+  .desktop\@g--padding-right-xs {
     padding-right: 16px;
   }
 
-  .g--padding-s\@desktop {
+  .desktop\@g--padding-s {
     padding: 32px;
   }
 
-  .g--padding-vertical-s\@desktop {
+  .desktop\@g--padding-vertical-s {
     padding-top: 32px;
     padding-bottom: 32px;
   }
 
-  .g--padding-horizontal-s\@desktop {
+  .desktop\@g--padding-horizontal-s {
     padding-left: 32px;
     padding-right: 32px;
   }
 
-  .g--padding-top-s\@desktop {
+  .desktop\@g--padding-top-s {
     padding-top: 32px;
   }
 
-  .g--padding-bottom-s\@desktop {
+  .desktop\@g--padding-bottom-s {
     padding-bottom: 32px;
   }
 
-  .g--padding-left-s\@desktop {
+  .desktop\@g--padding-left-s {
     padding-left: 32px;
   }
 
-  .g--padding-right-s\@desktop {
+  .desktop\@g--padding-right-s {
     padding-right: 32px;
   }
 
-  .g--padding-m\@desktop {
+  .desktop\@g--padding-m {
     padding: 64px;
   }
 
-  .g--padding-vertical-m\@desktop {
+  .desktop\@g--padding-vertical-m {
     padding-top: 64px;
     padding-bottom: 64px;
   }
 
-  .g--padding-horizontal-m\@desktop {
+  .desktop\@g--padding-horizontal-m {
     padding-left: 64px;
     padding-right: 64px;
   }
 
-  .g--padding-top-m\@desktop {
+  .desktop\@g--padding-top-m {
     padding-top: 64px;
   }
 
-  .g--padding-bottom-m\@desktop {
+  .desktop\@g--padding-bottom-m {
     padding-bottom: 64px;
   }
 
-  .g--padding-left-m\@desktop {
+  .desktop\@g--padding-left-m {
     padding-left: 64px;
   }
 
-  .g--padding-right-m\@desktop {
+  .desktop\@g--padding-right-m {
     padding-right: 64px;
   }
 
-  .g--padding-l\@desktop {
+  .desktop\@g--padding-l {
     padding: 128px;
   }
 
-  .g--padding-vertical-l\@desktop {
+  .desktop\@g--padding-vertical-l {
     padding-top: 128px;
     padding-bottom: 128px;
   }
 
-  .g--padding-horizontal-l\@desktop {
+  .desktop\@g--padding-horizontal-l {
     padding-left: 128px;
     padding-right: 128px;
   }
 
-  .g--padding-top-l\@desktop {
+  .desktop\@g--padding-top-l {
     padding-top: 128px;
   }
 
-  .g--padding-bottom-l\@desktop {
+  .desktop\@g--padding-bottom-l {
     padding-bottom: 128px;
   }
 
-  .g--padding-left-l\@desktop {
+  .desktop\@g--padding-left-l {
     padding-left: 128px;
   }
 
-  .g--padding-right-l\@desktop {
+  .desktop\@g--padding-right-l {
     padding-right: 128px;
   }
 
-  .g--padding-xl\@desktop {
+  .desktop\@g--padding-xl {
     padding: 256px;
   }
 
-  .g--padding-vertical-xl\@desktop {
+  .desktop\@g--padding-vertical-xl {
     padding-top: 256px;
     padding-bottom: 256px;
   }
 
-  .g--padding-horizontal-xl\@desktop {
+  .desktop\@g--padding-horizontal-xl {
     padding-left: 256px;
     padding-right: 256px;
   }
 
-  .g--padding-top-xl\@desktop {
+  .desktop\@g--padding-top-xl {
     padding-top: 256px;
   }
 
-  .g--padding-bottom-xl\@desktop {
+  .desktop\@g--padding-bottom-xl {
     padding-bottom: 256px;
   }
 
-  .g--padding-left-xl\@desktop {
+  .desktop\@g--padding-left-xl {
     padding-left: 256px;
   }
 
-  .g--padding-right-xl\@desktop {
+  .desktop\@g--padding-right-xl {
     padding-right: 256px;
   }
 
-  .g--padding-2xl\@desktop {
+  .desktop\@g--padding-2xl {
     padding: 512px;
   }
 
-  .g--padding-vertical-2xl\@desktop {
+  .desktop\@g--padding-vertical-2xl {
     padding-top: 512px;
     padding-bottom: 512px;
   }
 
-  .g--padding-horizontal-2xl\@desktop {
+  .desktop\@g--padding-horizontal-2xl {
     padding-left: 512px;
     padding-right: 512px;
   }
 
-  .g--padding-top-2xl\@desktop {
+  .desktop\@g--padding-top-2xl {
     padding-top: 512px;
   }
 
-  .g--padding-bottom-2xl\@desktop {
+  .desktop\@g--padding-bottom-2xl {
     padding-bottom: 512px;
   }
 
-  .g--padding-left-2xl\@desktop {
+  .desktop\@g--padding-left-2xl {
     padding-left: 512px;
   }
 
-  .g--padding-right-2xl\@desktop {
+  .desktop\@g--padding-right-2xl {
     padding-right: 512px;
   }
 
-  .g--padding-3xl\@desktop {
+  .desktop\@g--padding-3xl {
     padding: 1024px;
   }
 
-  .g--padding-vertical-3xl\@desktop {
+  .desktop\@g--padding-vertical-3xl {
     padding-top: 1024px;
     padding-bottom: 1024px;
   }
 
-  .g--padding-horizontal-3xl\@desktop {
+  .desktop\@g--padding-horizontal-3xl {
     padding-left: 1024px;
     padding-right: 1024px;
   }
 
-  .g--padding-top-3xl\@desktop {
+  .desktop\@g--padding-top-3xl {
     padding-top: 1024px;
   }
 
-  .g--padding-bottom-3xl\@desktop {
+  .desktop\@g--padding-bottom-3xl {
     padding-bottom: 1024px;
   }
 
-  .g--padding-left-3xl\@desktop {
+  .desktop\@g--padding-left-3xl {
     padding-left: 1024px;
   }
 
-  .g--padding-right-3xl\@desktop {
+  .desktop\@g--padding-right-3xl {
     padding-right: 1024px;
   }
 }
@@ -5335,137 +5335,137 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--font-size-4xs\@mobile {
+  .mobile\@g--font-size-4xs {
     font-size: 12px;
   }
 
-  .g--font-size-3xs\@mobile {
+  .mobile\@g--font-size-3xs {
     font-size: 12px;
   }
 
-  .g--font-size-2xs\@mobile {
+  .mobile\@g--font-size-2xs {
     font-size: 14px;
   }
 
-  .g--font-size-xs\@mobile {
+  .mobile\@g--font-size-xs {
     font-size: 16px;
   }
 
-  .g--font-size-s\@mobile {
+  .mobile\@g--font-size-s {
     font-size: 18px;
   }
 
-  .g--font-size-m\@mobile {
+  .mobile\@g--font-size-m {
     font-size: 20px;
   }
 
-  .g--font-size-l\@mobile {
+  .mobile\@g--font-size-l {
     font-size: 24px;
   }
 
-  .g--font-size-xl\@mobile {
+  .mobile\@g--font-size-xl {
     font-size: 30px;
   }
 
-  .g--font-size-2xl\@mobile {
+  .mobile\@g--font-size-2xl {
     font-size: 36px;
   }
 
-  .g--font-size-3xl\@mobile {
+  .mobile\@g--font-size-3xl {
     font-size: 48px;
   }
 
-  .g--font-size-4xl\@mobile {
+  .mobile\@g--font-size-4xl {
     font-size: 64px;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--font-size-4xs\@tablet {
+  .tablet\@g--font-size-4xs {
     font-size: 12px;
   }
 
-  .g--font-size-3xs\@tablet {
+  .tablet\@g--font-size-3xs {
     font-size: 12px;
   }
 
-  .g--font-size-2xs\@tablet {
+  .tablet\@g--font-size-2xs {
     font-size: 14px;
   }
 
-  .g--font-size-xs\@tablet {
+  .tablet\@g--font-size-xs {
     font-size: 16px;
   }
 
-  .g--font-size-s\@tablet {
+  .tablet\@g--font-size-s {
     font-size: 18px;
   }
 
-  .g--font-size-m\@tablet {
+  .tablet\@g--font-size-m {
     font-size: 20px;
   }
 
-  .g--font-size-l\@tablet {
+  .tablet\@g--font-size-l {
     font-size: 24px;
   }
 
-  .g--font-size-xl\@tablet {
+  .tablet\@g--font-size-xl {
     font-size: 30px;
   }
 
-  .g--font-size-2xl\@tablet {
+  .tablet\@g--font-size-2xl {
     font-size: 36px;
   }
 
-  .g--font-size-3xl\@tablet {
+  .tablet\@g--font-size-3xl {
     font-size: 48px;
   }
 
-  .g--font-size-4xl\@tablet {
+  .tablet\@g--font-size-4xl {
     font-size: 64px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--font-size-4xs\@desktop {
+  .desktop\@g--font-size-4xs {
     font-size: 12px;
   }
 
-  .g--font-size-3xs\@desktop {
+  .desktop\@g--font-size-3xs {
     font-size: 12px;
   }
 
-  .g--font-size-2xs\@desktop {
+  .desktop\@g--font-size-2xs {
     font-size: 14px;
   }
 
-  .g--font-size-xs\@desktop {
+  .desktop\@g--font-size-xs {
     font-size: 16px;
   }
 
-  .g--font-size-s\@desktop {
+  .desktop\@g--font-size-s {
     font-size: 18px;
   }
 
-  .g--font-size-m\@desktop {
+  .desktop\@g--font-size-m {
     font-size: 20px;
   }
 
-  .g--font-size-l\@desktop {
+  .desktop\@g--font-size-l {
     font-size: 24px;
   }
 
-  .g--font-size-xl\@desktop {
+  .desktop\@g--font-size-xl {
     font-size: 30px;
   }
 
-  .g--font-size-2xl\@desktop {
+  .desktop\@g--font-size-2xl {
     font-size: 36px;
   }
 
-  .g--font-size-3xl\@desktop {
+  .desktop\@g--font-size-3xl {
     font-size: 48px;
   }
 
-  .g--font-size-4xl\@desktop {
+  .desktop\@g--font-size-4xl {
     font-size: 64px;
   }
 }
@@ -5762,881 +5762,881 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--bg-color-white-1-\@mobile {
+  .mobile\@g--bg-color-white-1 {
     background-color: #ffffff;
   }
 
-  .g--bg-color-white-2-\@mobile {
+  .mobile\@g--bg-color-white-2 {
     background-color: #fcfcfc;
   }
 
-  .g--bg-color-white-3-\@mobile {
+  .mobile\@g--bg-color-white-3 {
     background-color: #fafafa;
   }
 
-  .g--bg-color-white-4-\@mobile {
+  .mobile\@g--bg-color-white-4 {
     background-color: #f7f7f7;
   }
 
-  .g--bg-color-white-5-\@mobile {
+  .mobile\@g--bg-color-white-5 {
     background-color: #f5f5f5;
   }
 
-  .g--bg-color-white-6-\@mobile {
+  .mobile\@g--bg-color-white-6 {
     background-color: #f2f2f2;
   }
 
-  .g--bg-color-white-7-\@mobile {
+  .mobile\@g--bg-color-white-7 {
     background-color: #f0f0f0;
   }
 
-  .g--bg-color-white-8-\@mobile {
+  .mobile\@g--bg-color-white-8 {
     background-color: #ededed;
   }
 
-  .g--bg-color-white-9-\@mobile {
+  .mobile\@g--bg-color-white-9 {
     background-color: #ebebeb;
   }
 
-  .g--bg-color-grey-1-\@mobile {
+  .mobile\@g--bg-color-grey-1 {
     background-color: #f0f0f0;
   }
 
-  .g--bg-color-grey-2-\@mobile {
+  .mobile\@g--bg-color-grey-2 {
     background-color: #d9d9d9;
   }
 
-  .g--bg-color-grey-3-\@mobile {
+  .mobile\@g--bg-color-grey-3 {
     background-color: #c2c2c2;
   }
 
-  .g--bg-color-grey-4-\@mobile {
+  .mobile\@g--bg-color-grey-4 {
     background-color: #ababab;
   }
 
-  .g--bg-color-grey-5-\@mobile {
+  .mobile\@g--bg-color-grey-5 {
     background-color: #949494;
   }
 
-  .g--bg-color-grey-6-\@mobile {
+  .mobile\@g--bg-color-grey-6 {
     background-color: #7d7d7d;
   }
 
-  .g--bg-color-grey-7-\@mobile {
+  .mobile\@g--bg-color-grey-7 {
     background-color: #666666;
   }
 
-  .g--bg-color-grey-8-\@mobile {
+  .mobile\@g--bg-color-grey-8 {
     background-color: #4f4f4f;
   }
 
-  .g--bg-color-grey-9-\@mobile {
+  .mobile\@g--bg-color-grey-9 {
     background-color: #383838;
   }
 
-  .g--bg-color-black-\@mobile {
+  .mobile\@g--bg-color-black {
     background-color: #000000;
   }
 
-  .g--bg-color-red-1-\@mobile {
+  .mobile\@g--bg-color-red-1 {
     background-color: #fff5f5;
   }
 
-  .g--bg-color-red-2-\@mobile {
+  .mobile\@g--bg-color-red-2 {
     background-color: #fed7d7;
   }
 
-  .g--bg-color-red-3-\@mobile {
+  .mobile\@g--bg-color-red-3 {
     background-color: #feb2b2;
   }
 
-  .g--bg-color-red-4-\@mobile {
+  .mobile\@g--bg-color-red-4 {
     background-color: #fc8181;
   }
 
-  .g--bg-color-red-5-\@mobile {
+  .mobile\@g--bg-color-red-5 {
     background-color: #f56565;
   }
 
-  .g--bg-color-red-6-\@mobile {
+  .mobile\@g--bg-color-red-6 {
     background-color: #e53e3e;
   }
 
-  .g--bg-color-red-7-\@mobile {
+  .mobile\@g--bg-color-red-7 {
     background-color: #c53030;
   }
 
-  .g--bg-color-red-8-\@mobile {
+  .mobile\@g--bg-color-red-8 {
     background-color: #9b2c2c;
   }
 
-  .g--bg-color-red-9-\@mobile {
+  .mobile\@g--bg-color-red-9 {
     background-color: #742a2a;
   }
 
-  .g--bg-color-green-1-\@mobile {
+  .mobile\@g--bg-color-green-1 {
     background-color: #f0fff4;
   }
 
-  .g--bg-color-green-2-\@mobile {
+  .mobile\@g--bg-color-green-2 {
     background-color: #c6f6d5;
   }
 
-  .g--bg-color-green-3-\@mobile {
+  .mobile\@g--bg-color-green-3 {
     background-color: #9ae6b4;
   }
 
-  .g--bg-color-green-4-\@mobile {
+  .mobile\@g--bg-color-green-4 {
     background-color: #68d391;
   }
 
-  .g--bg-color-green-5-\@mobile {
+  .mobile\@g--bg-color-green-5 {
     background-color: #48bb78;
   }
 
-  .g--bg-color-green-6-\@mobile {
+  .mobile\@g--bg-color-green-6 {
     background-color: #38a169;
   }
 
-  .g--bg-color-green-7-\@mobile {
+  .mobile\@g--bg-color-green-7 {
     background-color: #2f855a;
   }
 
-  .g--bg-color-green-8-\@mobile {
+  .mobile\@g--bg-color-green-8 {
     background-color: #276749;
   }
 
-  .g--bg-color-green-9-\@mobile {
+  .mobile\@g--bg-color-green-9 {
     background-color: #22543d;
   }
 
-  .g--bg-color-blue-1-\@mobile {
+  .mobile\@g--bg-color-blue-1 {
     background-color: #f0f7ff;
   }
 
-  .g--bg-color-blue-2-\@mobile {
+  .mobile\@g--bg-color-blue-2 {
     background-color: #bddcff;
   }
 
-  .g--bg-color-blue-3-\@mobile {
+  .mobile\@g--bg-color-blue-3 {
     background-color: #8ac0ff;
   }
 
-  .g--bg-color-blue-4-\@mobile {
+  .mobile\@g--bg-color-blue-4 {
     background-color: #52a3ff;
   }
 
-  .g--bg-color-blue-5-\@mobile {
+  .mobile\@g--bg-color-blue-5 {
     background-color: #1f87ff;
   }
 
-  .g--bg-color-blue-6-\@mobile {
+  .mobile\@g--bg-color-blue-6 {
     background-color: #006deb;
   }
 
-  .g--bg-color-blue-7-\@mobile {
+  .mobile\@g--bg-color-blue-7 {
     background-color: #0056b8;
   }
 
-  .g--bg-color-blue-8-\@mobile {
+  .mobile\@g--bg-color-blue-8 {
     background-color: #003b80;
   }
 
-  .g--bg-color-blue-9-\@mobile {
+  .mobile\@g--bg-color-blue-9 {
     background-color: #00244d;
   }
 
-  .g--bg-color-yellow-1-\@mobile {
+  .mobile\@g--bg-color-yellow-1 {
     background-color: #fffff0;
   }
 
-  .g--bg-color-yellow-2-\@mobile {
+  .mobile\@g--bg-color-yellow-2 {
     background-color: #fefcbf;
   }
 
-  .g--bg-color-yellow-3-\@mobile {
+  .mobile\@g--bg-color-yellow-3 {
     background-color: #faf089;
   }
 
-  .g--bg-color-yellow-4-\@mobile {
+  .mobile\@g--bg-color-yellow-4 {
     background-color: #f6e05e;
   }
 
-  .g--bg-color-yellow-5-\@mobile {
+  .mobile\@g--bg-color-yellow-5 {
     background-color: #ecc94b;
   }
 
-  .g--bg-color-yellow-6-\@mobile {
+  .mobile\@g--bg-color-yellow-6 {
     background-color: #d69e2e;
   }
 
-  .g--bg-color-yellow-7-\@mobile {
+  .mobile\@g--bg-color-yellow-7 {
     background-color: #b7791f;
   }
 
-  .g--bg-color-yellow-8-\@mobile {
+  .mobile\@g--bg-color-yellow-8 {
     background-color: #975a16;
   }
 
-  .g--bg-color-yellow-9-\@mobile {
+  .mobile\@g--bg-color-yellow-9 {
     background-color: #744210;
   }
 
-  .g--bg-color-default-1-\@mobile {
+  .mobile\@g--bg-color-default-1 {
     background-color: #f0f7ff;
   }
 
-  .g--bg-color-default-2-\@mobile {
+  .mobile\@g--bg-color-default-2 {
     background-color: #bddcff;
   }
 
-  .g--bg-color-default-3-\@mobile {
+  .mobile\@g--bg-color-default-3 {
     background-color: #8ac0ff;
   }
 
-  .g--bg-color-default-4-\@mobile {
+  .mobile\@g--bg-color-default-4 {
     background-color: #52a3ff;
   }
 
-  .g--bg-color-default-5-\@mobile {
+  .mobile\@g--bg-color-default-5 {
     background-color: #1f87ff;
   }
 
-  .g--bg-color-default-6-\@mobile {
+  .mobile\@g--bg-color-default-6 {
     background-color: #006deb;
   }
 
-  .g--bg-color-default-7-\@mobile {
+  .mobile\@g--bg-color-default-7 {
     background-color: #0056b8;
   }
 
-  .g--bg-color-default-8-\@mobile {
+  .mobile\@g--bg-color-default-8 {
     background-color: #003b80;
   }
 
-  .g--bg-color-default-9-\@mobile {
+  .mobile\@g--bg-color-default-9 {
     background-color: #00244d;
   }
 
-  .g--bg-color-alt-1-\@mobile {
+  .mobile\@g--bg-color-alt-1 {
     background-color: #fffaf0;
   }
 
-  .g--bg-color-alt-2-\@mobile {
+  .mobile\@g--bg-color-alt-2 {
     background-color: #feebc8;
   }
 
-  .g--bg-color-alt-3-\@mobile {
+  .mobile\@g--bg-color-alt-3 {
     background-color: #fbd38d;
   }
 
-  .g--bg-color-alt-4-\@mobile {
+  .mobile\@g--bg-color-alt-4 {
     background-color: #f6ad55;
   }
 
-  .g--bg-color-alt-5-\@mobile {
+  .mobile\@g--bg-color-alt-5 {
     background-color: #ed8936;
   }
 
-  .g--bg-color-alt-6-\@mobile {
+  .mobile\@g--bg-color-alt-6 {
     background-color: #dd6b20;
   }
 
-  .g--bg-color-alt-7-\@mobile {
+  .mobile\@g--bg-color-alt-7 {
     background-color: #c05621;
   }
 
-  .g--bg-color-alt-8-\@mobile {
+  .mobile\@g--bg-color-alt-8 {
     background-color: #9c4221;
   }
 
-  .g--bg-color-alt-9-\@mobile {
+  .mobile\@g--bg-color-alt-9 {
     background-color: #7b341e;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--bg-color-white-1-\@tablet {
+  .tablet\@g--bg-color-white-1 {
     background-color: #ffffff;
   }
 
-  .g--bg-color-white-2-\@tablet {
+  .tablet\@g--bg-color-white-2 {
     background-color: #fcfcfc;
   }
 
-  .g--bg-color-white-3-\@tablet {
+  .tablet\@g--bg-color-white-3 {
     background-color: #fafafa;
   }
 
-  .g--bg-color-white-4-\@tablet {
+  .tablet\@g--bg-color-white-4 {
     background-color: #f7f7f7;
   }
 
-  .g--bg-color-white-5-\@tablet {
+  .tablet\@g--bg-color-white-5 {
     background-color: #f5f5f5;
   }
 
-  .g--bg-color-white-6-\@tablet {
+  .tablet\@g--bg-color-white-6 {
     background-color: #f2f2f2;
   }
 
-  .g--bg-color-white-7-\@tablet {
+  .tablet\@g--bg-color-white-7 {
     background-color: #f0f0f0;
   }
 
-  .g--bg-color-white-8-\@tablet {
+  .tablet\@g--bg-color-white-8 {
     background-color: #ededed;
   }
 
-  .g--bg-color-white-9-\@tablet {
+  .tablet\@g--bg-color-white-9 {
     background-color: #ebebeb;
   }
 
-  .g--bg-color-grey-1-\@tablet {
+  .tablet\@g--bg-color-grey-1 {
     background-color: #f0f0f0;
   }
 
-  .g--bg-color-grey-2-\@tablet {
+  .tablet\@g--bg-color-grey-2 {
     background-color: #d9d9d9;
   }
 
-  .g--bg-color-grey-3-\@tablet {
+  .tablet\@g--bg-color-grey-3 {
     background-color: #c2c2c2;
   }
 
-  .g--bg-color-grey-4-\@tablet {
+  .tablet\@g--bg-color-grey-4 {
     background-color: #ababab;
   }
 
-  .g--bg-color-grey-5-\@tablet {
+  .tablet\@g--bg-color-grey-5 {
     background-color: #949494;
   }
 
-  .g--bg-color-grey-6-\@tablet {
+  .tablet\@g--bg-color-grey-6 {
     background-color: #7d7d7d;
   }
 
-  .g--bg-color-grey-7-\@tablet {
+  .tablet\@g--bg-color-grey-7 {
     background-color: #666666;
   }
 
-  .g--bg-color-grey-8-\@tablet {
+  .tablet\@g--bg-color-grey-8 {
     background-color: #4f4f4f;
   }
 
-  .g--bg-color-grey-9-\@tablet {
+  .tablet\@g--bg-color-grey-9 {
     background-color: #383838;
   }
 
-  .g--bg-color-black-\@tablet {
+  .tablet\@g--bg-color-black {
     background-color: #000000;
   }
 
-  .g--bg-color-red-1-\@tablet {
+  .tablet\@g--bg-color-red-1 {
     background-color: #fff5f5;
   }
 
-  .g--bg-color-red-2-\@tablet {
+  .tablet\@g--bg-color-red-2 {
     background-color: #fed7d7;
   }
 
-  .g--bg-color-red-3-\@tablet {
+  .tablet\@g--bg-color-red-3 {
     background-color: #feb2b2;
   }
 
-  .g--bg-color-red-4-\@tablet {
+  .tablet\@g--bg-color-red-4 {
     background-color: #fc8181;
   }
 
-  .g--bg-color-red-5-\@tablet {
+  .tablet\@g--bg-color-red-5 {
     background-color: #f56565;
   }
 
-  .g--bg-color-red-6-\@tablet {
+  .tablet\@g--bg-color-red-6 {
     background-color: #e53e3e;
   }
 
-  .g--bg-color-red-7-\@tablet {
+  .tablet\@g--bg-color-red-7 {
     background-color: #c53030;
   }
 
-  .g--bg-color-red-8-\@tablet {
+  .tablet\@g--bg-color-red-8 {
     background-color: #9b2c2c;
   }
 
-  .g--bg-color-red-9-\@tablet {
+  .tablet\@g--bg-color-red-9 {
     background-color: #742a2a;
   }
 
-  .g--bg-color-green-1-\@tablet {
+  .tablet\@g--bg-color-green-1 {
     background-color: #f0fff4;
   }
 
-  .g--bg-color-green-2-\@tablet {
+  .tablet\@g--bg-color-green-2 {
     background-color: #c6f6d5;
   }
 
-  .g--bg-color-green-3-\@tablet {
+  .tablet\@g--bg-color-green-3 {
     background-color: #9ae6b4;
   }
 
-  .g--bg-color-green-4-\@tablet {
+  .tablet\@g--bg-color-green-4 {
     background-color: #68d391;
   }
 
-  .g--bg-color-green-5-\@tablet {
+  .tablet\@g--bg-color-green-5 {
     background-color: #48bb78;
   }
 
-  .g--bg-color-green-6-\@tablet {
+  .tablet\@g--bg-color-green-6 {
     background-color: #38a169;
   }
 
-  .g--bg-color-green-7-\@tablet {
+  .tablet\@g--bg-color-green-7 {
     background-color: #2f855a;
   }
 
-  .g--bg-color-green-8-\@tablet {
+  .tablet\@g--bg-color-green-8 {
     background-color: #276749;
   }
 
-  .g--bg-color-green-9-\@tablet {
+  .tablet\@g--bg-color-green-9 {
     background-color: #22543d;
   }
 
-  .g--bg-color-blue-1-\@tablet {
+  .tablet\@g--bg-color-blue-1 {
     background-color: #f0f7ff;
   }
 
-  .g--bg-color-blue-2-\@tablet {
+  .tablet\@g--bg-color-blue-2 {
     background-color: #bddcff;
   }
 
-  .g--bg-color-blue-3-\@tablet {
+  .tablet\@g--bg-color-blue-3 {
     background-color: #8ac0ff;
   }
 
-  .g--bg-color-blue-4-\@tablet {
+  .tablet\@g--bg-color-blue-4 {
     background-color: #52a3ff;
   }
 
-  .g--bg-color-blue-5-\@tablet {
+  .tablet\@g--bg-color-blue-5 {
     background-color: #1f87ff;
   }
 
-  .g--bg-color-blue-6-\@tablet {
+  .tablet\@g--bg-color-blue-6 {
     background-color: #006deb;
   }
 
-  .g--bg-color-blue-7-\@tablet {
+  .tablet\@g--bg-color-blue-7 {
     background-color: #0056b8;
   }
 
-  .g--bg-color-blue-8-\@tablet {
+  .tablet\@g--bg-color-blue-8 {
     background-color: #003b80;
   }
 
-  .g--bg-color-blue-9-\@tablet {
+  .tablet\@g--bg-color-blue-9 {
     background-color: #00244d;
   }
 
-  .g--bg-color-yellow-1-\@tablet {
+  .tablet\@g--bg-color-yellow-1 {
     background-color: #fffff0;
   }
 
-  .g--bg-color-yellow-2-\@tablet {
+  .tablet\@g--bg-color-yellow-2 {
     background-color: #fefcbf;
   }
 
-  .g--bg-color-yellow-3-\@tablet {
+  .tablet\@g--bg-color-yellow-3 {
     background-color: #faf089;
   }
 
-  .g--bg-color-yellow-4-\@tablet {
+  .tablet\@g--bg-color-yellow-4 {
     background-color: #f6e05e;
   }
 
-  .g--bg-color-yellow-5-\@tablet {
+  .tablet\@g--bg-color-yellow-5 {
     background-color: #ecc94b;
   }
 
-  .g--bg-color-yellow-6-\@tablet {
+  .tablet\@g--bg-color-yellow-6 {
     background-color: #d69e2e;
   }
 
-  .g--bg-color-yellow-7-\@tablet {
+  .tablet\@g--bg-color-yellow-7 {
     background-color: #b7791f;
   }
 
-  .g--bg-color-yellow-8-\@tablet {
+  .tablet\@g--bg-color-yellow-8 {
     background-color: #975a16;
   }
 
-  .g--bg-color-yellow-9-\@tablet {
+  .tablet\@g--bg-color-yellow-9 {
     background-color: #744210;
   }
 
-  .g--bg-color-default-1-\@tablet {
+  .tablet\@g--bg-color-default-1 {
     background-color: #f0f7ff;
   }
 
-  .g--bg-color-default-2-\@tablet {
+  .tablet\@g--bg-color-default-2 {
     background-color: #bddcff;
   }
 
-  .g--bg-color-default-3-\@tablet {
+  .tablet\@g--bg-color-default-3 {
     background-color: #8ac0ff;
   }
 
-  .g--bg-color-default-4-\@tablet {
+  .tablet\@g--bg-color-default-4 {
     background-color: #52a3ff;
   }
 
-  .g--bg-color-default-5-\@tablet {
+  .tablet\@g--bg-color-default-5 {
     background-color: #1f87ff;
   }
 
-  .g--bg-color-default-6-\@tablet {
+  .tablet\@g--bg-color-default-6 {
     background-color: #006deb;
   }
 
-  .g--bg-color-default-7-\@tablet {
+  .tablet\@g--bg-color-default-7 {
     background-color: #0056b8;
   }
 
-  .g--bg-color-default-8-\@tablet {
+  .tablet\@g--bg-color-default-8 {
     background-color: #003b80;
   }
 
-  .g--bg-color-default-9-\@tablet {
+  .tablet\@g--bg-color-default-9 {
     background-color: #00244d;
   }
 
-  .g--bg-color-alt-1-\@tablet {
+  .tablet\@g--bg-color-alt-1 {
     background-color: #fffaf0;
   }
 
-  .g--bg-color-alt-2-\@tablet {
+  .tablet\@g--bg-color-alt-2 {
     background-color: #feebc8;
   }
 
-  .g--bg-color-alt-3-\@tablet {
+  .tablet\@g--bg-color-alt-3 {
     background-color: #fbd38d;
   }
 
-  .g--bg-color-alt-4-\@tablet {
+  .tablet\@g--bg-color-alt-4 {
     background-color: #f6ad55;
   }
 
-  .g--bg-color-alt-5-\@tablet {
+  .tablet\@g--bg-color-alt-5 {
     background-color: #ed8936;
   }
 
-  .g--bg-color-alt-6-\@tablet {
+  .tablet\@g--bg-color-alt-6 {
     background-color: #dd6b20;
   }
 
-  .g--bg-color-alt-7-\@tablet {
+  .tablet\@g--bg-color-alt-7 {
     background-color: #c05621;
   }
 
-  .g--bg-color-alt-8-\@tablet {
+  .tablet\@g--bg-color-alt-8 {
     background-color: #9c4221;
   }
 
-  .g--bg-color-alt-9-\@tablet {
+  .tablet\@g--bg-color-alt-9 {
     background-color: #7b341e;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--bg-color-white-1-\@desktop {
+  .desktop\@g--bg-color-white-1 {
     background-color: #ffffff;
   }
 
-  .g--bg-color-white-2-\@desktop {
+  .desktop\@g--bg-color-white-2 {
     background-color: #fcfcfc;
   }
 
-  .g--bg-color-white-3-\@desktop {
+  .desktop\@g--bg-color-white-3 {
     background-color: #fafafa;
   }
 
-  .g--bg-color-white-4-\@desktop {
+  .desktop\@g--bg-color-white-4 {
     background-color: #f7f7f7;
   }
 
-  .g--bg-color-white-5-\@desktop {
+  .desktop\@g--bg-color-white-5 {
     background-color: #f5f5f5;
   }
 
-  .g--bg-color-white-6-\@desktop {
+  .desktop\@g--bg-color-white-6 {
     background-color: #f2f2f2;
   }
 
-  .g--bg-color-white-7-\@desktop {
+  .desktop\@g--bg-color-white-7 {
     background-color: #f0f0f0;
   }
 
-  .g--bg-color-white-8-\@desktop {
+  .desktop\@g--bg-color-white-8 {
     background-color: #ededed;
   }
 
-  .g--bg-color-white-9-\@desktop {
+  .desktop\@g--bg-color-white-9 {
     background-color: #ebebeb;
   }
 
-  .g--bg-color-grey-1-\@desktop {
+  .desktop\@g--bg-color-grey-1 {
     background-color: #f0f0f0;
   }
 
-  .g--bg-color-grey-2-\@desktop {
+  .desktop\@g--bg-color-grey-2 {
     background-color: #d9d9d9;
   }
 
-  .g--bg-color-grey-3-\@desktop {
+  .desktop\@g--bg-color-grey-3 {
     background-color: #c2c2c2;
   }
 
-  .g--bg-color-grey-4-\@desktop {
+  .desktop\@g--bg-color-grey-4 {
     background-color: #ababab;
   }
 
-  .g--bg-color-grey-5-\@desktop {
+  .desktop\@g--bg-color-grey-5 {
     background-color: #949494;
   }
 
-  .g--bg-color-grey-6-\@desktop {
+  .desktop\@g--bg-color-grey-6 {
     background-color: #7d7d7d;
   }
 
-  .g--bg-color-grey-7-\@desktop {
+  .desktop\@g--bg-color-grey-7 {
     background-color: #666666;
   }
 
-  .g--bg-color-grey-8-\@desktop {
+  .desktop\@g--bg-color-grey-8 {
     background-color: #4f4f4f;
   }
 
-  .g--bg-color-grey-9-\@desktop {
+  .desktop\@g--bg-color-grey-9 {
     background-color: #383838;
   }
 
-  .g--bg-color-black-\@desktop {
+  .desktop\@g--bg-color-black {
     background-color: #000000;
   }
 
-  .g--bg-color-red-1-\@desktop {
+  .desktop\@g--bg-color-red-1 {
     background-color: #fff5f5;
   }
 
-  .g--bg-color-red-2-\@desktop {
+  .desktop\@g--bg-color-red-2 {
     background-color: #fed7d7;
   }
 
-  .g--bg-color-red-3-\@desktop {
+  .desktop\@g--bg-color-red-3 {
     background-color: #feb2b2;
   }
 
-  .g--bg-color-red-4-\@desktop {
+  .desktop\@g--bg-color-red-4 {
     background-color: #fc8181;
   }
 
-  .g--bg-color-red-5-\@desktop {
+  .desktop\@g--bg-color-red-5 {
     background-color: #f56565;
   }
 
-  .g--bg-color-red-6-\@desktop {
+  .desktop\@g--bg-color-red-6 {
     background-color: #e53e3e;
   }
 
-  .g--bg-color-red-7-\@desktop {
+  .desktop\@g--bg-color-red-7 {
     background-color: #c53030;
   }
 
-  .g--bg-color-red-8-\@desktop {
+  .desktop\@g--bg-color-red-8 {
     background-color: #9b2c2c;
   }
 
-  .g--bg-color-red-9-\@desktop {
+  .desktop\@g--bg-color-red-9 {
     background-color: #742a2a;
   }
 
-  .g--bg-color-green-1-\@desktop {
+  .desktop\@g--bg-color-green-1 {
     background-color: #f0fff4;
   }
 
-  .g--bg-color-green-2-\@desktop {
+  .desktop\@g--bg-color-green-2 {
     background-color: #c6f6d5;
   }
 
-  .g--bg-color-green-3-\@desktop {
+  .desktop\@g--bg-color-green-3 {
     background-color: #9ae6b4;
   }
 
-  .g--bg-color-green-4-\@desktop {
+  .desktop\@g--bg-color-green-4 {
     background-color: #68d391;
   }
 
-  .g--bg-color-green-5-\@desktop {
+  .desktop\@g--bg-color-green-5 {
     background-color: #48bb78;
   }
 
-  .g--bg-color-green-6-\@desktop {
+  .desktop\@g--bg-color-green-6 {
     background-color: #38a169;
   }
 
-  .g--bg-color-green-7-\@desktop {
+  .desktop\@g--bg-color-green-7 {
     background-color: #2f855a;
   }
 
-  .g--bg-color-green-8-\@desktop {
+  .desktop\@g--bg-color-green-8 {
     background-color: #276749;
   }
 
-  .g--bg-color-green-9-\@desktop {
+  .desktop\@g--bg-color-green-9 {
     background-color: #22543d;
   }
 
-  .g--bg-color-blue-1-\@desktop {
+  .desktop\@g--bg-color-blue-1 {
     background-color: #f0f7ff;
   }
 
-  .g--bg-color-blue-2-\@desktop {
+  .desktop\@g--bg-color-blue-2 {
     background-color: #bddcff;
   }
 
-  .g--bg-color-blue-3-\@desktop {
+  .desktop\@g--bg-color-blue-3 {
     background-color: #8ac0ff;
   }
 
-  .g--bg-color-blue-4-\@desktop {
+  .desktop\@g--bg-color-blue-4 {
     background-color: #52a3ff;
   }
 
-  .g--bg-color-blue-5-\@desktop {
+  .desktop\@g--bg-color-blue-5 {
     background-color: #1f87ff;
   }
 
-  .g--bg-color-blue-6-\@desktop {
+  .desktop\@g--bg-color-blue-6 {
     background-color: #006deb;
   }
 
-  .g--bg-color-blue-7-\@desktop {
+  .desktop\@g--bg-color-blue-7 {
     background-color: #0056b8;
   }
 
-  .g--bg-color-blue-8-\@desktop {
+  .desktop\@g--bg-color-blue-8 {
     background-color: #003b80;
   }
 
-  .g--bg-color-blue-9-\@desktop {
+  .desktop\@g--bg-color-blue-9 {
     background-color: #00244d;
   }
 
-  .g--bg-color-yellow-1-\@desktop {
+  .desktop\@g--bg-color-yellow-1 {
     background-color: #fffff0;
   }
 
-  .g--bg-color-yellow-2-\@desktop {
+  .desktop\@g--bg-color-yellow-2 {
     background-color: #fefcbf;
   }
 
-  .g--bg-color-yellow-3-\@desktop {
+  .desktop\@g--bg-color-yellow-3 {
     background-color: #faf089;
   }
 
-  .g--bg-color-yellow-4-\@desktop {
+  .desktop\@g--bg-color-yellow-4 {
     background-color: #f6e05e;
   }
 
-  .g--bg-color-yellow-5-\@desktop {
+  .desktop\@g--bg-color-yellow-5 {
     background-color: #ecc94b;
   }
 
-  .g--bg-color-yellow-6-\@desktop {
+  .desktop\@g--bg-color-yellow-6 {
     background-color: #d69e2e;
   }
 
-  .g--bg-color-yellow-7-\@desktop {
+  .desktop\@g--bg-color-yellow-7 {
     background-color: #b7791f;
   }
 
-  .g--bg-color-yellow-8-\@desktop {
+  .desktop\@g--bg-color-yellow-8 {
     background-color: #975a16;
   }
 
-  .g--bg-color-yellow-9-\@desktop {
+  .desktop\@g--bg-color-yellow-9 {
     background-color: #744210;
   }
 
-  .g--bg-color-default-1-\@desktop {
+  .desktop\@g--bg-color-default-1 {
     background-color: #f0f7ff;
   }
 
-  .g--bg-color-default-2-\@desktop {
+  .desktop\@g--bg-color-default-2 {
     background-color: #bddcff;
   }
 
-  .g--bg-color-default-3-\@desktop {
+  .desktop\@g--bg-color-default-3 {
     background-color: #8ac0ff;
   }
 
-  .g--bg-color-default-4-\@desktop {
+  .desktop\@g--bg-color-default-4 {
     background-color: #52a3ff;
   }
 
-  .g--bg-color-default-5-\@desktop {
+  .desktop\@g--bg-color-default-5 {
     background-color: #1f87ff;
   }
 
-  .g--bg-color-default-6-\@desktop {
+  .desktop\@g--bg-color-default-6 {
     background-color: #006deb;
   }
 
-  .g--bg-color-default-7-\@desktop {
+  .desktop\@g--bg-color-default-7 {
     background-color: #0056b8;
   }
 
-  .g--bg-color-default-8-\@desktop {
+  .desktop\@g--bg-color-default-8 {
     background-color: #003b80;
   }
 
-  .g--bg-color-default-9-\@desktop {
+  .desktop\@g--bg-color-default-9 {
     background-color: #00244d;
   }
 
-  .g--bg-color-alt-1-\@desktop {
+  .desktop\@g--bg-color-alt-1 {
     background-color: #fffaf0;
   }
 
-  .g--bg-color-alt-2-\@desktop {
+  .desktop\@g--bg-color-alt-2 {
     background-color: #feebc8;
   }
 
-  .g--bg-color-alt-3-\@desktop {
+  .desktop\@g--bg-color-alt-3 {
     background-color: #fbd38d;
   }
 
-  .g--bg-color-alt-4-\@desktop {
+  .desktop\@g--bg-color-alt-4 {
     background-color: #f6ad55;
   }
 
-  .g--bg-color-alt-5-\@desktop {
+  .desktop\@g--bg-color-alt-5 {
     background-color: #ed8936;
   }
 
-  .g--bg-color-alt-6-\@desktop {
+  .desktop\@g--bg-color-alt-6 {
     background-color: #dd6b20;
   }
 
-  .g--bg-color-alt-7-\@desktop {
+  .desktop\@g--bg-color-alt-7 {
     background-color: #c05621;
   }
 
-  .g--bg-color-alt-8-\@desktop {
+  .desktop\@g--bg-color-alt-8 {
     background-color: #9c4221;
   }
 
-  .g--bg-color-alt-9-\@desktop {
+  .desktop\@g--bg-color-alt-9 {
     background-color: #7b341e;
   }
 }
@@ -6933,881 +6933,881 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--color-white-1-\@mobile {
+  .mobile\@g--color-white-1 {
     color: #ffffff;
   }
 
-  .g--color-white-2-\@mobile {
+  .mobile\@g--color-white-2 {
     color: #fcfcfc;
   }
 
-  .g--color-white-3-\@mobile {
+  .mobile\@g--color-white-3 {
     color: #fafafa;
   }
 
-  .g--color-white-4-\@mobile {
+  .mobile\@g--color-white-4 {
     color: #f7f7f7;
   }
 
-  .g--color-white-5-\@mobile {
+  .mobile\@g--color-white-5 {
     color: #f5f5f5;
   }
 
-  .g--color-white-6-\@mobile {
+  .mobile\@g--color-white-6 {
     color: #f2f2f2;
   }
 
-  .g--color-white-7-\@mobile {
+  .mobile\@g--color-white-7 {
     color: #f0f0f0;
   }
 
-  .g--color-white-8-\@mobile {
+  .mobile\@g--color-white-8 {
     color: #ededed;
   }
 
-  .g--color-white-9-\@mobile {
+  .mobile\@g--color-white-9 {
     color: #ebebeb;
   }
 
-  .g--color-grey-1-\@mobile {
+  .mobile\@g--color-grey-1 {
     color: #f0f0f0;
   }
 
-  .g--color-grey-2-\@mobile {
+  .mobile\@g--color-grey-2 {
     color: #d9d9d9;
   }
 
-  .g--color-grey-3-\@mobile {
+  .mobile\@g--color-grey-3 {
     color: #c2c2c2;
   }
 
-  .g--color-grey-4-\@mobile {
+  .mobile\@g--color-grey-4 {
     color: #ababab;
   }
 
-  .g--color-grey-5-\@mobile {
+  .mobile\@g--color-grey-5 {
     color: #949494;
   }
 
-  .g--color-grey-6-\@mobile {
+  .mobile\@g--color-grey-6 {
     color: #7d7d7d;
   }
 
-  .g--color-grey-7-\@mobile {
+  .mobile\@g--color-grey-7 {
     color: #666666;
   }
 
-  .g--color-grey-8-\@mobile {
+  .mobile\@g--color-grey-8 {
     color: #4f4f4f;
   }
 
-  .g--color-grey-9-\@mobile {
+  .mobile\@g--color-grey-9 {
     color: #383838;
   }
 
-  .g--color-black-\@mobile {
+  .mobile\@g--color-black {
     color: #000000;
   }
 
-  .g--color-red-1-\@mobile {
+  .mobile\@g--color-red-1 {
     color: #fff5f5;
   }
 
-  .g--color-red-2-\@mobile {
+  .mobile\@g--color-red-2 {
     color: #fed7d7;
   }
 
-  .g--color-red-3-\@mobile {
+  .mobile\@g--color-red-3 {
     color: #feb2b2;
   }
 
-  .g--color-red-4-\@mobile {
+  .mobile\@g--color-red-4 {
     color: #fc8181;
   }
 
-  .g--color-red-5-\@mobile {
+  .mobile\@g--color-red-5 {
     color: #f56565;
   }
 
-  .g--color-red-6-\@mobile {
+  .mobile\@g--color-red-6 {
     color: #e53e3e;
   }
 
-  .g--color-red-7-\@mobile {
+  .mobile\@g--color-red-7 {
     color: #c53030;
   }
 
-  .g--color-red-8-\@mobile {
+  .mobile\@g--color-red-8 {
     color: #9b2c2c;
   }
 
-  .g--color-red-9-\@mobile {
+  .mobile\@g--color-red-9 {
     color: #742a2a;
   }
 
-  .g--color-green-1-\@mobile {
+  .mobile\@g--color-green-1 {
     color: #f0fff4;
   }
 
-  .g--color-green-2-\@mobile {
+  .mobile\@g--color-green-2 {
     color: #c6f6d5;
   }
 
-  .g--color-green-3-\@mobile {
+  .mobile\@g--color-green-3 {
     color: #9ae6b4;
   }
 
-  .g--color-green-4-\@mobile {
+  .mobile\@g--color-green-4 {
     color: #68d391;
   }
 
-  .g--color-green-5-\@mobile {
+  .mobile\@g--color-green-5 {
     color: #48bb78;
   }
 
-  .g--color-green-6-\@mobile {
+  .mobile\@g--color-green-6 {
     color: #38a169;
   }
 
-  .g--color-green-7-\@mobile {
+  .mobile\@g--color-green-7 {
     color: #2f855a;
   }
 
-  .g--color-green-8-\@mobile {
+  .mobile\@g--color-green-8 {
     color: #276749;
   }
 
-  .g--color-green-9-\@mobile {
+  .mobile\@g--color-green-9 {
     color: #22543d;
   }
 
-  .g--color-blue-1-\@mobile {
+  .mobile\@g--color-blue-1 {
     color: #f0f7ff;
   }
 
-  .g--color-blue-2-\@mobile {
+  .mobile\@g--color-blue-2 {
     color: #bddcff;
   }
 
-  .g--color-blue-3-\@mobile {
+  .mobile\@g--color-blue-3 {
     color: #8ac0ff;
   }
 
-  .g--color-blue-4-\@mobile {
+  .mobile\@g--color-blue-4 {
     color: #52a3ff;
   }
 
-  .g--color-blue-5-\@mobile {
+  .mobile\@g--color-blue-5 {
     color: #1f87ff;
   }
 
-  .g--color-blue-6-\@mobile {
+  .mobile\@g--color-blue-6 {
     color: #006deb;
   }
 
-  .g--color-blue-7-\@mobile {
+  .mobile\@g--color-blue-7 {
     color: #0056b8;
   }
 
-  .g--color-blue-8-\@mobile {
+  .mobile\@g--color-blue-8 {
     color: #003b80;
   }
 
-  .g--color-blue-9-\@mobile {
+  .mobile\@g--color-blue-9 {
     color: #00244d;
   }
 
-  .g--color-yellow-1-\@mobile {
+  .mobile\@g--color-yellow-1 {
     color: #fffff0;
   }
 
-  .g--color-yellow-2-\@mobile {
+  .mobile\@g--color-yellow-2 {
     color: #fefcbf;
   }
 
-  .g--color-yellow-3-\@mobile {
+  .mobile\@g--color-yellow-3 {
     color: #faf089;
   }
 
-  .g--color-yellow-4-\@mobile {
+  .mobile\@g--color-yellow-4 {
     color: #f6e05e;
   }
 
-  .g--color-yellow-5-\@mobile {
+  .mobile\@g--color-yellow-5 {
     color: #ecc94b;
   }
 
-  .g--color-yellow-6-\@mobile {
+  .mobile\@g--color-yellow-6 {
     color: #d69e2e;
   }
 
-  .g--color-yellow-7-\@mobile {
+  .mobile\@g--color-yellow-7 {
     color: #b7791f;
   }
 
-  .g--color-yellow-8-\@mobile {
+  .mobile\@g--color-yellow-8 {
     color: #975a16;
   }
 
-  .g--color-yellow-9-\@mobile {
+  .mobile\@g--color-yellow-9 {
     color: #744210;
   }
 
-  .g--color-default-1-\@mobile {
+  .mobile\@g--color-default-1 {
     color: #f0f7ff;
   }
 
-  .g--color-default-2-\@mobile {
+  .mobile\@g--color-default-2 {
     color: #bddcff;
   }
 
-  .g--color-default-3-\@mobile {
+  .mobile\@g--color-default-3 {
     color: #8ac0ff;
   }
 
-  .g--color-default-4-\@mobile {
+  .mobile\@g--color-default-4 {
     color: #52a3ff;
   }
 
-  .g--color-default-5-\@mobile {
+  .mobile\@g--color-default-5 {
     color: #1f87ff;
   }
 
-  .g--color-default-6-\@mobile {
+  .mobile\@g--color-default-6 {
     color: #006deb;
   }
 
-  .g--color-default-7-\@mobile {
+  .mobile\@g--color-default-7 {
     color: #0056b8;
   }
 
-  .g--color-default-8-\@mobile {
+  .mobile\@g--color-default-8 {
     color: #003b80;
   }
 
-  .g--color-default-9-\@mobile {
+  .mobile\@g--color-default-9 {
     color: #00244d;
   }
 
-  .g--color-alt-1-\@mobile {
+  .mobile\@g--color-alt-1 {
     color: #fffaf0;
   }
 
-  .g--color-alt-2-\@mobile {
+  .mobile\@g--color-alt-2 {
     color: #feebc8;
   }
 
-  .g--color-alt-3-\@mobile {
+  .mobile\@g--color-alt-3 {
     color: #fbd38d;
   }
 
-  .g--color-alt-4-\@mobile {
+  .mobile\@g--color-alt-4 {
     color: #f6ad55;
   }
 
-  .g--color-alt-5-\@mobile {
+  .mobile\@g--color-alt-5 {
     color: #ed8936;
   }
 
-  .g--color-alt-6-\@mobile {
+  .mobile\@g--color-alt-6 {
     color: #dd6b20;
   }
 
-  .g--color-alt-7-\@mobile {
+  .mobile\@g--color-alt-7 {
     color: #c05621;
   }
 
-  .g--color-alt-8-\@mobile {
+  .mobile\@g--color-alt-8 {
     color: #9c4221;
   }
 
-  .g--color-alt-9-\@mobile {
+  .mobile\@g--color-alt-9 {
     color: #7b341e;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--color-white-1-\@tablet {
+  .tablet\@g--color-white-1 {
     color: #ffffff;
   }
 
-  .g--color-white-2-\@tablet {
+  .tablet\@g--color-white-2 {
     color: #fcfcfc;
   }
 
-  .g--color-white-3-\@tablet {
+  .tablet\@g--color-white-3 {
     color: #fafafa;
   }
 
-  .g--color-white-4-\@tablet {
+  .tablet\@g--color-white-4 {
     color: #f7f7f7;
   }
 
-  .g--color-white-5-\@tablet {
+  .tablet\@g--color-white-5 {
     color: #f5f5f5;
   }
 
-  .g--color-white-6-\@tablet {
+  .tablet\@g--color-white-6 {
     color: #f2f2f2;
   }
 
-  .g--color-white-7-\@tablet {
+  .tablet\@g--color-white-7 {
     color: #f0f0f0;
   }
 
-  .g--color-white-8-\@tablet {
+  .tablet\@g--color-white-8 {
     color: #ededed;
   }
 
-  .g--color-white-9-\@tablet {
+  .tablet\@g--color-white-9 {
     color: #ebebeb;
   }
 
-  .g--color-grey-1-\@tablet {
+  .tablet\@g--color-grey-1 {
     color: #f0f0f0;
   }
 
-  .g--color-grey-2-\@tablet {
+  .tablet\@g--color-grey-2 {
     color: #d9d9d9;
   }
 
-  .g--color-grey-3-\@tablet {
+  .tablet\@g--color-grey-3 {
     color: #c2c2c2;
   }
 
-  .g--color-grey-4-\@tablet {
+  .tablet\@g--color-grey-4 {
     color: #ababab;
   }
 
-  .g--color-grey-5-\@tablet {
+  .tablet\@g--color-grey-5 {
     color: #949494;
   }
 
-  .g--color-grey-6-\@tablet {
+  .tablet\@g--color-grey-6 {
     color: #7d7d7d;
   }
 
-  .g--color-grey-7-\@tablet {
+  .tablet\@g--color-grey-7 {
     color: #666666;
   }
 
-  .g--color-grey-8-\@tablet {
+  .tablet\@g--color-grey-8 {
     color: #4f4f4f;
   }
 
-  .g--color-grey-9-\@tablet {
+  .tablet\@g--color-grey-9 {
     color: #383838;
   }
 
-  .g--color-black-\@tablet {
+  .tablet\@g--color-black {
     color: #000000;
   }
 
-  .g--color-red-1-\@tablet {
+  .tablet\@g--color-red-1 {
     color: #fff5f5;
   }
 
-  .g--color-red-2-\@tablet {
+  .tablet\@g--color-red-2 {
     color: #fed7d7;
   }
 
-  .g--color-red-3-\@tablet {
+  .tablet\@g--color-red-3 {
     color: #feb2b2;
   }
 
-  .g--color-red-4-\@tablet {
+  .tablet\@g--color-red-4 {
     color: #fc8181;
   }
 
-  .g--color-red-5-\@tablet {
+  .tablet\@g--color-red-5 {
     color: #f56565;
   }
 
-  .g--color-red-6-\@tablet {
+  .tablet\@g--color-red-6 {
     color: #e53e3e;
   }
 
-  .g--color-red-7-\@tablet {
+  .tablet\@g--color-red-7 {
     color: #c53030;
   }
 
-  .g--color-red-8-\@tablet {
+  .tablet\@g--color-red-8 {
     color: #9b2c2c;
   }
 
-  .g--color-red-9-\@tablet {
+  .tablet\@g--color-red-9 {
     color: #742a2a;
   }
 
-  .g--color-green-1-\@tablet {
+  .tablet\@g--color-green-1 {
     color: #f0fff4;
   }
 
-  .g--color-green-2-\@tablet {
+  .tablet\@g--color-green-2 {
     color: #c6f6d5;
   }
 
-  .g--color-green-3-\@tablet {
+  .tablet\@g--color-green-3 {
     color: #9ae6b4;
   }
 
-  .g--color-green-4-\@tablet {
+  .tablet\@g--color-green-4 {
     color: #68d391;
   }
 
-  .g--color-green-5-\@tablet {
+  .tablet\@g--color-green-5 {
     color: #48bb78;
   }
 
-  .g--color-green-6-\@tablet {
+  .tablet\@g--color-green-6 {
     color: #38a169;
   }
 
-  .g--color-green-7-\@tablet {
+  .tablet\@g--color-green-7 {
     color: #2f855a;
   }
 
-  .g--color-green-8-\@tablet {
+  .tablet\@g--color-green-8 {
     color: #276749;
   }
 
-  .g--color-green-9-\@tablet {
+  .tablet\@g--color-green-9 {
     color: #22543d;
   }
 
-  .g--color-blue-1-\@tablet {
+  .tablet\@g--color-blue-1 {
     color: #f0f7ff;
   }
 
-  .g--color-blue-2-\@tablet {
+  .tablet\@g--color-blue-2 {
     color: #bddcff;
   }
 
-  .g--color-blue-3-\@tablet {
+  .tablet\@g--color-blue-3 {
     color: #8ac0ff;
   }
 
-  .g--color-blue-4-\@tablet {
+  .tablet\@g--color-blue-4 {
     color: #52a3ff;
   }
 
-  .g--color-blue-5-\@tablet {
+  .tablet\@g--color-blue-5 {
     color: #1f87ff;
   }
 
-  .g--color-blue-6-\@tablet {
+  .tablet\@g--color-blue-6 {
     color: #006deb;
   }
 
-  .g--color-blue-7-\@tablet {
+  .tablet\@g--color-blue-7 {
     color: #0056b8;
   }
 
-  .g--color-blue-8-\@tablet {
+  .tablet\@g--color-blue-8 {
     color: #003b80;
   }
 
-  .g--color-blue-9-\@tablet {
+  .tablet\@g--color-blue-9 {
     color: #00244d;
   }
 
-  .g--color-yellow-1-\@tablet {
+  .tablet\@g--color-yellow-1 {
     color: #fffff0;
   }
 
-  .g--color-yellow-2-\@tablet {
+  .tablet\@g--color-yellow-2 {
     color: #fefcbf;
   }
 
-  .g--color-yellow-3-\@tablet {
+  .tablet\@g--color-yellow-3 {
     color: #faf089;
   }
 
-  .g--color-yellow-4-\@tablet {
+  .tablet\@g--color-yellow-4 {
     color: #f6e05e;
   }
 
-  .g--color-yellow-5-\@tablet {
+  .tablet\@g--color-yellow-5 {
     color: #ecc94b;
   }
 
-  .g--color-yellow-6-\@tablet {
+  .tablet\@g--color-yellow-6 {
     color: #d69e2e;
   }
 
-  .g--color-yellow-7-\@tablet {
+  .tablet\@g--color-yellow-7 {
     color: #b7791f;
   }
 
-  .g--color-yellow-8-\@tablet {
+  .tablet\@g--color-yellow-8 {
     color: #975a16;
   }
 
-  .g--color-yellow-9-\@tablet {
+  .tablet\@g--color-yellow-9 {
     color: #744210;
   }
 
-  .g--color-default-1-\@tablet {
+  .tablet\@g--color-default-1 {
     color: #f0f7ff;
   }
 
-  .g--color-default-2-\@tablet {
+  .tablet\@g--color-default-2 {
     color: #bddcff;
   }
 
-  .g--color-default-3-\@tablet {
+  .tablet\@g--color-default-3 {
     color: #8ac0ff;
   }
 
-  .g--color-default-4-\@tablet {
+  .tablet\@g--color-default-4 {
     color: #52a3ff;
   }
 
-  .g--color-default-5-\@tablet {
+  .tablet\@g--color-default-5 {
     color: #1f87ff;
   }
 
-  .g--color-default-6-\@tablet {
+  .tablet\@g--color-default-6 {
     color: #006deb;
   }
 
-  .g--color-default-7-\@tablet {
+  .tablet\@g--color-default-7 {
     color: #0056b8;
   }
 
-  .g--color-default-8-\@tablet {
+  .tablet\@g--color-default-8 {
     color: #003b80;
   }
 
-  .g--color-default-9-\@tablet {
+  .tablet\@g--color-default-9 {
     color: #00244d;
   }
 
-  .g--color-alt-1-\@tablet {
+  .tablet\@g--color-alt-1 {
     color: #fffaf0;
   }
 
-  .g--color-alt-2-\@tablet {
+  .tablet\@g--color-alt-2 {
     color: #feebc8;
   }
 
-  .g--color-alt-3-\@tablet {
+  .tablet\@g--color-alt-3 {
     color: #fbd38d;
   }
 
-  .g--color-alt-4-\@tablet {
+  .tablet\@g--color-alt-4 {
     color: #f6ad55;
   }
 
-  .g--color-alt-5-\@tablet {
+  .tablet\@g--color-alt-5 {
     color: #ed8936;
   }
 
-  .g--color-alt-6-\@tablet {
+  .tablet\@g--color-alt-6 {
     color: #dd6b20;
   }
 
-  .g--color-alt-7-\@tablet {
+  .tablet\@g--color-alt-7 {
     color: #c05621;
   }
 
-  .g--color-alt-8-\@tablet {
+  .tablet\@g--color-alt-8 {
     color: #9c4221;
   }
 
-  .g--color-alt-9-\@tablet {
+  .tablet\@g--color-alt-9 {
     color: #7b341e;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--color-white-1-\@desktop {
+  .desktop\@g--color-white-1 {
     color: #ffffff;
   }
 
-  .g--color-white-2-\@desktop {
+  .desktop\@g--color-white-2 {
     color: #fcfcfc;
   }
 
-  .g--color-white-3-\@desktop {
+  .desktop\@g--color-white-3 {
     color: #fafafa;
   }
 
-  .g--color-white-4-\@desktop {
+  .desktop\@g--color-white-4 {
     color: #f7f7f7;
   }
 
-  .g--color-white-5-\@desktop {
+  .desktop\@g--color-white-5 {
     color: #f5f5f5;
   }
 
-  .g--color-white-6-\@desktop {
+  .desktop\@g--color-white-6 {
     color: #f2f2f2;
   }
 
-  .g--color-white-7-\@desktop {
+  .desktop\@g--color-white-7 {
     color: #f0f0f0;
   }
 
-  .g--color-white-8-\@desktop {
+  .desktop\@g--color-white-8 {
     color: #ededed;
   }
 
-  .g--color-white-9-\@desktop {
+  .desktop\@g--color-white-9 {
     color: #ebebeb;
   }
 
-  .g--color-grey-1-\@desktop {
+  .desktop\@g--color-grey-1 {
     color: #f0f0f0;
   }
 
-  .g--color-grey-2-\@desktop {
+  .desktop\@g--color-grey-2 {
     color: #d9d9d9;
   }
 
-  .g--color-grey-3-\@desktop {
+  .desktop\@g--color-grey-3 {
     color: #c2c2c2;
   }
 
-  .g--color-grey-4-\@desktop {
+  .desktop\@g--color-grey-4 {
     color: #ababab;
   }
 
-  .g--color-grey-5-\@desktop {
+  .desktop\@g--color-grey-5 {
     color: #949494;
   }
 
-  .g--color-grey-6-\@desktop {
+  .desktop\@g--color-grey-6 {
     color: #7d7d7d;
   }
 
-  .g--color-grey-7-\@desktop {
+  .desktop\@g--color-grey-7 {
     color: #666666;
   }
 
-  .g--color-grey-8-\@desktop {
+  .desktop\@g--color-grey-8 {
     color: #4f4f4f;
   }
 
-  .g--color-grey-9-\@desktop {
+  .desktop\@g--color-grey-9 {
     color: #383838;
   }
 
-  .g--color-black-\@desktop {
+  .desktop\@g--color-black {
     color: #000000;
   }
 
-  .g--color-red-1-\@desktop {
+  .desktop\@g--color-red-1 {
     color: #fff5f5;
   }
 
-  .g--color-red-2-\@desktop {
+  .desktop\@g--color-red-2 {
     color: #fed7d7;
   }
 
-  .g--color-red-3-\@desktop {
+  .desktop\@g--color-red-3 {
     color: #feb2b2;
   }
 
-  .g--color-red-4-\@desktop {
+  .desktop\@g--color-red-4 {
     color: #fc8181;
   }
 
-  .g--color-red-5-\@desktop {
+  .desktop\@g--color-red-5 {
     color: #f56565;
   }
 
-  .g--color-red-6-\@desktop {
+  .desktop\@g--color-red-6 {
     color: #e53e3e;
   }
 
-  .g--color-red-7-\@desktop {
+  .desktop\@g--color-red-7 {
     color: #c53030;
   }
 
-  .g--color-red-8-\@desktop {
+  .desktop\@g--color-red-8 {
     color: #9b2c2c;
   }
 
-  .g--color-red-9-\@desktop {
+  .desktop\@g--color-red-9 {
     color: #742a2a;
   }
 
-  .g--color-green-1-\@desktop {
+  .desktop\@g--color-green-1 {
     color: #f0fff4;
   }
 
-  .g--color-green-2-\@desktop {
+  .desktop\@g--color-green-2 {
     color: #c6f6d5;
   }
 
-  .g--color-green-3-\@desktop {
+  .desktop\@g--color-green-3 {
     color: #9ae6b4;
   }
 
-  .g--color-green-4-\@desktop {
+  .desktop\@g--color-green-4 {
     color: #68d391;
   }
 
-  .g--color-green-5-\@desktop {
+  .desktop\@g--color-green-5 {
     color: #48bb78;
   }
 
-  .g--color-green-6-\@desktop {
+  .desktop\@g--color-green-6 {
     color: #38a169;
   }
 
-  .g--color-green-7-\@desktop {
+  .desktop\@g--color-green-7 {
     color: #2f855a;
   }
 
-  .g--color-green-8-\@desktop {
+  .desktop\@g--color-green-8 {
     color: #276749;
   }
 
-  .g--color-green-9-\@desktop {
+  .desktop\@g--color-green-9 {
     color: #22543d;
   }
 
-  .g--color-blue-1-\@desktop {
+  .desktop\@g--color-blue-1 {
     color: #f0f7ff;
   }
 
-  .g--color-blue-2-\@desktop {
+  .desktop\@g--color-blue-2 {
     color: #bddcff;
   }
 
-  .g--color-blue-3-\@desktop {
+  .desktop\@g--color-blue-3 {
     color: #8ac0ff;
   }
 
-  .g--color-blue-4-\@desktop {
+  .desktop\@g--color-blue-4 {
     color: #52a3ff;
   }
 
-  .g--color-blue-5-\@desktop {
+  .desktop\@g--color-blue-5 {
     color: #1f87ff;
   }
 
-  .g--color-blue-6-\@desktop {
+  .desktop\@g--color-blue-6 {
     color: #006deb;
   }
 
-  .g--color-blue-7-\@desktop {
+  .desktop\@g--color-blue-7 {
     color: #0056b8;
   }
 
-  .g--color-blue-8-\@desktop {
+  .desktop\@g--color-blue-8 {
     color: #003b80;
   }
 
-  .g--color-blue-9-\@desktop {
+  .desktop\@g--color-blue-9 {
     color: #00244d;
   }
 
-  .g--color-yellow-1-\@desktop {
+  .desktop\@g--color-yellow-1 {
     color: #fffff0;
   }
 
-  .g--color-yellow-2-\@desktop {
+  .desktop\@g--color-yellow-2 {
     color: #fefcbf;
   }
 
-  .g--color-yellow-3-\@desktop {
+  .desktop\@g--color-yellow-3 {
     color: #faf089;
   }
 
-  .g--color-yellow-4-\@desktop {
+  .desktop\@g--color-yellow-4 {
     color: #f6e05e;
   }
 
-  .g--color-yellow-5-\@desktop {
+  .desktop\@g--color-yellow-5 {
     color: #ecc94b;
   }
 
-  .g--color-yellow-6-\@desktop {
+  .desktop\@g--color-yellow-6 {
     color: #d69e2e;
   }
 
-  .g--color-yellow-7-\@desktop {
+  .desktop\@g--color-yellow-7 {
     color: #b7791f;
   }
 
-  .g--color-yellow-8-\@desktop {
+  .desktop\@g--color-yellow-8 {
     color: #975a16;
   }
 
-  .g--color-yellow-9-\@desktop {
+  .desktop\@g--color-yellow-9 {
     color: #744210;
   }
 
-  .g--color-default-1-\@desktop {
+  .desktop\@g--color-default-1 {
     color: #f0f7ff;
   }
 
-  .g--color-default-2-\@desktop {
+  .desktop\@g--color-default-2 {
     color: #bddcff;
   }
 
-  .g--color-default-3-\@desktop {
+  .desktop\@g--color-default-3 {
     color: #8ac0ff;
   }
 
-  .g--color-default-4-\@desktop {
+  .desktop\@g--color-default-4 {
     color: #52a3ff;
   }
 
-  .g--color-default-5-\@desktop {
+  .desktop\@g--color-default-5 {
     color: #1f87ff;
   }
 
-  .g--color-default-6-\@desktop {
+  .desktop\@g--color-default-6 {
     color: #006deb;
   }
 
-  .g--color-default-7-\@desktop {
+  .desktop\@g--color-default-7 {
     color: #0056b8;
   }
 
-  .g--color-default-8-\@desktop {
+  .desktop\@g--color-default-8 {
     color: #003b80;
   }
 
-  .g--color-default-9-\@desktop {
+  .desktop\@g--color-default-9 {
     color: #00244d;
   }
 
-  .g--color-alt-1-\@desktop {
+  .desktop\@g--color-alt-1 {
     color: #fffaf0;
   }
 
-  .g--color-alt-2-\@desktop {
+  .desktop\@g--color-alt-2 {
     color: #feebc8;
   }
 
-  .g--color-alt-3-\@desktop {
+  .desktop\@g--color-alt-3 {
     color: #fbd38d;
   }
 
-  .g--color-alt-4-\@desktop {
+  .desktop\@g--color-alt-4 {
     color: #f6ad55;
   }
 
-  .g--color-alt-5-\@desktop {
+  .desktop\@g--color-alt-5 {
     color: #ed8936;
   }
 
-  .g--color-alt-6-\@desktop {
+  .desktop\@g--color-alt-6 {
     color: #dd6b20;
   }
 
-  .g--color-alt-7-\@desktop {
+  .desktop\@g--color-alt-7 {
     color: #c05621;
   }
 
-  .g--color-alt-8-\@desktop {
+  .desktop\@g--color-alt-8 {
     color: #9c4221;
   }
 
-  .g--color-alt-9-\@desktop {
+  .desktop\@g--color-alt-9 {
     color: #7b341e;
   }
 }
@@ -7844,101 +7844,101 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--line-height-none\@mobile {
+  .mobile\@g--line-height-none {
     line-height: 0px;
   }
 
-  .g--line-height-xxs\@mobile {
+  .mobile\@g--line-height-xxs {
     line-height: 20px;
   }
 
-  .g--line-height-xs\@mobile {
+  .mobile\@g--line-height-xs {
     line-height: 22px;
   }
 
-  .g--line-height-s\@mobile {
+  .mobile\@g--line-height-s {
     line-height: 25px;
   }
 
-  .g--line-height-m\@mobile {
+  .mobile\@g--line-height-m {
     line-height: 30px;
   }
 
-  .g--line-height-l\@mobile {
+  .mobile\@g--line-height-l {
     line-height: 35px;
   }
 
-  .g--line-height-xl\@mobile {
+  .mobile\@g--line-height-xl {
     line-height: 50px;
   }
 
-  .g--line-height-xxl\@mobile {
+  .mobile\@g--line-height-xxl {
     line-height: 65px;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--line-height-none\@tablet {
+  .tablet\@g--line-height-none {
     line-height: 0px;
   }
 
-  .g--line-height-xxs\@tablet {
+  .tablet\@g--line-height-xxs {
     line-height: 20px;
   }
 
-  .g--line-height-xs\@tablet {
+  .tablet\@g--line-height-xs {
     line-height: 22px;
   }
 
-  .g--line-height-s\@tablet {
+  .tablet\@g--line-height-s {
     line-height: 25px;
   }
 
-  .g--line-height-m\@tablet {
+  .tablet\@g--line-height-m {
     line-height: 30px;
   }
 
-  .g--line-height-l\@tablet {
+  .tablet\@g--line-height-l {
     line-height: 35px;
   }
 
-  .g--line-height-xl\@tablet {
+  .tablet\@g--line-height-xl {
     line-height: 50px;
   }
 
-  .g--line-height-xxl\@tablet {
+  .tablet\@g--line-height-xxl {
     line-height: 65px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--line-height-none\@desktop {
+  .desktop\@g--line-height-none {
     line-height: 0px;
   }
 
-  .g--line-height-xxs\@desktop {
+  .desktop\@g--line-height-xxs {
     line-height: 20px;
   }
 
-  .g--line-height-xs\@desktop {
+  .desktop\@g--line-height-xs {
     line-height: 22px;
   }
 
-  .g--line-height-s\@desktop {
+  .desktop\@g--line-height-s {
     line-height: 25px;
   }
 
-  .g--line-height-m\@desktop {
+  .desktop\@g--line-height-m {
     line-height: 30px;
   }
 
-  .g--line-height-l\@desktop {
+  .desktop\@g--line-height-l {
     line-height: 35px;
   }
 
-  .g--line-height-xl\@desktop {
+  .desktop\@g--line-height-xl {
     line-height: 50px;
   }
 
-  .g--line-height-xxl\@desktop {
+  .desktop\@g--line-height-xxl {
     line-height: 65px;
   }
 }
@@ -7967,77 +7967,77 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--font-family-arial\@mobile {
+  .mobile\@g--font-family-arial {
     font-family: arial;
   }
 
-  .g--font-family-sans-serif\@mobile {
+  .mobile\@g--font-family-sans-serif {
     font-family: sans-serif;
   }
 
-  .g--font-family-serif\@mobile {
+  .mobile\@g--font-family-serif {
     font-family: serif;
   }
 
-  .g--font-family-monospace\@mobile {
+  .mobile\@g--font-family-monospace {
     font-family: monospace;
   }
 
-  .g--font-family-cursive\@mobile {
+  .mobile\@g--font-family-cursive {
     font-family: cursive;
   }
 
-  .g--font-family-fantasy\@mobile {
+  .mobile\@g--font-family-fantasy {
     font-family: fantasy;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--font-family-arial\@tablet {
+  .tablet\@g--font-family-arial {
     font-family: arial;
   }
 
-  .g--font-family-sans-serif\@tablet {
+  .tablet\@g--font-family-sans-serif {
     font-family: sans-serif;
   }
 
-  .g--font-family-serif\@tablet {
+  .tablet\@g--font-family-serif {
     font-family: serif;
   }
 
-  .g--font-family-monospace\@tablet {
+  .tablet\@g--font-family-monospace {
     font-family: monospace;
   }
 
-  .g--font-family-cursive\@tablet {
+  .tablet\@g--font-family-cursive {
     font-family: cursive;
   }
 
-  .g--font-family-fantasy\@tablet {
+  .tablet\@g--font-family-fantasy {
     font-family: fantasy;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--font-family-arial\@desktop {
+  .desktop\@g--font-family-arial {
     font-family: arial;
   }
 
-  .g--font-family-sans-serif\@desktop {
+  .desktop\@g--font-family-sans-serif {
     font-family: sans-serif;
   }
 
-  .g--font-family-serif\@desktop {
+  .desktop\@g--font-family-serif {
     font-family: serif;
   }
 
-  .g--font-family-monospace\@desktop {
+  .desktop\@g--font-family-monospace {
     font-family: monospace;
   }
 
-  .g--font-family-cursive\@desktop {
+  .desktop\@g--font-family-cursive {
     font-family: cursive;
   }
 
-  .g--font-family-fantasy\@desktop {
+  .desktop\@g--font-family-fantasy {
     font-family: fantasy;
   }
 }
@@ -8106,7 +8106,7 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--rounded-none\@mobile {
+  .mobile\@g--rounded-none {
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -8114,7 +8114,7 @@ template {
     -o-border-radius: 0px;
   }
 
-  .g--rounded-xxs\@mobile {
+  .mobile\@g--rounded-xxs {
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -8122,7 +8122,7 @@ template {
     -o-border-radius: 2px;
   }
 
-  .g--rounded-xs\@mobile {
+  .mobile\@g--rounded-xs {
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -8130,7 +8130,7 @@ template {
     -o-border-radius: 5px;
   }
 
-  .g--rounded-s\@mobile {
+  .mobile\@g--rounded-s {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -8138,7 +8138,7 @@ template {
     -o-border-radius: 10px;
   }
 
-  .g--rounded-m\@mobile {
+  .mobile\@g--rounded-m {
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -8146,7 +8146,7 @@ template {
     -o-border-radius: 20px;
   }
 
-  .g--rounded-l\@mobile {
+  .mobile\@g--rounded-l {
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -8154,7 +8154,7 @@ template {
     -o-border-radius: 30px;
   }
 
-  .g--rounded-xl\@mobile {
+  .mobile\@g--rounded-xl {
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -8162,7 +8162,7 @@ template {
     -o-border-radius: 50px;
   }
 
-  .g--rounded-xxl\@mobile {
+  .mobile\@g--rounded-xxl {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -8171,7 +8171,7 @@ template {
   }
 }
 @media screen and (min-width: 768px) {
-  .g--rounded-none\@tablet {
+  .tablet\@g--rounded-none {
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -8179,7 +8179,7 @@ template {
     -o-border-radius: 0px;
   }
 
-  .g--rounded-xxs\@tablet {
+  .tablet\@g--rounded-xxs {
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -8187,7 +8187,7 @@ template {
     -o-border-radius: 2px;
   }
 
-  .g--rounded-xs\@tablet {
+  .tablet\@g--rounded-xs {
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -8195,7 +8195,7 @@ template {
     -o-border-radius: 5px;
   }
 
-  .g--rounded-s\@tablet {
+  .tablet\@g--rounded-s {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -8203,7 +8203,7 @@ template {
     -o-border-radius: 10px;
   }
 
-  .g--rounded-m\@tablet {
+  .tablet\@g--rounded-m {
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -8211,7 +8211,7 @@ template {
     -o-border-radius: 20px;
   }
 
-  .g--rounded-l\@tablet {
+  .tablet\@g--rounded-l {
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -8219,7 +8219,7 @@ template {
     -o-border-radius: 30px;
   }
 
-  .g--rounded-xl\@tablet {
+  .tablet\@g--rounded-xl {
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -8227,7 +8227,7 @@ template {
     -o-border-radius: 50px;
   }
 
-  .g--rounded-xxl\@tablet {
+  .tablet\@g--rounded-xxl {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -8236,7 +8236,7 @@ template {
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--rounded-none\@desktop {
+  .desktop\@g--rounded-none {
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -8244,7 +8244,7 @@ template {
     -o-border-radius: 0px;
   }
 
-  .g--rounded-xxs\@desktop {
+  .desktop\@g--rounded-xxs {
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -8252,7 +8252,7 @@ template {
     -o-border-radius: 2px;
   }
 
-  .g--rounded-xs\@desktop {
+  .desktop\@g--rounded-xs {
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -8260,7 +8260,7 @@ template {
     -o-border-radius: 5px;
   }
 
-  .g--rounded-s\@desktop {
+  .desktop\@g--rounded-s {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -8268,7 +8268,7 @@ template {
     -o-border-radius: 10px;
   }
 
-  .g--rounded-m\@desktop {
+  .desktop\@g--rounded-m {
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -8276,7 +8276,7 @@ template {
     -o-border-radius: 20px;
   }
 
-  .g--rounded-l\@desktop {
+  .desktop\@g--rounded-l {
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -8284,7 +8284,7 @@ template {
     -o-border-radius: 30px;
   }
 
-  .g--rounded-xl\@desktop {
+  .desktop\@g--rounded-xl {
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -8292,7 +8292,7 @@ template {
     -o-border-radius: 50px;
   }
 
-  .g--rounded-xxl\@desktop {
+  .desktop\@g--rounded-xxl {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -8349,7 +8349,7 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--box-shadow-none\@mobile {
+  .mobile\@g--box-shadow-none {
     box-shadow: 0px 0px 0px;
     -webkit-box-shadow: 0px 0px 0px;
     -moz-box-shadow: 0px 0px 0px;
@@ -8357,7 +8357,7 @@ template {
     -o-box-shadow: 0px 0px 0px;
   }
 
-  .g--box-shadow-center\@mobile {
+  .mobile\@g--box-shadow-center {
     box-shadow: 0px 0px 8px;
     -webkit-box-shadow: 0px 0px 8px;
     -moz-box-shadow: 0px 0px 8px;
@@ -8365,7 +8365,7 @@ template {
     -o-box-shadow: 0px 0px 8px;
   }
 
-  .g--box-shadow-top\@mobile {
+  .mobile\@g--box-shadow-top {
     box-shadow: 0px -15px 8px;
     -webkit-box-shadow: 0px -15px 8px;
     -moz-box-shadow: 0px -15px 8px;
@@ -8373,7 +8373,7 @@ template {
     -o-box-shadow: 0px -15px 8px;
   }
 
-  .g--box-shadow-left\@mobile {
+  .mobile\@g--box-shadow-left {
     box-shadow: -15px 0px 8px;
     -webkit-box-shadow: -15px 0px 8px;
     -moz-box-shadow: -15px 0px 8px;
@@ -8381,7 +8381,7 @@ template {
     -o-box-shadow: -15px 0px 8px;
   }
 
-  .g--box-shadow-right\@mobile {
+  .mobile\@g--box-shadow-right {
     box-shadow: 15px 0px 8px;
     -webkit-box-shadow: 15px 0px 8px;
     -moz-box-shadow: 15px 0px 8px;
@@ -8389,7 +8389,7 @@ template {
     -o-box-shadow: 15px 0px 8px;
   }
 
-  .g--box-shadow-bottom\@mobile {
+  .mobile\@g--box-shadow-bottom {
     box-shadow: 0px 15px 8px;
     -webkit-box-shadow: 0px 15px 8px;
     -moz-box-shadow: 0px 15px 8px;
@@ -8398,7 +8398,7 @@ template {
   }
 }
 @media screen and (min-width: 768px) {
-  .g--box-shadow-none\@tablet {
+  .tablet\@g--box-shadow-none {
     box-shadow: 0px 0px 0px;
     -webkit-box-shadow: 0px 0px 0px;
     -moz-box-shadow: 0px 0px 0px;
@@ -8406,7 +8406,7 @@ template {
     -o-box-shadow: 0px 0px 0px;
   }
 
-  .g--box-shadow-center\@tablet {
+  .tablet\@g--box-shadow-center {
     box-shadow: 0px 0px 8px;
     -webkit-box-shadow: 0px 0px 8px;
     -moz-box-shadow: 0px 0px 8px;
@@ -8414,7 +8414,7 @@ template {
     -o-box-shadow: 0px 0px 8px;
   }
 
-  .g--box-shadow-top\@tablet {
+  .tablet\@g--box-shadow-top {
     box-shadow: 0px -15px 8px;
     -webkit-box-shadow: 0px -15px 8px;
     -moz-box-shadow: 0px -15px 8px;
@@ -8422,7 +8422,7 @@ template {
     -o-box-shadow: 0px -15px 8px;
   }
 
-  .g--box-shadow-left\@tablet {
+  .tablet\@g--box-shadow-left {
     box-shadow: -15px 0px 8px;
     -webkit-box-shadow: -15px 0px 8px;
     -moz-box-shadow: -15px 0px 8px;
@@ -8430,7 +8430,7 @@ template {
     -o-box-shadow: -15px 0px 8px;
   }
 
-  .g--box-shadow-right\@tablet {
+  .tablet\@g--box-shadow-right {
     box-shadow: 15px 0px 8px;
     -webkit-box-shadow: 15px 0px 8px;
     -moz-box-shadow: 15px 0px 8px;
@@ -8438,7 +8438,7 @@ template {
     -o-box-shadow: 15px 0px 8px;
   }
 
-  .g--box-shadow-bottom\@tablet {
+  .tablet\@g--box-shadow-bottom {
     box-shadow: 0px 15px 8px;
     -webkit-box-shadow: 0px 15px 8px;
     -moz-box-shadow: 0px 15px 8px;
@@ -8447,7 +8447,7 @@ template {
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--box-shadow-none\@desktop {
+  .desktop\@g--box-shadow-none {
     box-shadow: 0px 0px 0px;
     -webkit-box-shadow: 0px 0px 0px;
     -moz-box-shadow: 0px 0px 0px;
@@ -8455,7 +8455,7 @@ template {
     -o-box-shadow: 0px 0px 0px;
   }
 
-  .g--box-shadow-center\@desktop {
+  .desktop\@g--box-shadow-center {
     box-shadow: 0px 0px 8px;
     -webkit-box-shadow: 0px 0px 8px;
     -moz-box-shadow: 0px 0px 8px;
@@ -8463,7 +8463,7 @@ template {
     -o-box-shadow: 0px 0px 8px;
   }
 
-  .g--box-shadow-top\@desktop {
+  .desktop\@g--box-shadow-top {
     box-shadow: 0px -15px 8px;
     -webkit-box-shadow: 0px -15px 8px;
     -moz-box-shadow: 0px -15px 8px;
@@ -8471,7 +8471,7 @@ template {
     -o-box-shadow: 0px -15px 8px;
   }
 
-  .g--box-shadow-left\@desktop {
+  .desktop\@g--box-shadow-left {
     box-shadow: -15px 0px 8px;
     -webkit-box-shadow: -15px 0px 8px;
     -moz-box-shadow: -15px 0px 8px;
@@ -8479,7 +8479,7 @@ template {
     -o-box-shadow: -15px 0px 8px;
   }
 
-  .g--box-shadow-right\@desktop {
+  .desktop\@g--box-shadow-right {
     box-shadow: 15px 0px 8px;
     -webkit-box-shadow: 15px 0px 8px;
     -moz-box-shadow: 15px 0px 8px;
@@ -8487,7 +8487,7 @@ template {
     -o-box-shadow: 15px 0px 8px;
   }
 
-  .g--box-shadow-bottom\@desktop {
+  .desktop\@g--box-shadow-bottom {
     box-shadow: 0px 15px 8px;
     -webkit-box-shadow: 0px 15px 8px;
     -moz-box-shadow: 0px 15px 8px;
@@ -8548,161 +8548,161 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--width-none\@mobile {
+  .mobile\@g--width-none {
     width: 0px;
   }
 
-  .g--width-3xs\@mobile {
+  .mobile\@g--width-3xs {
     width: 8px;
   }
 
-  .g--width-2xs\@mobile {
+  .mobile\@g--width-2xs {
     width: 16px;
   }
 
-  .g--width-xs\@mobile {
+  .mobile\@g--width-xs {
     width: 32px;
   }
 
-  .g--width-s\@mobile {
+  .mobile\@g--width-s {
     width: 64px;
   }
 
-  .g--width-m\@mobile {
+  .mobile\@g--width-m {
     width: 128px;
   }
 
-  .g--width-l\@mobile {
+  .mobile\@g--width-l {
     width: 256px;
   }
 
-  .g--width-xl\@mobile {
+  .mobile\@g--width-xl {
     width: 512px;
   }
 
-  .g--width-2xl\@mobile {
+  .mobile\@g--width-2xl {
     width: 1024px;
   }
 
-  .g--width-3xl\@mobile {
+  .mobile\@g--width-3xl {
     width: 2048px;
   }
 
-  .g--width-mid\@mobile {
+  .mobile\@g--width-mid {
     width: 50%;
   }
 
-  .g--width-full\@mobile {
+  .mobile\@g--width-full {
     width: 100%;
   }
 
-  .g--width-screen\@mobile {
+  .mobile\@g--width-screen {
     width: 100vw;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--width-none\@tablet {
+  .tablet\@g--width-none {
     width: 0px;
   }
 
-  .g--width-3xs\@tablet {
+  .tablet\@g--width-3xs {
     width: 8px;
   }
 
-  .g--width-2xs\@tablet {
+  .tablet\@g--width-2xs {
     width: 16px;
   }
 
-  .g--width-xs\@tablet {
+  .tablet\@g--width-xs {
     width: 32px;
   }
 
-  .g--width-s\@tablet {
+  .tablet\@g--width-s {
     width: 64px;
   }
 
-  .g--width-m\@tablet {
+  .tablet\@g--width-m {
     width: 128px;
   }
 
-  .g--width-l\@tablet {
+  .tablet\@g--width-l {
     width: 256px;
   }
 
-  .g--width-xl\@tablet {
+  .tablet\@g--width-xl {
     width: 512px;
   }
 
-  .g--width-2xl\@tablet {
+  .tablet\@g--width-2xl {
     width: 1024px;
   }
 
-  .g--width-3xl\@tablet {
+  .tablet\@g--width-3xl {
     width: 2048px;
   }
 
-  .g--width-mid\@tablet {
+  .tablet\@g--width-mid {
     width: 50%;
   }
 
-  .g--width-full\@tablet {
+  .tablet\@g--width-full {
     width: 100%;
   }
 
-  .g--width-screen\@tablet {
+  .tablet\@g--width-screen {
     width: 100vw;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--width-none\@desktop {
+  .desktop\@g--width-none {
     width: 0px;
   }
 
-  .g--width-3xs\@desktop {
+  .desktop\@g--width-3xs {
     width: 8px;
   }
 
-  .g--width-2xs\@desktop {
+  .desktop\@g--width-2xs {
     width: 16px;
   }
 
-  .g--width-xs\@desktop {
+  .desktop\@g--width-xs {
     width: 32px;
   }
 
-  .g--width-s\@desktop {
+  .desktop\@g--width-s {
     width: 64px;
   }
 
-  .g--width-m\@desktop {
+  .desktop\@g--width-m {
     width: 128px;
   }
 
-  .g--width-l\@desktop {
+  .desktop\@g--width-l {
     width: 256px;
   }
 
-  .g--width-xl\@desktop {
+  .desktop\@g--width-xl {
     width: 512px;
   }
 
-  .g--width-2xl\@desktop {
+  .desktop\@g--width-2xl {
     width: 1024px;
   }
 
-  .g--width-3xl\@desktop {
+  .desktop\@g--width-3xl {
     width: 2048px;
   }
 
-  .g--width-mid\@desktop {
+  .desktop\@g--width-mid {
     width: 50%;
   }
 
-  .g--width-full\@desktop {
+  .desktop\@g--width-full {
     width: 100%;
   }
 
-  .g--width-screen\@desktop {
+  .desktop\@g--width-screen {
     width: 100vw;
   }
 }
@@ -8759,161 +8759,161 @@ template {
 }
 
 @media screen and (min-width: 640px) {
-  .g--height-none\@mobile {
+  .mobile\@g--height-none {
     height: 0px;
   }
 
-  .g--height-3xs\@mobile {
+  .mobile\@g--height-3xs {
     height: 8px;
   }
 
-  .g--height-2xs\@mobile {
+  .mobile\@g--height-2xs {
     height: 16px;
   }
 
-  .g--height-xs\@mobile {
+  .mobile\@g--height-xs {
     height: 32px;
   }
 
-  .g--height-s\@mobile {
+  .mobile\@g--height-s {
     height: 64px;
   }
 
-  .g--height-m\@mobile {
+  .mobile\@g--height-m {
     height: 128px;
   }
 
-  .g--height-l\@mobile {
+  .mobile\@g--height-l {
     height: 256px;
   }
 
-  .g--height-xl\@mobile {
+  .mobile\@g--height-xl {
     height: 512px;
   }
 
-  .g--height-2xl\@mobile {
+  .mobile\@g--height-2xl {
     height: 1024px;
   }
 
-  .g--height-3xl\@mobile {
+  .mobile\@g--height-3xl {
     height: 2048px;
   }
 
-  .g--height-mid\@mobile {
+  .mobile\@g--height-mid {
     height: 50%;
   }
 
-  .g--height-full\@mobile {
+  .mobile\@g--height-full {
     height: 100%;
   }
 
-  .g--height-screen\@mobile {
+  .mobile\@g--height-screen {
     height: 100vh;
   }
 }
 @media screen and (min-width: 768px) {
-  .g--height-none\@tablet {
+  .tablet\@g--height-none {
     height: 0px;
   }
 
-  .g--height-3xs\@tablet {
+  .tablet\@g--height-3xs {
     height: 8px;
   }
 
-  .g--height-2xs\@tablet {
+  .tablet\@g--height-2xs {
     height: 16px;
   }
 
-  .g--height-xs\@tablet {
+  .tablet\@g--height-xs {
     height: 32px;
   }
 
-  .g--height-s\@tablet {
+  .tablet\@g--height-s {
     height: 64px;
   }
 
-  .g--height-m\@tablet {
+  .tablet\@g--height-m {
     height: 128px;
   }
 
-  .g--height-l\@tablet {
+  .tablet\@g--height-l {
     height: 256px;
   }
 
-  .g--height-xl\@tablet {
+  .tablet\@g--height-xl {
     height: 512px;
   }
 
-  .g--height-2xl\@tablet {
+  .tablet\@g--height-2xl {
     height: 1024px;
   }
 
-  .g--height-3xl\@tablet {
+  .tablet\@g--height-3xl {
     height: 2048px;
   }
 
-  .g--height-mid\@tablet {
+  .tablet\@g--height-mid {
     height: 50%;
   }
 
-  .g--height-full\@tablet {
+  .tablet\@g--height-full {
     height: 100%;
   }
 
-  .g--height-screen\@tablet {
+  .tablet\@g--height-screen {
     height: 100vh;
   }
 }
 @media screen and (min-width: 1024px) {
-  .g--height-none\@desktop {
+  .desktop\@g--height-none {
     height: 0px;
   }
 
-  .g--height-3xs\@desktop {
+  .desktop\@g--height-3xs {
     height: 8px;
   }
 
-  .g--height-2xs\@desktop {
+  .desktop\@g--height-2xs {
     height: 16px;
   }
 
-  .g--height-xs\@desktop {
+  .desktop\@g--height-xs {
     height: 32px;
   }
 
-  .g--height-s\@desktop {
+  .desktop\@g--height-s {
     height: 64px;
   }
 
-  .g--height-m\@desktop {
+  .desktop\@g--height-m {
     height: 128px;
   }
 
-  .g--height-l\@desktop {
+  .desktop\@g--height-l {
     height: 256px;
   }
 
-  .g--height-xl\@desktop {
+  .desktop\@g--height-xl {
     height: 512px;
   }
 
-  .g--height-2xl\@desktop {
+  .desktop\@g--height-2xl {
     height: 1024px;
   }
 
-  .g--height-3xl\@desktop {
+  .desktop\@g--height-3xl {
     height: 2048px;
   }
 
-  .g--height-mid\@desktop {
+  .desktop\@g--height-mid {
     height: 50%;
   }
 
-  .g--height-full\@desktop {
+  .desktop\@g--height-full {
     height: 100%;
   }
 
-  .g--height-screen\@desktop {
+  .desktop\@g--height-screen {
     height: 100vh;
   }
 }

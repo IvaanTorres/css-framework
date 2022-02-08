@@ -8,7 +8,7 @@
   } @else {
     @media screen and (min-width: #{$d-value}) {
       @each $key in getLineHeightKeys() {
-        .g--line-height-#{$key}#{$breakpoint-separator}#{$d-size} {
+        .#{$d-size}#{$breakpoint-separator}g--line-height-#{$key} {
           line-height: getLineHeightValue($key);
         }
       }
